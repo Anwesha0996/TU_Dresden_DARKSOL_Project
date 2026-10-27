@@ -1,0 +1,14 @@
+.git
+Archive
+docker-practice
+rust/target
+helm-dtn
+*.png
+*.docx
+*.pdf
+*.tar
+*.tgz
+*.zip
+deploy/local-test/harbor/common
+deploy/local-test/harbor/data
+deploy/local-test/harbor/log

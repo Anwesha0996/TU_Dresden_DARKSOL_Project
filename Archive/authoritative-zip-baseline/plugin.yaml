@@ -1,0 +1,8 @@
+name: dtn
+version: 0.1.0
+usage: Installs a chart over a DTN connection in a remote cluster.
+description: Gathers dependencies for the selected chart, bundles them with the chart and sends the bundle over a DTN to a remote/airgapped cluster.
+ignoreFlags: false
+command: $HELM_PLUGIN_DIR/bin/helm-dtn
+hooks:
+  install: ./install.sh

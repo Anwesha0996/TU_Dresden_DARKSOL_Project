@@ -1,0 +1,220 @@
+﻿<!doctype html><html><head><meta charset="utf-8"><title>Helm-DTN Standalone OCI Image Transfer</title>
+<style>@page{size:A4;margin:18mm 17mm 19mm}body{font:11pt/1.48 Georgia,serif;color:#17202a;max-width:920px;margin:auto}h1{font:700 20pt Arial,sans-serif;color:#163a5f;border-bottom:1px solid #9fb3c8;padding-bottom:5px;page-break-after:avoid}h2{font:700 14pt Arial,sans-serif;color:#24557a;page-break-after:avoid}code,pre{font-family:Consolas,monospace;background:#f3f5f7}code{padding:1px 3px}pre{padding:10px;border:1px solid #ccd5dd;white-space:pre-wrap;page-break-inside:avoid}.title{text-align:center;margin:80px 0 50px}.title h1{font-size:27pt;border:0}.abstract{background:#f5f8fb;padding:12px 18px}.center{text-align:center;font-weight:bold}li{margin:5px 0}p{text-align:justify}</style></head><body>
+<div class="title"><h1>Extending Helm-DTN for Standalone OCI Image Transfer</h1><h2>Beginner-Oriented Design and Code Walkthrough</h2><p>Implementation report &mdash; 5 August 2026</p></div>
+<div class="abstract"><h1>Abstract</h1>
+This report explains how the original Helm-DTN project works, why its normal
+chart-based pipeline cannot directly satisfy the requirement to provision a
+remote registry before Kubernetes exists, and how the new Go implementation
+adds standalone OCI-image transfer over the existing AAP2/&mu;D3TN path.
+Every important claim is connected to the current repository file and line
+range. The intended endpoint is an OCI registry such as Harbor on the Space
+side. Kubernetes is deliberately not required by the transfer stage; once the
+registry contains the images, Kubernetes/containerd can pull them normally.
+</div>
+<h1>The requirement in plain language</h1>
+The system must move a real container image such as
+<code>docker.io/library/nginx:alpine</code>, not merely a YAML reference to that
+image. It must work without inventing a Helm chart, use the existing Go AAP2
+client to cross the delay-tolerant network, place the received OCI content in
+the configured Space-side Harbor/OCI registry, and verify that the destination
+digest equals the source digest.
+<p>The boundary matters: this implementation ends at a usable registry. It does not run <code>kubectl</code>, create a Pod, or assume that Kubernetes already exists. That is necessary for provisioning use cases: Talos and Kubernetes images have to arrive before the cluster can consume them.</p>
+<h1>Helm and the original Helm-DTN code</h1>
+<h2>What Helm actually does</h2>
+Helm is a Kubernetes package manager. A chart contains templates and values;
+Helm renders these into Kubernetes objects and asks the Kubernetes API to
+install them. An image field in a Deployment is only a string such as
+<code>nginx:alpine</code>. Helm does not copy the image layers. After the Pod is
+scheduled, the node&#39;s container runtime pulls those layers from a registry.
+<p>Therefore ``Helm cannot transfer a standalone image&#39;&#39; should be understood as a responsibility boundary, not a defect in Helm. Helm manages releases and manifests. OCI registries and container runtimes manage image manifests, configurations, and layer blobs.</p>
+<h2>How the supplied Helm-DTN pipeline is chart-coupled</h2>
+The original project adds image packaging around Helm charts:
+<ol>
+<li><code>pkg/helmdd/helmdd.go</code> renders a chart and discovers image strings
+from generated Kubernetes manifests.
+<li><code>pkg/helmdl/helmdl.go</code> downloads the discovered images.
+<li><code>pkg/helmdp/helmdp.go</code> packages the chart and image archives for
+transport.
+<li><code>pkg/helmdtnt/receiver.go</code> receives the deployment, loads/pushes
+images, and invokes Helm install or upgrade.
+</ol>
+<p>The clearest evidence of the receiver&#39;s cluster dependency is <code>pkg/helmdtnt/receiver.go</code>, lines 170--182, where the command type leads to <code>installChart</code>, <code>upgradeChart</code>, or <code>uninstallChart</code>. The actual Helm installation is at lines 278--303. At lines 351--370, Helm initializes a Kubernetes action configuration and loads a chart from a local path. This is correct for chart deployment, but it assumes both a chart and a Kubernetes target.</p>
+<p>The image loading part is similarly embedded in that deployment handler: <code>pkg/helmdtnt/receiver.go</code>, lines 212--239, reads files from an <code>Images</code> directory, constructs registry references, reads tarballs, and pushes them. There is no independently addressable ``send this OCI image&#39;&#39; command.</p>
+<h2>Why a fake chart is the wrong workaround</h2>
+A dummy chart could contain a Pod referring to an image, thereby causing the
+existing detector to notice it. However, this would add an artificial chart,
+trigger chart rewriting and Helm release behavior, require Kubernetes on the
+receiver, and confuse registry provisioning with workload deployment. It also
+makes failure recovery operate at the wrong abstraction: the desired unit is
+an image, not a Helm release.
+<h1>New architecture</h1>
+The extension creates an explicit image path while retaining the existing AAP2
+transport:
+<p class="center">
+Source registry $&rarr;$ Go sender $&rarr;$ OCI-layout TAR
+$&rarr;$ one AAP2 ADU $&rarr;$ &mu;D3TN
+$&rarr;$ Go receiver $&rarr;$ Harbor/OCI registry.
+</p>
+<p>There are three executables and two shared packages: <p><em>Component and modification summaries are explained in the surrounding sections.</em></p></p>
+<h1>Sender: exact code path and reasons</h1>
+<h2>Inputs</h2>
+In <code>cmd/image-sender/main.go</code>, lines 27--37, repeated <code>-image</code> and
+<code>-registry-target</code> options support one or many explicit mappings. The
+<code>-images-file</code> option supports a reproducible list. The <code>-os</code> and
+<code>-arch</code> options are needed because many registry tags point to a
+multi-platform index; a provisioning transfer must select the platform that
+the Space machines will execute.
+<p>At lines 38--48, the sender rejects missing network parameters and delegates request construction to <code>imageplan.Build</code>. Centralizing parsing prevents the sender and verifier from interpreting the same list differently.</p>
+<h2>Temporary storage and AAP2 reuse</h2>
+At lines 51--66, the sender creates a temporary working directory when the
+caller does not provide one and removes it on exit. Images may be hundreds of
+megabytes, so using files prevents the entire payload from being retained as a
+Go byte slice.
+<p>At lines 67--74, the code creates the project&#39;s existing <code>AAP2TCPClient</code>, connects, and registers agent <code>go-image-sender</code>. This is the key minimal-change decision: DTN routing, framing, and compatibility continue to use the supplied AAP2 implementation. No parallel DTN library or protocol was introduced.</p>
+<h2>One image per ADU</h2>
+The loop at lines 75--102 implements the transfer lifecycle. At \line79,
+<code>ExportOCI</code> pulls the image. At lines 83--87, the destination name is
+stored in the header and the payload file is built. At lines 88--94, the
+whole framed payload is submitted as one AAP2 Application Data Unit (ADU) and
+the sender waits for the local acceptance response.
+<p>This code does <em>not</em> implement application-level chunking. One image is one ADU. Internally, Go&#39;s <code>io.Copy</code> streams bytes in bounded buffers, and Bundle Protocol/&mu;D3TN may fragment or transport data underneath, but there is no numbered-chunk protocol or reassembly table in this application. That distinction is important when diagnosing contact-capacity failures.</p>
+<h1>OCI export and payload format</h1>
+<h2>External libraries actually used</h2>
+The direct dependencies are recorded in <code>go.mod</code>. The relevant lines are:
+<code>github.com/google/go-containerregistry v0.20.7</code> at \line6 and
+<code>github.com/google/uuid v1.6.0</code> at \line7.
+<p><code>go-containerregistry</code> supplies registry authentication, reference parsing, platform-aware pulling, OCI layout operations, and pushing. It avoids a Docker daemon and avoids shelling out to Skopeo. <code>google/uuid</code> creates a unique transfer identifier. Standard-library packages such as <code>archive/tar</code>, <code>crypto/sha256</code>, <code>encoding/json</code>, and <code>io</code> are not third-party libraries. Existing project dependencies provide AAP2 protobuf messages and networking.</p>
+<h2>Header and limits</h2>
+<code>pkg/imagetransfer/transfer.go</code>, lines 25--38, defines a 1 MiB maximum
+header, a 64 GiB maximum archive, and the metadata fields: transfer ID, source,
+target, creation time, source digest, archive SHA-256, and archive size.
+Explicit bounds prevent malformed or hostile input from causing unbounded
+allocation or disk consumption.
+<p>At lines 40--55, <code>ValidateTarget</code> rejects URLs, absolute paths, empty components, and dot traversal. This is required because a sender-controlled target is appended to the receiver&#39;s trusted registry prefix. Without this check, input could attempt to escape that namespace or redirect a push.</p>
+<p>At lines 57--70, <code>DefaultTarget</code> derives a destination repository and tag when possible. Digest-only source references require an explicit target because a destination push needs a usable repository name and tag/digest mapping rather than an ambiguous default.</p>
+<h2>Pulling a real image into an OCI layout</h2>
+At lines 72--109, <code>ExportOCI</code> parses the source and calls
+<code>remote.Image</code> with keychain authentication and the selected platform
+(lines 75--85). It creates an OCI image layout at lines 88--99, appends the
+image, turns the layout directory into a TAR at \line100, and hashes the TAR
+at lines 104--108. The result is a standards-based OCI object containing the
+manifest, configuration, and layer blobs&mdash;not a text reference.
+<h2>Wire framing</h2>
+At lines 111--150, <code>CreatePayload</code> writes exactly:
+<pre>
+[8-byte unsigned big-endian JSON length][JSON Header][OCI-layout TAR bytes]
+</pre>
+The length prefix lets the receiver know where metadata ends and binary image
+data begins. The JSON is readable and versionable; the TAR remains streamable.
+At \line142, <code>io.Copy</code> copies file-to-file rather than loading the
+archive into memory.
+<h2>Integrity checks on Space</h2>
+At <code>pkg/imagetransfer/transfer.go</code>, lines 152--205,
+<code>DecodePayload</code> reads the bounded header exactly, checks all required
+fields, validates the target and archive size, extracts only the declared
+number of bytes, and recomputes size and SHA-256. Corruption or truncation is
+rejected before any registry push.
+<p>The source manifest digest and archive checksum serve different purposes. The archive checksum proves transport-byte integrity. The manifest digest proves that the registry-visible image content is the same image, even though registry storage need not preserve the surrounding TAR byte-for-byte.</p>
+<h1>AAP2 client modification</h1>
+The extension intentionally makes a small change to
+<code>pkg/aap2_client/aap2_sync_client.go</code>. The existing <code>SendFile</code> path
+at lines 238--260 is reused. Its new size check is at lines 245--251;
+streaming to the connection remains at lines 252--258. This avoids announcing
+one length and streaming another.
+<p>The in-memory receive paths use <code>io.ReadFull</code> at lines 78--85 and lines 162--168, ensuring a short TCP read is not mistakenly treated as a complete payload. The new <code>ReceiveAduFile</code> method at lines 171--197 streams exactly <code>PayloadLength</code> bytes to a file using <code>io.CopyN</code> at \line188. This is necessary because normal network reads are allowed to return fewer bytes than requested and because provisioning images should not require an equally large RAM allocation.</p>
+<p>These are transport-hardening changes, not a replacement for AAP2. The sender and receiver still configure, send messages, send response statuses, and carry ADUs through the original Go client.</p>
+<h1>Receiver: from DTN to Harbor</h1>
+In <code>cmd/image-receiver/main.go</code>, lines 17--24 define the Space AAP2
+address, subscriber agent ID, optional secret, registry prefix, work directory,
+and a testing-only insecure-registry switch. Harbor credentials are read at
+lines 29--40 from <code>REGISTRY_CREDS</code>; <code>HARBOR_CREDS</code> is supported for
+backward compatibility. No value means anonymous registry access.
+<p>The outer loop at lines 44--49 reconnects after an AAP2 failure. DTN links and long-running nodes can be intermittent, so a receiver must not exit forever on one lost TCP connection.</p>
+<p>At lines 52--65, the receiver uses the existing AAP2 TCP client and subscribes as <code>image-transfer</code>. At lines 66--87, it receives the ADU metadata, acknowledges the AAP2 message, streams the declared payload into a unique file, processes it, and removes the temporary payload.</p>
+<p>At lines 90--104, <code>handle</code> decodes and verifies the payload, combines the administrator-controlled registry prefix with the validated relative target, pushes the OCI image, and logs its verified digest. There is no Helm install and no Kubernetes client in this executable.</p>
+<h1>Registry push and end-to-end verification</h1>
+<code>PushOCI</code> in <code>pkg/imagetransfer/transfer.go</code>, lines 208--260, safely expands the OCI
+layout, opens the image, parses the destination reference, selects basic or
+anonymous authentication, and writes it through the Registry V2 API. After the
+write it calls <code>remote.Head</code> and compares the registry&#39;s reported digest
+with the local image digest. A successful HTTP upload alone is insufficient;
+the read-back proves that the expected manifest is addressable at the target.
+<p>The separate program <code>cmd/image-verify/main.go</code> provides independent acceptance evidence. At lines 28--33 it loads the same validated mapping and credentials. At lines 34--54 it calculates the selected-platform source digest, calculates the remote target digest, compares them, and prints <code>OK</code> only on equality. Any failure causes a non-zero process exit at lines 55--57. The digest helper at lines 75--100 deliberately uses source keychain authentication and destination registry credentials separately.</p>
+<h1>Image-list methodology</h1>
+<code>pkg/imageplan/plan.go</code>, lines 17--98, accepts either command-line pairs or a text file.
+Each non-comment line is either <code>SOURCE</code> or <code>SOURCE=TARGET</code>. It
+rejects missing sources, mismatched repeated options, malformed mappings,
+unsafe targets, and an empty final plan. This shared package makes batch
+transfers reproducible and keeps validation identical between transfer and
+verification.
+<p>Two examples are supplied. <code>examples/kubernetes-images.txt</code> is a small demonstration. <code>examples/talos-v1.13.6-kubernetes-v1.36.2-images.txt</code> is a pinned provisioning set. Pinning versions is necessary because a mutable ``latest&#39;&#39; set makes results and future incident analysis irreproducible.</p>
+<h1>Local acceptance script and DTN capacity</h1>
+<code>scripts/run-local-acceptance.sh</code>, lines 4--11, selects the image list,
+registry, Earth and Space AAP2 endpoints, destination EID, contact duration,
+and contact rate. At lines 19--23, it starts the existing test containers and
+configures the Earth-to-Space contact. The default rate is 10,000,000 bytes/s
+for 3,600 seconds, giving about 36 GB of scheduled capacity.
+<p>This setting was needed because the earlier 100,000 bytes/s contact offered only about 360 MB total. Several Talos images individually approach or exceed that practical budget once bundle overhead and multiple images are considered; &mu;D3TN consequently reported insufficient contact payload capacity. This was a DTN scheduling capacity issue, not an OCI or Harbor failure.</p>
+<p>At lines 25--34, the script starts the receiver and sender. At lines 36--48, it waits for the expected number of registry pushes rather than assuming local AAP2 acceptance means remote delivery. Finally, at lines 50--55, it runs independent digest verification and reports completion.</p>
+<h1>Security, reliability, and limitations</h1>
+<ul>
+<li>Integrity is checked with archive SHA-256 before pushing and manifest
+digest after pushing. This detects corruption; it is not a digital signature.
+For hostile environments, add signed transfer metadata or verify Cosign/OCI
+signatures against a trusted policy.
+<li><code>-insecure-registry</code> permits HTTP and must remain limited to local
+testing. Real Harbor should use TLS and appropriately scoped robot credentials.
+<li>Credentials are currently passed as <code>user:password</code> in an
+environment variable. A colon in the username is unsupported, and environment
+visibility may be undesirable. A secret file or credential helper is a future
+hardening improvement.
+<li>One image equals one ADU. There is no application retry ledger,
+resumable-chunk protocol, deduplication across images, or garbage-collection
+policy for failed receiver files.
+<li>Sender acceptance confirms that local &mu;D3TN accepted the ADU; it
+does not itself confirm remote Harbor completion. Receiver logs and
+<code>image-verify</code> provide that evidence.
+<li>A local Registry V2 endpoint has been used for functional validation.
+The same API is used by Harbor, but final deployment should still test actual
+Harbor TLS, project permissions, quotas, and retention rules.
+</ul>
+<h1>What was modified</h1>
+<p><em>Component and modification summaries are explained in the surrounding sections.</em></p>
+<h1>How to build and run</h1>
+Build the three programs from the repository root:
+<pre>go build -o bin/image-transfer-send ./cmd/image-sender
+go build -o bin/image-transfer-receive ./cmd/image-receiver
+go build -o bin/image-transfer-verify ./cmd/image-verify
+</pre>
+<p>On Space, start the receiver (use TLS in production): <pre>export REGISTRY_CREDS=&#39;robot-user:password&#39; bin/image-transfer-receive \   -tcp 127.0.0.1:4242 \   -registry harbor.space.example/provisioning </pre></p>
+<p>On Earth, send one real image: <pre>bin/image-transfer-send \   -tcp 127.0.0.1:4242 \   -destination-eid dtn://space.dtn/image-transfer \   -image docker.io/library/nginx:alpine \   -registry-target library/nginx:alpine \   -os linux -arch amd64 </pre></p>
+<p>After delivery, verify the batch with <code>image-transfer-verify</code>. Kubernetes can then refer to the transferred image. The optional fifth-step script is: <pre>IMAGE=&#39;harbor.space.example/provisioning/library/nginx@sha256:&lt;digest&gt;&#39; \ EXPECTED_DIGEST=&#39;sha256:&lt;digest&gt;&#39; KUBE_CONTEXT=&#39;space-cluster&#39; \ PROBE_MODE=http scripts/run-kubernetes-image-acceptance.sh </pre> This Pod test is a consumer of the DTN result rather than part of the transport itself, so it remains independently runnable.</p>
+<h1>Optional fifth step: Kubernetes pull and start proof</h1>
+<code>scripts/run-kubernetes-image-acceptance.sh</code>, lines 6--37, validates the
+image, SHA-256 digest, object names, probe mode, <code>kubectl</code>, and optional
+context. Requiring a digest is important: a successful pull of a mutable tag
+would not prove that Kubernetes used the same image verified in step four.
+<p>At lines 39--66, the script checks API readiness, creates an isolated namespace, optionally creates a registry pull secret from <code>REGISTRY_CREDS</code>, and selects either ordinary container readiness or an HTTP readiness probe. At lines 68--85, it replaces the proof Pod and sets <code>imagePullPolicy: Always</code>, preventing a previously cached tag from making the test pass without contacting the registry.</p>
+<p>At lines 94--102, it waits for the Pod to be Ready and collects diagnostics on failure. At lines 104--118, success requires all three facts: phase is <code>Running</code>, container readiness is true, and the runtime&#39;s <code>status.containerStatuses[0].imageID</code> contains the exact expected digest. Only then does it print <code>KUBERNETES_IMAGE_ACCEPTANCE=PASS</code>.</p>
+<p>The script has passed Bash syntax validation. A live attempt reached the Pod and produced <code>ErrImagePull</code> because the disposable kind node could not resolve the local registry container through WSL DNS. The retained kind control plane then stopped with Docker exit code 128, and a replacement node failed during system startup. Therefore the fifth step is implemented but has not yet produced a passing live result in the currently unstable local Docker/WSL environment. This must not be reported as a successful Kubernetes acceptance until the script emits its explicit PASS record.</p>
+<h1>Testing status and honest completion boundary</h1>
+Unit tests cover the newly introduced parsing, framing, integrity, target
+validation, and exact AAP2 file I/O. A real
+<code>registry.k8s.io/pause:3.10</code> image was transferred through the local DTN
+test environment into a Registry V2 destination and verified at digest
+<code>sha256:7c38f24774e3cbd906d2d33c38354ccf787635581c122965132c9bd309754d4a</code>.
+<p>The full pinned 17-image Talos acceptance run has not yet completed in one uninterrupted execution, and a real Space Harbor has not yet been exercised. Consequently, the implementation is present and the core path is demonstrated, but final acceptance should require: <code>go test ./...</code>, one uninterrupted 17/17 run, independent 17/17 digest verification, and a deployment-environment Harbor test.</p>
+<h1>Beginner&#39;s mental model</h1>
+Keep four acknowledgements separate:
+<ol>
+<li>The source registry returned a valid image and digest.
+<li>Earth &mu;D3TN accepted the image ADU locally.
+<li>Space received, checksum-validated, and pushed the OCI image.
+<li>A fresh registry read returned the same manifest digest.
+</ol>
+The fourth statement establishes the standalone transfer result. The optional
+fifth statement tests Kubernetes integration using the separate acceptance
+script. It deliberately remains outside the supervisor&#39;s standalone
+provisioning-image transfer boundary, even though the repository now supports
+running it when a healthy cluster is available.
+</body></html>

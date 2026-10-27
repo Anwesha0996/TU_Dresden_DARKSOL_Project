@@ -1,0 +1,69 @@
+---
+# Source: web-app/templates/deployment.yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: depresolver-dry-run-release-web-app
+  labels:
+
+    helm.sh/chart: web-app-0.1.0
+    app.kubernetes.io/name: web-app
+    app.kubernetes.io/instance: depresolver-dry-run-release
+    app.kubernetes.io/managed-by: Helm
+spec:
+  selector:
+    matchLabels:
+
+      app.kubernetes.io/name: web-app
+      app.kubernetes.io/instance: depresolver-dry-run-release
+  template:
+    metadata:
+      labels:
+
+        app.kubernetes.io/name: web-app
+        app.kubernetes.io/instance: depresolver-dry-run-release
+    spec:
+      containers:
+        - name: web-app
+          # USES THE CONTAINER IMAGE DEPENDENCY
+          image: "myregistry/web-app-api:v1.0.0"
+          imagePullPolicy: IfNotPresent
+          ports:
+            - name: http
+              containerPort: 80
+
+---
+# This Job runs BEFORE the application is deployed
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: depresolver-dry-run-release-web-app-asset-fetch
+  annotations:
+    "helm.sh/hook": "pre-install,pre-upgrade" # Executes before install/upgrade
+    "helm.sh/hook-delete-policy": "hook-succeeded" # Deletes the Job if it succeeds
+  labels:
+
+    helm.sh/chart: web-app-0.1.0
+    app.kubernetes.io/name: web-app
+    app.kubernetes.io/instance: depresolver-dry-run-release
+    app.kubernetes.io/managed-by: Helm
+spec:
+  template:
+    spec:
+      restartPolicy: OnFailure
+      containers:
+      - name: git-fetcher
+        # Uses an image that has 'git' installed
+        image: alpine/git:latest
+        imagePullPolicy: IfNotPresent
+        command: ["/bin/sh", "-c"]
+        args:
+        - |
+          echo "Starting git clone of static assets..."
+          git clone https://gitlab.com/d3tn/ud3tn.git /var/www/html/assets
+          if [ $? -eq 0 ]; then
+            echo "Successfully fetched assets."
+          else
+            echo "Failed to fetch assets!"
+            exit 1
+          fi

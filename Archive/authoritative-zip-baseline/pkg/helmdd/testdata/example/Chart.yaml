@@ -1,0 +1,14 @@
+apiVersion: v2
+name: web-app
+description: A web application that requires a database and external assets.
+type: application
+version: 0.1.0
+
+# Defines the external dependency (subchart)
+dependencies:
+  - name: wordpress
+    version: 27.1.8 # Replace with a specific, desired version or a version range
+    repository: https://charts.bitnami.com/bitnami
+    condition: wordpress.enabled 
+    tags:
+      - wordpress

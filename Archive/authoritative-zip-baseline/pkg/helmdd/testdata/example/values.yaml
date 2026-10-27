@@ -1,0 +1,18 @@
+# Main Application Image Dependency
+image:
+  repository: registry.gitlab.com/d3tn/ud3tn-docker-images/ud3tn
+  tag: v0.14.2
+  pullPolicy: IfNotPresent
+
+# Subchart Configuration
+mariadb:
+  enabled: true
+  auth:
+    rootPassword: "secretpassword"
+    database: mydatabase
+    username: myuser
+
+# Configuration for the external fetch hook
+assetFetch:
+  repositoryUrl: "https://gitlab.com/d3tn/ud3tn.git"
+  targetPath: "/mnt/assets"
