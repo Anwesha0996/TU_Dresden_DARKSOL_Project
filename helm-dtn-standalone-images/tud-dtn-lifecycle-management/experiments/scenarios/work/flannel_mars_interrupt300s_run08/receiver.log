@@ -1,0 +1,3 @@
+2026/09/07 14:57:33 INFO Successfully connected to: 127.0.0.1:24242
+config:{is_subscriber:true  secret:"f2ea9e34-784f-44b1-958f-ae40f451d236"  endpoint_id:"dtn://space.dtn/image-transfer"}
+2026/09/07 14:57:33 registered dtn image endpoint "image-transfer"

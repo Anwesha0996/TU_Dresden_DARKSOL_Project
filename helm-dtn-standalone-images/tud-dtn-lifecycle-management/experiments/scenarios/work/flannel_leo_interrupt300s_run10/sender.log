@@ -1,0 +1,10 @@
+2026/09/01 17:58:15 INFO Successfully connected to: 127.0.0.1:14242
+config:{secret:"d9ac899d-8b9c-453b-a3a4-ad9fca6ccaba"  endpoint_id:"dtn://earth.dtn/go-image-sender"}
+2026/09/01 17:58:15 [1/1] pulling ghcr.io/siderolabs/flannel:v0.27.4 directly from the registry
+2026/09/01 17:58:21 [1/1] sending 6456e431-3529-4b7b-bfe6-7a00b98d24ab as one AAP2 ADU (34145679 bytes)
+adu:{dst_eid:"dtn://space.dtn/image-transfer"  payload_length:34145679}
+source=ghcr.io/siderolabs/flannel:v0.27.4
+target=siderolabs/flannel:v0.27.4
+source_digest=sha256:c37e749447d182344ed4db51171b63349776dc98372b3e280340ced172dc1e2f
+transfer_id=6456e431-3529-4b7b-bfe6-7a00b98d24ab
+archive_sha256=c406f2004634069ad90ec4c171dcf8a4d24ef63e0029fec5101a34a8c54f3212

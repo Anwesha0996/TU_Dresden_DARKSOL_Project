@@ -1,0 +1,1 @@
+OK source=registry.k8s.io/kube-proxy:v1.35.0 target=127.0.0.1:5001/library/talos/kube-proxy:v1.35.0 digest=sha256:ad87ae17f92f26144bd5a35fc86a73f2fae6effd1666db51bc03f8e9213de532

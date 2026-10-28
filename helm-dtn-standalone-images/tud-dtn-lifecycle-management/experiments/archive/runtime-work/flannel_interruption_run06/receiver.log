@@ -1,0 +1,6 @@
+2026/08/29 10:40:25 INFO Successfully connected to: 127.0.0.1:24242
+config:{is_subscriber:true  secret:"bd67912a-6b2f-4f89-ba5a-a195bcab033a"  endpoint_id:"dtn://space.dtn/image-transfer"}
+2026/08/29 10:40:25 registered dtn image endpoint "image-transfer"
+response_status:RESPONSE_STATUS_SUCCESS
+2026/08/29 10:40:50 verified transfer e8b8fd30-6be5-4010-b605-ca3d6ace5ea8 (d3e022d45e3e934b81e2c6090d9d4292633c973a0a3532a2ec47d57310170d9b); pushing to 127.0.0.1:5001/library/talos/siderolabs/flannel:v0.27.4
+2026/08/29 10:40:52 transfer complete: id=e8b8fd30-6be5-4010-b605-ca3d6ace5ea8 target=127.0.0.1:5001/library/talos/siderolabs/flannel:v0.27.4 digest=sha256:c37e749447d182344ed4db51171b63349776dc98372b3e280340ced172dc1e2f

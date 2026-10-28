@@ -1,0 +1,10 @@
+2026/08/18 11:36:53 INFO Successfully connected to: 127.0.0.1:14242
+config:{secret:"6e870515-28df-4b42-8782-c4d1cf1b71fd" endpoint_id:"dtn://earth.dtn/go-image-sender"}
+2026/08/18 11:36:53 [1/1] pulling registry.k8s.io/kube-apiserver:v1.32.2 directly from the registry
+2026/08/18 11:37:01 [1/1] sending d6758a42-d76f-444d-a663-170453ff38f3 as one AAP2 ADU (28686233 bytes)
+adu:{dst_eid:"dtn://space.dtn/image-transfer" payload_length:28686233}
+source=registry.k8s.io/kube-apiserver:v1.32.2
+target=benchmark/kube-apiserver:v1.32.2
+source_digest=sha256:48e677803a23233a10a796f3d7edc73223e3fbaceb6113665c1015464a743e9d
+transfer_id=d6758a42-d76f-444d-a663-170453ff38f3
+archive_sha256=0ac9444a53af86695e56ce0d000d1b1e4da39d04f8b68957889e1f923a9ec33e

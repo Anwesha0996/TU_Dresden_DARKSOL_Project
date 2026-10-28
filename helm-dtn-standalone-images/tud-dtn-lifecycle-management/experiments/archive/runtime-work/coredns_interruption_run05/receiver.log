@@ -1,0 +1,6 @@
+2026/08/29 10:45:22 INFO Successfully connected to: 127.0.0.1:24242
+config:{is_subscriber:true  secret:"8b6d5cf2-9aee-4a7c-b9fc-614d05455033"  endpoint_id:"dtn://space.dtn/image-transfer"}
+2026/08/29 10:45:22 registered dtn image endpoint "image-transfer"
+response_status:RESPONSE_STATUS_SUCCESS
+2026/08/29 10:45:44 verified transfer 4c38faf4-70c9-4b38-a98f-4b4c0a553c5a (3308ab9e2e6a31174ac6547458313dcecb51d1b696c1e52af5e5bd6c2e458076); pushing to 127.0.0.1:5001/library/talos/coredns/coredns:v1.13.2
+2026/08/29 10:45:45 transfer complete: id=4c38faf4-70c9-4b38-a98f-4b4c0a553c5a target=127.0.0.1:5001/library/talos/coredns/coredns:v1.13.2 digest=sha256:4460b84141eb657cf0883fe8af12984d61145d49cab4db5dd179bbe238ff8fdf

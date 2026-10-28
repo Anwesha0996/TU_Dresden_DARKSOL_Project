@@ -1,0 +1,10 @@
+prepare
+install.sh
+common.sh
+LICENSE
+.installer-version
+input/
+common/
+data/
+log/
+docker-compose.yml

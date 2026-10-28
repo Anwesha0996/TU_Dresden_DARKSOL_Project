@@ -1,0 +1,10 @@
+2026/08/26 18:46:08 INFO Successfully connected to: 127.0.0.1:14242
+config:{secret:"b34614b2-57f7-4b62-bd0a-dc89c797d16f" endpoint_id:"dtn://earth.dtn/go-image-sender"}
+2026/08/26 18:46:08 [1/1] pulling ghcr.io/siderolabs/overlays:v1.12.4 directly from the registry
+2026/08/26 18:46:12 [1/1] sending 9d0862c0-8df2-4fa2-a299-4a2066a909a4 as one AAP2 ADU (8077 bytes)
+adu:{dst_eid:"dtn://space.dtn/image-transfer" payload_length:8077}
+source=ghcr.io/siderolabs/overlays:v1.12.4
+target=siderolabs/overlays:v1.12.4
+source_digest=sha256:77cf2f3a3d2a6b70596de796507e7dd6b936b051fdbbbe801ac02f9efdb01e62
+transfer_id=9d0862c0-8df2-4fa2-a299-4a2066a909a4
+archive_sha256=41416d478b018acedb739d29e0743af7ca19448db2b21e52512451f0fe7356e7

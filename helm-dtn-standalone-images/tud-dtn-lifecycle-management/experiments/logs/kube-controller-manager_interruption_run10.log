@@ -1,0 +1,190 @@
+experiment_id=interruption10-20260829
+run_id=kube-controller-manager_interruption_run10
+image_name=kube-controller-manager
+image_category=kubernetes
+source_image=registry.k8s.io/kube-controller-manager:v1.35.0
+destination_image=127.0.0.1:5001/library/talos/kube-controller-manager:v1.35.0
+network_condition=interruption
+start_time=2026-08-29T09:03:54.578Z
+finish_time=2026-08-29T09:04:16.438Z
+payload_size_bytes=23151009
+payload_size_mb=23.151009
+duration_seconds=21.859642873
+sender_peak_memory_mb=16.875
+receiver_peak_memory_mb=10.0
+sender_cpu_percent=34
+receiver_peak_cpu_percent=3.7
+network_latency_ms=0.093
+source_digest=sha256:e0ce4c7d278a001734bbd8020ed1b7e535ae9d2412c700032eb3df190ea91a62
+destination_digest=sha256:e0ce4c7d278a001734bbd8020ed1b7e535ae9d2412c700032eb3df190ea91a62
+digest_match=true
+success=true
+error_message=
+interruption_start_time=2026-08-29T09:03:56.726Z
+interruption_duration_seconds=10
+reconnection_time=2026-08-29T09:04:08.861Z
+completed_after_reconnection=true
+throughput_mb_s=1.0590753533579012
+throughput_mbit_s=8.47260282686321
+
+===== SENDER =====
+2026/08/29 11:03:54 INFO Successfully connected to: 127.0.0.1:14242
+config:{secret:"69e17777-082c-4540-809f-8dc56bb1b3be" endpoint_id:"dtn://earth.dtn/go-image-sender"}
+2026/08/29 11:03:54 [1/1] pulling registry.k8s.io/kube-controller-manager:v1.35.0 directly from the registry
+2026/08/29 11:03:59 [1/1] sending 54b75f07-f3c8-44c3-b482-2492a695c8f8 as one AAP2 ADU (23151009 bytes)
+adu:{dst_eid:"dtn://space.dtn/image-transfer" payload_length:23151009}
+source=registry.k8s.io/kube-controller-manager:v1.35.0
+target=kube-controller-manager:v1.35.0
+source_digest=sha256:e0ce4c7d278a001734bbd8020ed1b7e535ae9d2412c700032eb3df190ea91a62
+transfer_id=54b75f07-f3c8-44c3-b482-2492a695c8f8
+archive_sha256=0a73768e68a8c73f5e10aedc50a8266dd2142d69031076d44e6ec14f81487aaa
+
+===== RECEIVER =====
+2026/08/29 11:03:52 INFO Successfully connected to: 127.0.0.1:24242
+config:{is_subscriber:true  secret:"3714714e-bce7-4885-b35f-eb744b992406"  endpoint_id:"dtn://space.dtn/image-transfer"}
+2026/08/29 11:03:52 registered dtn image endpoint "image-transfer"
+response_status:RESPONSE_STATUS_SUCCESS
+2026/08/29 11:04:14 verified transfer 54b75f07-f3c8-44c3-b482-2492a695c8f8 (0a73768e68a8c73f5e10aedc50a8266dd2142d69031076d44e6ec14f81487aaa); pushing to 127.0.0.1:5001/library/talos/kube-controller-manager:v1.35.0
+2026/08/29 11:04:15 transfer complete: id=54b75f07-f3c8-44c3-b482-2492a695c8f8 target=127.0.0.1:5001/library/talos/kube-controller-manager:v1.35.0 digest=sha256:e0ce4c7d278a001734bbd8020ed1b7e535ae9d2412c700032eb3df190ea91a62
+
+===== VERIFIER =====
+OK source=registry.k8s.io/kube-controller-manager:v1.35.0 target=127.0.0.1:5001/library/talos/kube-controller-manager:v1.35.0 digest=sha256:e0ce4c7d278a001734bbd8020ed1b7e535ae9d2412c700032eb3df190ea91a62
+
+===== SENDER RESOURCE USAGE =====
+	Command being timed: "/mnt/d/Distributed_Network_system_Hiwi_TUD/helm-dtn-standalone-images/helm-dtn-main/bin/image-transfer-send -tcp 127.0.0.1:14242 -destination-eid dtn://space.dtn/image-transfer -image registry.k8s.io/kube-controller-manager:v1.35.0 -registry-target kube-controller-manager:v1.35.0 -arch amd64 -work-dir /mnt/d/Distributed_Network_system_Hiwi_TUD/helm-dtn-standalone-images/helm-dtn-main/experiments/work/kube-controller-manager_interruption_run10/sender"
+	User time (seconds): 0.98
+	System time (seconds): 0.71
+	Percent of CPU this job got: 34%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:04.98
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 17280
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 235
+	Minor (reclaiming a frame) page faults: 2972
+	Voluntary context switches: 22834
+	Involuntary context switches: 7
+	Swaps: 0
+	File system inputs: 16712
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+
+===== RECEIVER RESOURCE SAMPLES =====
+timestamp_utc,rss_kib,cpu_percent
+2026-08-29T09:03:54.588Z,8832,1.0
+2026-08-29T09:03:54.810Z,8832,0.8
+2026-08-29T09:03:55.030Z,8832,0.8
+2026-08-29T09:03:55.252Z,8832,0.7
+2026-08-29T09:03:55.478Z,8832,0.6
+2026-08-29T09:03:55.702Z,8832,0.6
+2026-08-29T09:03:55.924Z,8832,0.5
+2026-08-29T09:03:56.148Z,8832,0.5
+2026-08-29T09:03:56.371Z,8832,0.5
+2026-08-29T09:03:56.596Z,8832,0.4
+2026-08-29T09:03:56.817Z,8832,0.4
+2026-08-29T09:03:57.037Z,8832,0.4
+2026-08-29T09:03:57.261Z,8832,0.4
+2026-08-29T09:03:57.485Z,8832,0.4
+2026-08-29T09:03:57.706Z,8832,0.3
+2026-08-29T09:03:57.925Z,8832,0.3
+2026-08-29T09:03:58.145Z,8832,0.3
+2026-08-29T09:03:58.365Z,8832,0.3
+2026-08-29T09:03:58.584Z,8832,0.3
+2026-08-29T09:03:58.805Z,8832,0.3
+2026-08-29T09:03:59.027Z,8832,0.3
+2026-08-29T09:03:59.248Z,8832,0.2
+2026-08-29T09:03:59.469Z,8832,0.2
+2026-08-29T09:03:59.690Z,8832,0.2
+2026-08-29T09:03:59.911Z,8832,0.2
+2026-08-29T09:04:00.131Z,8832,0.2
+2026-08-29T09:04:00.351Z,8832,0.2
+2026-08-29T09:04:00.570Z,8832,0.2
+2026-08-29T09:04:00.793Z,8832,0.2
+2026-08-29T09:04:01.013Z,8832,0.2
+2026-08-29T09:04:01.233Z,8832,0.2
+2026-08-29T09:04:01.452Z,8832,0.2
+2026-08-29T09:04:01.672Z,8832,0.2
+2026-08-29T09:04:01.893Z,8832,0.2
+2026-08-29T09:04:02.113Z,8832,0.2
+2026-08-29T09:04:02.333Z,8832,0.2
+2026-08-29T09:04:02.553Z,8832,0.2
+2026-08-29T09:04:02.772Z,8832,0.1
+2026-08-29T09:04:02.992Z,8832,0.1
+2026-08-29T09:04:03.213Z,8832,0.1
+2026-08-29T09:04:03.433Z,8832,0.1
+2026-08-29T09:04:03.652Z,8832,0.1
+2026-08-29T09:04:03.873Z,8832,0.1
+2026-08-29T09:04:04.094Z,8832,0.1
+2026-08-29T09:04:04.315Z,8832,0.1
+2026-08-29T09:04:04.535Z,8832,0.1
+2026-08-29T09:04:04.755Z,8832,0.1
+2026-08-29T09:04:04.976Z,8832,0.1
+2026-08-29T09:04:05.199Z,8832,0.1
+2026-08-29T09:04:05.421Z,8832,0.1
+2026-08-29T09:04:05.642Z,8832,0.1
+2026-08-29T09:04:05.862Z,8832,0.1
+2026-08-29T09:04:06.083Z,8832,0.1
+2026-08-29T09:04:06.305Z,8832,0.1
+2026-08-29T09:04:06.526Z,8832,0.1
+2026-08-29T09:04:06.745Z,8832,0.1
+2026-08-29T09:04:06.966Z,8832,0.1
+2026-08-29T09:04:07.187Z,8832,0.1
+2026-08-29T09:04:07.413Z,8832,0.1
+2026-08-29T09:04:07.634Z,8832,0.1
+2026-08-29T09:04:07.854Z,8832,0.1
+2026-08-29T09:04:08.075Z,8832,0.1
+2026-08-29T09:04:08.295Z,8832,0.1
+2026-08-29T09:04:08.517Z,8832,0.1
+2026-08-29T09:04:08.735Z,8832,0.1
+2026-08-29T09:04:08.955Z,8832,0.1
+2026-08-29T09:04:09.174Z,8832,0.1
+2026-08-29T09:04:09.394Z,8832,0.1
+2026-08-29T09:04:09.615Z,8832,0.1
+2026-08-29T09:04:09.835Z,8832,0.1
+2026-08-29T09:04:10.056Z,8832,0.1
+2026-08-29T09:04:10.276Z,8832,0.1
+2026-08-29T09:04:10.495Z,8832,0.1
+2026-08-29T09:04:10.715Z,8832,0.1
+2026-08-29T09:04:10.936Z,8832,0.1
+2026-08-29T09:04:11.155Z,8832,0.1
+2026-08-29T09:04:11.375Z,8832,0.1
+2026-08-29T09:04:11.596Z,8832,0.1
+2026-08-29T09:04:11.816Z,8832,0.1
+2026-08-29T09:04:12.037Z,8832,0.1
+2026-08-29T09:04:12.257Z,8832,0.1
+2026-08-29T09:04:12.476Z,8832,0.1
+2026-08-29T09:04:12.696Z,8832,0.0
+2026-08-29T09:04:12.920Z,8832,0.2
+2026-08-29T09:04:13.140Z,8832,0.3
+2026-08-29T09:04:13.360Z,8832,0.4
+2026-08-29T09:04:13.585Z,8832,0.5
+2026-08-29T09:04:13.805Z,8832,1.0
+2026-08-29T09:04:14.025Z,8832,1.7
+2026-08-29T09:04:14.244Z,8832,2.3
+2026-08-29T09:04:14.463Z,8832,3.0
+2026-08-29T09:04:14.686Z,8960,3.2
+2026-08-29T09:04:14.907Z,8960,3.4
+2026-08-29T09:04:15.135Z,8960,3.6
+2026-08-29T09:04:15.357Z,10240,3.7
+2026-08-29T09:04:15.577Z,10240,3.7
+2026-08-29T09:04:15.797Z,10240,3.7
+2026-08-29T09:04:16.017Z,10240,3.7
+2026-08-29T09:04:16.238Z,10240,3.6
+2026-08-29T09:04:16.457Z,10240,3.6
+2026-08-29T09:04:16.678Z,10240,3.6
+2026-08-29T09:04:16.898Z,10240,3.5
+2026-08-29T09:04:17.119Z,10240,3.5
+2026-08-29T09:04:17.338Z,10240,3.5
+2026-08-29T09:04:17.559Z,10240,3.4
+2026-08-29T09:04:17.779Z,10240,3.4
+2026-08-29T09:04:18.001Z,10240,3.4
+2026-08-29T09:04:18.221Z,10240,3.3
+2026-08-29T09:04:18.440Z,10240,3.3
+2026-08-29T09:04:18.660Z,10240,3.3
+2026-08-29T09:04:18.883Z,10240,3.3

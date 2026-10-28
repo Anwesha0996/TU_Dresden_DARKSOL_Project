@@ -1,0 +1,41 @@
+images:
+  - name: flannel
+    category: kubernetes
+    source: ghcr.io/siderolabs/flannel:v0.27.4
+    target: siderolabs/flannel:v0.27.4
+  - name: coredns
+    category: kubernetes
+    source: registry.k8s.io/coredns/coredns:v1.13.2
+    target: coredns/coredns:v1.13.2
+  - name: etcd
+    category: kubernetes
+    source: registry.k8s.io/etcd:v3.6.7
+    target: etcd:v3.6.7
+  - name: kube-apiserver
+    category: kubernetes
+    source: registry.k8s.io/kube-apiserver:v1.35.0
+    target: kube-apiserver:v1.35.0
+  - name: kube-controller-manager
+    category: kubernetes
+    source: registry.k8s.io/kube-controller-manager:v1.35.0
+    target: kube-controller-manager:v1.35.0
+  - name: kube-scheduler
+    category: kubernetes
+    source: registry.k8s.io/kube-scheduler:v1.35.0
+    target: kube-scheduler:v1.35.0
+  - name: kube-proxy
+    category: kubernetes
+    source: registry.k8s.io/kube-proxy:v1.35.0
+    target: kube-proxy:v1.35.0
+  - name: kubelet
+    category: kubernetes
+    source: ghcr.io/siderolabs/kubelet:v1.35.0
+    target: siderolabs/kubelet:v1.35.0
+  - name: pause
+    category: kubernetes
+    source: registry.k8s.io/pause:3.10
+    target: pause:3.10
+  - name: talos-installer
+    category: talos
+    source: ghcr.io/siderolabs/installer:v1.12.4
+    target: siderolabs/installer:v1.12.4

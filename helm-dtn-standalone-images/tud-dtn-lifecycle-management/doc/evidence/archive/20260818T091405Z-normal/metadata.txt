@@ -1,0 +1,10 @@
+run_id=20260818T091405Z-normal
+started_utc=2026-08-18T09:14:04Z
+profile=normal
+contact_rate_bytes_per_second=10000000
+contact_duration_seconds=3600
+disruption_seconds=0
+repetitions=10
+architecture=amd64
+images_file=/mnt/d/Distributed_Network_system_Hiwi_TUD/helm-dtn-standalone-images/helm-dtn-main/examples/benchmark-images.txt
+git_commit=ad398961b629cdf7d8a9e8cb3a1f3f0e4e827de6

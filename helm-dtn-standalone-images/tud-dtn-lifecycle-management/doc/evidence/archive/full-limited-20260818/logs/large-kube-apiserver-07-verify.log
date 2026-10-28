@@ -1,0 +1,1 @@
+OK source=registry.k8s.io/kube-apiserver:v1.32.2 target=127.0.0.1:5001/library/benchmark/kube-apiserver:v1.32.2 digest=sha256:48e677803a23233a10a796f3d7edc73223e3fbaceb6113665c1015464a743e9d

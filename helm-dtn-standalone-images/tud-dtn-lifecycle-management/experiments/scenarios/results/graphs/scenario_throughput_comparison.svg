@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760">
+<style>text{font-family:Arial}.title{font-size:25px;font-weight:bold}.axis{stroke:#222}.grid{stroke:#ddd}.label{font-size:14px}</style>
+<rect width="1400" height="760" fill="white"/><text x="700.0" y="42" text-anchor="middle" class="title">Average effective throughput</text>
+<text x="700.0" y="68" text-anchor="middle">LEO, Lunar, Mars; common interruption durations; 10 repetitions intended</text>
+<line x1="120" y1="620.0" x2="1350" y2="620.0" class="grid"/><text x="110" y="625.0" text-anchor="end">0.0</text>
+<line x1="120" y1="516.0" x2="1350" y2="516.0" class="grid"/><text x="110" y="521.0" text-anchor="end">0.8</text>
+<line x1="120" y1="412.0" x2="1350" y2="412.0" class="grid"/><text x="110" y="417.0" text-anchor="end">1.5</text>
+<line x1="120" y1="308.0" x2="1350" y2="308.0" class="grid"/><text x="110" y="313.0" text-anchor="end">2.3</text>
+<line x1="120" y1="204.0" x2="1350" y2="204.0" class="grid"/><text x="110" y="209.0" text-anchor="end">3.1</text>
+<line x1="120" y1="100.0" x2="1350" y2="100.0" class="grid"/><text x="110" y="105.0" text-anchor="end">3.9</text>
+<rect x="202.0" y="167.82608695652175" width="78.0" height="452.17391304347825" fill="#2878B5"><title>leo: 3.362 Mbit/s</title></rect>
+<rect x="284.0" y="216.60023366812902" width="78.0" height="403.399766331871" fill="#F2A104"><title>lunar: 3.000 Mbit/s</title></rect>
+<rect x="366.0" y="620.0" width="78.0" height="0.0" fill="#D1495B"><title>mars: 0.000 Mbit/s</title></rect>
+<text x="325.0" y="648" text-anchor="middle" class="label">10 seconds</text>
+<rect x="612.0" y="529.580850661673" width="78.0" height="90.419149338327" fill="#2878B5"><title>leo: 0.672 Mbit/s</title></rect>
+<rect x="694.0" y="530.9023451841126" width="78.0" height="89.09765481588732" fill="#F2A104"><title>lunar: 0.663 Mbit/s</title></rect>
+<rect x="776.0" y="620.0" width="78.0" height="0.0" fill="#D1495B"><title>mars: 0.000 Mbit/s</title></rect>
+<text x="735.0" y="648" text-anchor="middle" class="label">300 seconds</text>
+<rect x="1022.0" y="620.0" width="78.0" height="0.0" fill="#2878B5"><title>leo: 0.000 Mbit/s</title></rect>
+<rect x="1104.0" y="620.0" width="78.0" height="0.0" fill="#F2A104"><title>lunar: 0.000 Mbit/s</title></rect>
+<rect x="1186.0" y="620.0" width="78.0" height="0.0" fill="#D1495B"><title>mars: 0.000 Mbit/s</title></rect>
+<text x="1145.0" y="648" text-anchor="middle" class="label">3600 seconds</text>
+<rect x="990" y="78" width="16" height="16" fill="#2878B5"/><text x="1012" y="92">LEO</text>
+<rect x="1110" y="78" width="16" height="16" fill="#F2A104"/><text x="1132" y="92">LUNAR</text>
+<rect x="1230" y="78" width="16" height="16" fill="#D1495B"/><text x="1252" y="92">MARS</text>
+<line x1="120" y1="100" x2="120" y2="620" class="axis"/><line x1="120" y1="620" x2="1350" y2="620" class="axis"/><text x="30" y="360.0" transform="rotate(-90 30 360.0)" text-anchor="middle">Mbit/s</text><text x="700.0" y="700" text-anchor="middle">Interruption duration</text></svg>

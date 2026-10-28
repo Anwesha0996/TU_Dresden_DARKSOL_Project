@@ -1,0 +1,46 @@
+# Values are fixed experiment inputs, not measurements from the local host.
+# RTT is split equally across Earth->Space and Space->Earth egress shaping.
+# imc2026-cycle2-paper200 supports the Lunar and Mars RTT choices. It does not
+# provide a LEO profile or sufficient DSN uplink-rate data, so those inputs are
+# explicitly sourced elsewhere and must not be described as paper-derived.
+scenarios:
+  leo:
+    rtt: 50ms
+    one_way_delay: 25ms
+    bandwidth: 6mbit
+    packet_loss: 0%
+    source: "Ma et al., Starlink measurement study (upload direction)"
+    source_url: "https://arxiv.org/abs/2212.13697"
+  # Separate sensitivity profile for future runs. Do not merge these results
+  # with the 6 Mbit/s baseline under the same condition label.
+  leo_high_bandwidth:
+    rtt: 50ms
+    one_way_delay: 25ms
+    bandwidth: 15mbit
+    packet_loss: 0%
+    source: "Buelo et al., Crowdsourced Starlink Performance Measurements, IEEE ICC 2024"
+    source_url: "https://doi.org/10.1109/ICC51166.2024.10622394"
+    rationale: "Midpoint of the reported 10-20 Mbit/s median Starlink return-link/upload goodput range"
+  lunar:
+    rtt: 2.6s
+    one_way_delay: 1.3s
+    bandwidth: 20mbit
+    packet_loss: 0%
+    source: "DSN paper RTT; NASA LLCD Earth-to-Moon uplink"
+    latency_source_file: "../../../imc2026-cycle2-paper200.pdf"
+    bandwidth_source_url: "https://www.nasa.gov/mission/lunar-laser-communications-demonstration-llcd/"
+  mars:
+    rtt: 1800s
+    one_way_delay: 900s
+    bandwidth: 5mbit
+    packet_loss: 0%
+    source: "DSN paper RTT; JPL high-rate optical Mars profile"
+    latency_source_file: "../../../imc2026-cycle2-paper200.pdf"
+    bandwidth_source_url: "https://ipnpr.jpl.nasa.gov/progress_report/42-154/154L.html"
+
+interruption_durations:
+  # Experimental choices spanning short, medium, and long outages. These exact
+  # three durations are not recommendations made by imc2026-cycle2-paper200.
+  short: 10s
+  medium: 5m
+  long: 1h

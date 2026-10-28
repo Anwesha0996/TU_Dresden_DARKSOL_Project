@@ -1,0 +1,124 @@
+experiment_id=gate3-20260826
+run_id=talos-installer-base_normal_run01
+image_name=talos-installer-base
+image_category=talos
+source_image=ghcr.io/siderolabs/installer-base:v1.12.4
+destination_image=127.0.0.1:5001/library/talos/siderolabs/installer-base:v1.12.4
+network_condition=normal
+start_time=2026-08-26T15:13:18.302Z
+finish_time=2026-08-26T15:13:28.774Z
+payload_size_bytes=25329053
+payload_size_mb=25.329053
+duration_seconds=10.472048299
+sender_peak_memory_mb=14.625
+receiver_peak_memory_mb=9.75
+source_digest=sha256:0bb9482b45453c7321fde69777b7da25b3b36e65921ae27d02eaba94496a065b
+destination_digest=sha256:0bb9482b45453c7321fde69777b7da25b3b36e65921ae27d02eaba94496a065b
+digest_match=true
+success=true
+error_message=
+interruption_start_time=
+interruption_duration_seconds=0
+reconnection_time=
+completed_after_reconnection=false
+throughput_mb_s=2.418729581529788
+throughput_mbit_s=19.349836652238302
+
+===== SENDER =====
+2026/08/26 17:13:18 INFO Successfully connected to: 127.0.0.1:14242
+config:{secret:"ee1164ff-2179-48bd-8dd9-009498317867" endpoint_id:"dtn://earth.dtn/go-image-sender"}
+2026/08/26 17:13:18 [1/1] pulling ghcr.io/siderolabs/installer-base:v1.12.4 directly from the registry
+2026/08/26 17:13:23 [1/1] sending 1b9a3498-e6e8-4da5-aeee-7fe2c07e7376 as one AAP2 ADU (25329053 bytes)
+adu:{dst_eid:"dtn://space.dtn/image-transfer" payload_length:25329053}
+source=ghcr.io/siderolabs/installer-base:v1.12.4
+target=siderolabs/installer-base:v1.12.4
+source_digest=sha256:0bb9482b45453c7321fde69777b7da25b3b36e65921ae27d02eaba94496a065b
+transfer_id=1b9a3498-e6e8-4da5-aeee-7fe2c07e7376
+archive_sha256=fc33afa250496017eaa0457c4032342d4ab0235f5e0879213a3b72662fc8d0d5
+
+===== RECEIVER =====
+2026/08/26 17:13:16 INFO Successfully connected to: 127.0.0.1:24242
+config:{is_subscriber:true  secret:"8f126181-6f3b-49cf-a4eb-0010bcd4c7d5"  endpoint_id:"dtn://space.dtn/image-transfer"}
+2026/08/26 17:13:16 registered dtn image endpoint "image-transfer"
+response_status:RESPONSE_STATUS_SUCCESS
+2026/08/26 17:13:25 verified transfer 1b9a3498-e6e8-4da5-aeee-7fe2c07e7376 (fc33afa250496017eaa0457c4032342d4ab0235f5e0879213a3b72662fc8d0d5); pushing to 127.0.0.1:5001/library/talos/siderolabs/installer-base:v1.12.4
+2026/08/26 17:13:27 transfer complete: id=1b9a3498-e6e8-4da5-aeee-7fe2c07e7376 target=127.0.0.1:5001/library/talos/siderolabs/installer-base:v1.12.4 digest=sha256:0bb9482b45453c7321fde69777b7da25b3b36e65921ae27d02eaba94496a065b
+
+===== VERIFIER =====
+OK source=ghcr.io/siderolabs/installer-base:v1.12.4 target=127.0.0.1:5001/library/talos/siderolabs/installer-base:v1.12.4 digest=sha256:0bb9482b45453c7321fde69777b7da25b3b36e65921ae27d02eaba94496a065b
+
+===== SENDER RESOURCE USAGE =====
+	Command being timed: "/mnt/d/Distributed_Network_system_Hiwi_TUD/helm-dtn-standalone-images/helm-dtn-main/bin/image-transfer-send -tcp 127.0.0.1:14242 -destination-eid dtn://space.dtn/image-transfer -image ghcr.io/siderolabs/installer-base:v1.12.4 -registry-target siderolabs/installer-base:v1.12.4 -arch amd64 -work-dir /mnt/d/Distributed_Network_system_Hiwi_TUD/helm-dtn-standalone-images/helm-dtn-main/experiments/work/talos-installer-base_normal_run01/sender"
+	User time (seconds): 1.04
+	System time (seconds): 0.64
+	Percent of CPU this job got: 29%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.60
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 14976
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 228
+	Minor (reclaiming a frame) page faults: 2083
+	Voluntary context switches: 17649
+	Involuntary context switches: 10
+	Swaps: 0
+	File system inputs: 16608
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+
+===== RECEIVER RESOURCE SAMPLES =====
+timestamp_utc,rss_kib
+2026-08-26T15:13:18.317Z,8576
+2026-08-26T15:13:18.544Z,8576
+2026-08-26T15:13:18.772Z,8576
+2026-08-26T15:13:18.995Z,8576
+2026-08-26T15:13:19.218Z,8576
+2026-08-26T15:13:19.456Z,8576
+2026-08-26T15:13:19.698Z,8576
+2026-08-26T15:13:19.929Z,8576
+2026-08-26T15:13:20.157Z,8576
+2026-08-26T15:13:20.392Z,8576
+2026-08-26T15:13:20.621Z,8576
+2026-08-26T15:13:20.844Z,8576
+2026-08-26T15:13:21.068Z,8576
+2026-08-26T15:13:21.292Z,8576
+2026-08-26T15:13:21.518Z,8576
+2026-08-26T15:13:21.741Z,8576
+2026-08-26T15:13:21.963Z,8576
+2026-08-26T15:13:22.185Z,8576
+2026-08-26T15:13:22.406Z,8576
+2026-08-26T15:13:22.630Z,8576
+2026-08-26T15:13:22.857Z,8576
+2026-08-26T15:13:23.082Z,8576
+2026-08-26T15:13:23.306Z,8576
+2026-08-26T15:13:23.531Z,8576
+2026-08-26T15:13:23.754Z,8576
+2026-08-26T15:13:23.988Z,8576
+2026-08-26T15:13:24.216Z,8576
+2026-08-26T15:13:24.442Z,8576
+2026-08-26T15:13:24.666Z,8576
+2026-08-26T15:13:24.894Z,8576
+2026-08-26T15:13:25.118Z,8576
+2026-08-26T15:13:25.341Z,8576
+2026-08-26T15:13:25.563Z,8576
+2026-08-26T15:13:25.785Z,8576
+2026-08-26T15:13:26.010Z,8576
+2026-08-26T15:13:26.235Z,8576
+2026-08-26T15:13:26.460Z,8576
+2026-08-26T15:13:26.686Z,8576
+2026-08-26T15:13:26.919Z,9856
+2026-08-26T15:13:27.149Z,9856
+2026-08-26T15:13:27.373Z,9856
+2026-08-26T15:13:27.596Z,9984
+2026-08-26T15:13:27.820Z,9984
+2026-08-26T15:13:28.043Z,9984
+2026-08-26T15:13:28.265Z,9984
+2026-08-26T15:13:28.486Z,9984
+2026-08-26T15:13:28.710Z,9984
+2026-08-26T15:13:28.933Z,9984

@@ -1,0 +1,6 @@
+2026/08/18 11:10:52 INFO Successfully connected to: 127.0.0.1:24242
+config:{is_subscriber:true  secret:"39c1e353-0927-42ee-b535-83bca5dbd8f3"  endpoint_id:"dtn://space.dtn/image-transfer"}
+2026/08/18 11:10:52 registered dtn image endpoint "image-transfer"
+response_status:RESPONSE_STATUS_SUCCESS
+2026/08/18 11:11:00 verified transfer 1a9e3041-5845-4a14-b2bd-fda06a7c9ff6 (cdb588a216ee94498dcef72a8535c73093542c19b059c4316c4df8b73057c01f); pushing to 127.0.0.1:5001/library/benchmark/pause:3.10
+2026/08/18 11:11:00 transfer complete: id=1a9e3041-5845-4a14-b2bd-fda06a7c9ff6 target=127.0.0.1:5001/library/benchmark/pause:3.10 digest=sha256:7c38f24774e3cbd906d2d33c38354ccf787635581c122965132c9bd309754d4a

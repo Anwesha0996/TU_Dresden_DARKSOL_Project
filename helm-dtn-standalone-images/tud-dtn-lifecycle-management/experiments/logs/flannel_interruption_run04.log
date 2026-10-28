@@ -1,0 +1,203 @@
+experiment_id=interruption10-20260829
+run_id=flannel_interruption_run04
+image_name=flannel
+image_category=kubernetes
+source_image=ghcr.io/siderolabs/flannel:v0.27.4
+destination_image=127.0.0.1:5001/library/talos/siderolabs/flannel:v0.27.4
+network_condition=interruption
+start_time=2026-08-29T08:39:19.604Z
+finish_time=2026-08-29T08:39:44.423Z
+payload_size_bytes=34145679
+payload_size_mb=34.145679
+duration_seconds=24.819793962
+sender_peak_memory_mb=16.3359375
+receiver_peak_memory_mb=10.0
+sender_cpu_percent=34
+receiver_peak_cpu_percent=5
+network_latency_ms=0.084
+source_digest=sha256:c37e749447d182344ed4db51171b63349776dc98372b3e280340ced172dc1e2f
+destination_digest=sha256:c37e749447d182344ed4db51171b63349776dc98372b3e280340ced172dc1e2f
+digest_match=true
+success=true
+error_message=
+interruption_start_time=2026-08-29T08:39:21.806Z
+interruption_duration_seconds=10
+reconnection_time=2026-08-29T08:39:34.155Z
+completed_after_reconnection=true
+throughput_mb_s=1.3757438539690647
+throughput_mbit_s=11.005950831752518
+
+===== SENDER =====
+2026/08/29 10:39:19 INFO Successfully connected to: 127.0.0.1:14242
+config:{secret:"7be3935c-706c-4c38-b3c6-55a5ed5cba1a" endpoint_id:"dtn://earth.dtn/go-image-sender"}
+2026/08/29 10:39:19 [1/1] pulling ghcr.io/siderolabs/flannel:v0.27.4 directly from the registry
+2026/08/29 10:39:25 [1/1] sending ef079aa4-6be6-4d65-a03a-f2870da32ada as one AAP2 ADU (34145679 bytes)
+adu:{dst_eid:"dtn://space.dtn/image-transfer" payload_length:34145679}
+source=ghcr.io/siderolabs/flannel:v0.27.4
+target=siderolabs/flannel:v0.27.4
+source_digest=sha256:c37e749447d182344ed4db51171b63349776dc98372b3e280340ced172dc1e2f
+transfer_id=ef079aa4-6be6-4d65-a03a-f2870da32ada
+archive_sha256=e532856c0e3c1bf12c7fdbac5fee7a45869f220ac4ffcaa6316def1007d482b3
+
+===== RECEIVER =====
+2026/08/29 10:39:17 INFO Successfully connected to: 127.0.0.1:24242
+config:{is_subscriber:true  secret:"bd8ab212-e7b5-40a6-a57c-ed79a22ab514"  endpoint_id:"dtn://space.dtn/image-transfer"}
+2026/08/29 10:39:17 registered dtn image endpoint "image-transfer"
+response_status:RESPONSE_STATUS_SUCCESS
+2026/08/29 10:39:42 verified transfer ef079aa4-6be6-4d65-a03a-f2870da32ada (e532856c0e3c1bf12c7fdbac5fee7a45869f220ac4ffcaa6316def1007d482b3); pushing to 127.0.0.1:5001/library/talos/siderolabs/flannel:v0.27.4
+2026/08/29 10:39:43 transfer complete: id=ef079aa4-6be6-4d65-a03a-f2870da32ada target=127.0.0.1:5001/library/talos/siderolabs/flannel:v0.27.4 digest=sha256:c37e749447d182344ed4db51171b63349776dc98372b3e280340ced172dc1e2f
+
+===== VERIFIER =====
+OK source=ghcr.io/siderolabs/flannel:v0.27.4 target=127.0.0.1:5001/library/talos/siderolabs/flannel:v0.27.4 digest=sha256:c37e749447d182344ed4db51171b63349776dc98372b3e280340ced172dc1e2f
+
+===== SENDER RESOURCE USAGE =====
+	Command being timed: "/mnt/d/Distributed_Network_system_Hiwi_TUD/helm-dtn-standalone-images/helm-dtn-main/bin/image-transfer-send -tcp 127.0.0.1:14242 -destination-eid dtn://space.dtn/image-transfer -image ghcr.io/siderolabs/flannel:v0.27.4 -registry-target siderolabs/flannel:v0.27.4 -arch amd64 -work-dir /mnt/d/Distributed_Network_system_Hiwi_TUD/helm-dtn-standalone-images/helm-dtn-main/experiments/work/flannel_interruption_run04/sender"
+	User time (seconds): 1.39
+	System time (seconds): 0.91
+	Percent of CPU this job got: 34%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:06.77
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 16728
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 235
+	Minor (reclaiming a frame) page faults: 2685
+	Voluntary context switches: 28811
+	Involuntary context switches: 13
+	Swaps: 0
+	File system inputs: 16720
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+
+===== RECEIVER RESOURCE SAMPLES =====
+timestamp_utc,rss_kib,cpu_percent
+2026-08-29T08:39:19.616Z,8704,1.0
+2026-08-29T08:39:19.879Z,8704,0.8
+2026-08-29T08:39:20.099Z,8704,0.8
+2026-08-29T08:39:20.320Z,8704,0.7
+2026-08-29T08:39:20.541Z,8704,0.6
+2026-08-29T08:39:20.765Z,8704,0.6
+2026-08-29T08:39:20.987Z,8704,0.5
+2026-08-29T08:39:21.212Z,8704,0.5
+2026-08-29T08:39:21.435Z,8704,0.5
+2026-08-29T08:39:21.659Z,8704,0.4
+2026-08-29T08:39:21.884Z,8704,0.4
+2026-08-29T08:39:22.112Z,8704,0.4
+2026-08-29T08:39:22.334Z,8704,0.4
+2026-08-29T08:39:22.557Z,8704,0.4
+2026-08-29T08:39:22.780Z,8704,0.3
+2026-08-29T08:39:23.001Z,8704,0.3
+2026-08-29T08:39:23.220Z,8704,0.3
+2026-08-29T08:39:23.442Z,8704,0.3
+2026-08-29T08:39:23.663Z,8704,0.3
+2026-08-29T08:39:23.884Z,8704,0.3
+2026-08-29T08:39:24.141Z,8704,0.3
+2026-08-29T08:39:24.364Z,8704,0.2
+2026-08-29T08:39:24.586Z,8704,0.2
+2026-08-29T08:39:24.806Z,8704,0.2
+2026-08-29T08:39:25.025Z,8704,0.2
+2026-08-29T08:39:25.244Z,8704,0.2
+2026-08-29T08:39:25.465Z,8704,0.2
+2026-08-29T08:39:25.686Z,8704,0.2
+2026-08-29T08:39:25.906Z,8704,0.2
+2026-08-29T08:39:26.130Z,8704,0.2
+2026-08-29T08:39:26.351Z,8704,0.2
+2026-08-29T08:39:26.571Z,8704,0.2
+2026-08-29T08:39:26.791Z,8704,0.2
+2026-08-29T08:39:27.011Z,8704,0.2
+2026-08-29T08:39:27.232Z,8704,0.2
+2026-08-29T08:39:27.451Z,8704,0.2
+2026-08-29T08:39:27.671Z,8704,0.1
+2026-08-29T08:39:27.891Z,8704,0.1
+2026-08-29T08:39:28.111Z,8704,0.1
+2026-08-29T08:39:28.333Z,8704,0.1
+2026-08-29T08:39:28.553Z,8704,0.1
+2026-08-29T08:39:28.773Z,8704,0.1
+2026-08-29T08:39:28.994Z,8704,0.1
+2026-08-29T08:39:29.217Z,8704,0.1
+2026-08-29T08:39:29.436Z,8704,0.1
+2026-08-29T08:39:29.658Z,8704,0.1
+2026-08-29T08:39:29.880Z,8704,0.1
+2026-08-29T08:39:30.101Z,8704,0.1
+2026-08-29T08:39:30.322Z,8704,0.1
+2026-08-29T08:39:30.541Z,8704,0.1
+2026-08-29T08:39:30.766Z,8704,0.1
+2026-08-29T08:39:30.987Z,8704,0.1
+2026-08-29T08:39:31.208Z,8704,0.1
+2026-08-29T08:39:31.428Z,8704,0.1
+2026-08-29T08:39:31.649Z,8704,0.1
+2026-08-29T08:39:31.870Z,8704,0.1
+2026-08-29T08:39:32.092Z,8704,0.1
+2026-08-29T08:39:32.312Z,8704,0.1
+2026-08-29T08:39:32.533Z,8704,0.1
+2026-08-29T08:39:32.754Z,8704,0.1
+2026-08-29T08:39:32.974Z,8704,0.1
+2026-08-29T08:39:33.194Z,8704,0.1
+2026-08-29T08:39:33.422Z,8704,0.1
+2026-08-29T08:39:33.640Z,8704,0.1
+2026-08-29T08:39:33.862Z,8704,0.1
+2026-08-29T08:39:34.082Z,8704,0.1
+2026-08-29T08:39:34.318Z,8704,0.1
+2026-08-29T08:39:34.540Z,8704,0.1
+2026-08-29T08:39:34.760Z,8704,0.1
+2026-08-29T08:39:34.980Z,8704,0.1
+2026-08-29T08:39:35.198Z,8704,0.1
+2026-08-29T08:39:35.420Z,8704,0.1
+2026-08-29T08:39:35.640Z,8704,0.1
+2026-08-29T08:39:35.860Z,8704,0.1
+2026-08-29T08:39:36.080Z,8704,0.1
+2026-08-29T08:39:36.301Z,8704,0.1
+2026-08-29T08:39:36.521Z,8704,0.1
+2026-08-29T08:39:36.742Z,8704,0.1
+2026-08-29T08:39:36.962Z,8704,0.1
+2026-08-29T08:39:37.182Z,8704,0.1
+2026-08-29T08:39:37.406Z,8704,0.1
+2026-08-29T08:39:37.626Z,8704,0.0
+2026-08-29T08:39:37.848Z,8704,0.0
+2026-08-29T08:39:38.068Z,8704,0.0
+2026-08-29T08:39:38.290Z,8704,0.0
+2026-08-29T08:39:38.509Z,8704,0.0
+2026-08-29T08:39:38.729Z,8704,0.0
+2026-08-29T08:39:38.948Z,8704,0.0
+2026-08-29T08:39:39.168Z,8704,0.0
+2026-08-29T08:39:39.391Z,8704,0.0
+2026-08-29T08:39:39.613Z,8704,0.0
+2026-08-29T08:39:39.834Z,8704,0.1
+2026-08-29T08:39:40.054Z,8704,0.2
+2026-08-29T08:39:40.278Z,8832,0.3
+2026-08-29T08:39:40.502Z,8832,0.4
+2026-08-29T08:39:40.722Z,8832,0.5
+2026-08-29T08:39:40.944Z,8832,0.5
+2026-08-29T08:39:41.163Z,8832,1.0
+2026-08-29T08:39:41.384Z,8832,1.6
+2026-08-29T08:39:41.605Z,8832,2.2
+2026-08-29T08:39:41.825Z,8832,2.8
+2026-08-29T08:39:42.044Z,8832,3.3
+2026-08-29T08:39:42.265Z,8832,3.9
+2026-08-29T08:39:42.486Z,8832,4.3
+2026-08-29T08:39:42.705Z,8832,4.5
+2026-08-29T08:39:42.933Z,8960,4.6
+2026-08-29T08:39:43.152Z,8960,4.8
+2026-08-29T08:39:43.372Z,9088,5.0
+2026-08-29T08:39:43.593Z,10240,5.0
+2026-08-29T08:39:43.814Z,10240,5.0
+2026-08-29T08:39:44.033Z,10240,4.9
+2026-08-29T08:39:44.254Z,10240,4.9
+2026-08-29T08:39:44.474Z,10240,4.9
+2026-08-29T08:39:44.695Z,10240,4.8
+2026-08-29T08:39:44.914Z,10240,4.8
+2026-08-29T08:39:45.135Z,10240,4.7
+2026-08-29T08:39:45.357Z,10240,4.7
+2026-08-29T08:39:45.579Z,10240,4.7
+2026-08-29T08:39:45.799Z,10240,4.6
+2026-08-29T08:39:46.020Z,10240,4.6
+2026-08-29T08:39:46.241Z,10240,4.6
+2026-08-29T08:39:46.463Z,10240,4.5
+2026-08-29T08:39:46.682Z,10240,4.5
+2026-08-29T08:39:46.902Z,10240,4.5

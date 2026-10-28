@@ -1,0 +1,1 @@
+ghcr.io/siderolabs/talos:v1.12.4=siderolabs/talos:v1.12.4

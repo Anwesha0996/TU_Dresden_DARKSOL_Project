@@ -1,0 +1,131 @@
+experiment_id=normal-cpu-20260829
+run_id=kube-proxy_normal_run07
+image_name=kube-proxy
+image_category=kubernetes
+source_image=registry.k8s.io/kube-proxy:v1.35.0
+destination_image=127.0.0.1:5001/library/talos/kube-proxy:v1.35.0
+network_condition=normal
+start_time=2026-08-29T08:18:50.843Z
+finish_time=2026-08-29T08:18:59.843Z
+payload_size_bytes=25795463
+payload_size_mb=25.795463
+duration_seconds=9.000273625
+sender_peak_memory_mb=14.875
+receiver_peak_memory_mb=9.875
+sender_cpu_percent=33
+receiver_peak_cpu_percent=10
+network_latency_ms=0.070
+source_digest=sha256:ad87ae17f92f26144bd5a35fc86a73f2fae6effd1666db51bc03f8e9213de532
+destination_digest=sha256:ad87ae17f92f26144bd5a35fc86a73f2fae6effd1666db51bc03f8e9213de532
+digest_match=true
+success=true
+error_message=
+interruption_start_time=
+interruption_duration_seconds=0
+reconnection_time=
+completed_after_reconnection=false
+throughput_mb_s=2.8660754189015005
+throughput_mbit_s=22.928603351212004
+
+===== SENDER =====
+2026/08/29 10:18:51 INFO Successfully connected to: 127.0.0.1:14242
+config:{secret:"1eadd869-3f16-43d7-ad5f-d4a4cc501315" endpoint_id:"dtn://earth.dtn/go-image-sender"}
+2026/08/29 10:18:51 [1/1] pulling registry.k8s.io/kube-proxy:v1.35.0 directly from the registry
+2026/08/29 10:18:55 [1/1] sending abfd9ce8-e7f2-44ea-9206-df5f41322d19 as one AAP2 ADU (25795463 bytes)
+adu:{dst_eid:"dtn://space.dtn/image-transfer" payload_length:25795463}
+source=registry.k8s.io/kube-proxy:v1.35.0
+target=kube-proxy:v1.35.0
+source_digest=sha256:ad87ae17f92f26144bd5a35fc86a73f2fae6effd1666db51bc03f8e9213de532
+transfer_id=abfd9ce8-e7f2-44ea-9206-df5f41322d19
+archive_sha256=24fe3b705d12aeeede87b4bf9727145e9c34d1b09ff899b1e0f54141c8965455
+
+===== RECEIVER =====
+2026/08/29 10:18:48 INFO Successfully connected to: 127.0.0.1:24242
+config:{is_subscriber:true  secret:"f1526253-b489-41c3-99fb-64b36066ddaa"  endpoint_id:"dtn://space.dtn/image-transfer"}
+2026/08/29 10:18:48 registered dtn image endpoint "image-transfer"
+response_status:RESPONSE_STATUS_SUCCESS
+2026/08/29 10:18:58 verified transfer abfd9ce8-e7f2-44ea-9206-df5f41322d19 (24fe3b705d12aeeede87b4bf9727145e9c34d1b09ff899b1e0f54141c8965455); pushing to 127.0.0.1:5001/library/talos/kube-proxy:v1.35.0
+2026/08/29 10:18:58 transfer complete: id=abfd9ce8-e7f2-44ea-9206-df5f41322d19 target=127.0.0.1:5001/library/talos/kube-proxy:v1.35.0 digest=sha256:ad87ae17f92f26144bd5a35fc86a73f2fae6effd1666db51bc03f8e9213de532
+
+===== VERIFIER =====
+OK source=registry.k8s.io/kube-proxy:v1.35.0 target=127.0.0.1:5001/library/talos/kube-proxy:v1.35.0 digest=sha256:ad87ae17f92f26144bd5a35fc86a73f2fae6effd1666db51bc03f8e9213de532
+
+===== SENDER RESOURCE USAGE =====
+	Command being timed: "/mnt/d/Distributed_Network_system_Hiwi_TUD/helm-dtn-standalone-images/helm-dtn-main/bin/image-transfer-send -tcp 127.0.0.1:14242 -destination-eid dtn://space.dtn/image-transfer -image registry.k8s.io/kube-proxy:v1.35.0 -registry-target kube-proxy:v1.35.0 -arch amd64 -work-dir /mnt/d/Distributed_Network_system_Hiwi_TUD/helm-dtn-standalone-images/helm-dtn-main/experiments/work/kube-proxy_normal_run07/sender"
+	User time (seconds): 1.07
+	System time (seconds): 0.63
+	Percent of CPU this job got: 33%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.07
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 15232
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 232
+	Minor (reclaiming a frame) page faults: 2120
+	Voluntary context switches: 21909
+	Involuntary context switches: 9
+	Swaps: 0
+	File system inputs: 16856
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+
+===== RECEIVER RESOURCE SAMPLES =====
+timestamp_utc,rss_kib,cpu_percent
+2026-08-29T08:18:50.853Z,8576,1.0
+2026-08-29T08:18:51.073Z,8576,0.8
+2026-08-29T08:18:51.293Z,8576,0.8
+2026-08-29T08:18:51.511Z,8576,0.7
+2026-08-29T08:18:51.733Z,8576,0.6
+2026-08-29T08:18:51.965Z,8576,0.6
+2026-08-29T08:18:52.197Z,8576,0.5
+2026-08-29T08:18:52.427Z,8576,0.5
+2026-08-29T08:18:52.652Z,8576,0.5
+2026-08-29T08:18:52.877Z,8576,0.4
+2026-08-29T08:18:53.100Z,8576,0.4
+2026-08-29T08:18:53.321Z,8576,0.4
+2026-08-29T08:18:53.542Z,8576,0.4
+2026-08-29T08:18:53.762Z,8576,0.4
+2026-08-29T08:18:53.993Z,8576,0.3
+2026-08-29T08:18:54.216Z,8576,0.3
+2026-08-29T08:18:54.435Z,8576,0.3
+2026-08-29T08:18:54.655Z,8576,0.3
+2026-08-29T08:18:54.874Z,8576,0.3
+2026-08-29T08:18:55.097Z,8576,0.3
+2026-08-29T08:18:55.320Z,8576,0.3
+2026-08-29T08:18:55.542Z,8576,0.2
+2026-08-29T08:18:55.769Z,8576,0.2
+2026-08-29T08:18:55.998Z,8576,0.2
+2026-08-29T08:18:56.223Z,8576,0.6
+2026-08-29T08:18:56.444Z,8832,0.7
+2026-08-29T08:18:56.666Z,8832,1.0
+2026-08-29T08:18:56.887Z,8832,1.2
+2026-08-29T08:18:57.108Z,8832,2.3
+2026-08-29T08:18:57.327Z,8832,3.8
+2026-08-29T08:18:57.547Z,8832,5.6
+2026-08-29T08:18:57.767Z,8832,7.0
+2026-08-29T08:18:57.987Z,8832,8.5
+2026-08-29T08:18:58.208Z,8832,9.0
+2026-08-29T08:18:58.430Z,8832,9.4
+2026-08-29T08:18:58.652Z,8832,9.7
+2026-08-29T08:18:58.873Z,10112,10.0
+2026-08-29T08:18:59.093Z,10112,9.8
+2026-08-29T08:18:59.320Z,10112,9.6
+2026-08-29T08:18:59.541Z,10112,9.4
+2026-08-29T08:18:59.761Z,10112,9.2
+2026-08-29T08:18:59.982Z,10112,9.0
+2026-08-29T08:19:00.204Z,10112,8.8
+2026-08-29T08:19:00.425Z,10112,8.7
+2026-08-29T08:19:00.648Z,10112,8.5
+2026-08-29T08:19:00.867Z,10112,8.4
+2026-08-29T08:19:01.088Z,10112,8.2
+2026-08-29T08:19:01.309Z,10112,8.1
+2026-08-29T08:19:01.530Z,10112,7.9
+2026-08-29T08:19:01.750Z,10112,7.8
+2026-08-29T08:19:01.970Z,10112,7.6
+2026-08-29T08:19:02.189Z,10112,7.5

@@ -1,0 +1,1 @@
+OK source=registry.k8s.io/etcd:v3.6.7 target=127.0.0.1:5001/library/talos/etcd:v3.6.7 digest=sha256:820f2b74e5cd8ac626d5cb38c973fbfff898a64b068c6e0ad1e0c7b2913c9654

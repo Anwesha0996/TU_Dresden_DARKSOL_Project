@@ -1,0 +1,2 @@
+run_id,profile,label,repetition,source,target,payload_bytes,duration_seconds,throughput_mib_s,sender_max_rss_kib,sender_cpu_percent,receiver_max_rss_kib,receiver_max_cpu_percent,success,digest_verified,error
+20260818T090936Z-normal,normal,registry.k8s.io/pause:3.10=kubernetes/pause:3.10,1,,,0,0.018575101,0.0,0,0,0,0,false,false,sender_exit_1

@@ -1,0 +1,1 @@
+registry.k8s.io/etcd:v3.6.7=etcd:v3.6.7

@@ -1,0 +1,2 @@
+run_id,profile,label,repetition,source,target,payload_bytes,duration_seconds,throughput_mib_s,sender_max_rss_kib,sender_cpu_percent,receiver_max_rss_kib,receiver_max_cpu_percent,success,digest_verified,error
+20260818T091046Z-normal,normal,small-pause,1,registry.k8s.io/pause:3.10,benchmark/pause:3.10,324479,6.915235241,0.04474862788159249,15360,4,10240,2.3,true,true,

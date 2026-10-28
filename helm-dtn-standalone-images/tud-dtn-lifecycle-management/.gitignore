@@ -1,0 +1,50 @@
+# If you prefer the allow list template instead of the deny list, see community template:
+# https://github.com/github/gitignore/blob/main/community/Golang/Go.AllowList.gitignore
+#
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Code coverage profiles and other test artifacts
+*.out
+coverage.*
+*.coverprofile
+profile.cov
+
+# Dependency directories (remove the comment below to include it)
+# vendor/
+
+# Go workspace file
+go.work
+go.work.sum
+
+# env file
+.env
+
+# Local standalone-image build and acceptance artifacts
+bin/
+evidence/*.log
+
+# Generated LaTeX reports (keep .tex sources in Git)
+latex/*.pdf
+
+# Generated Helm dependency-resolution artifacts
+pkg/helmdd/Chart/
+*.tgz
+
+# Editor/IDE
+ .idea/
+ .vscode/
+experiments/work/
+experiments/archive/accidental-nested-work/
+**/received-oci-*/
+
+# Persistent-DTN runtime state (never commit live databases or scratch runs)
+experiments/store-forward/persistent/
+experiments/store-forward/work/

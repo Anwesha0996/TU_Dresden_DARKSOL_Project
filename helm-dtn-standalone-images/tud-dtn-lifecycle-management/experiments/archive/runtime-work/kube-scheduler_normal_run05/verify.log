@@ -1,0 +1,1 @@
+OK source=registry.k8s.io/kube-scheduler:v1.35.0 target=127.0.0.1:5001/library/talos/kube-scheduler:v1.35.0 digest=sha256:dd2b6a420b171e83748166a66372f43384b3142fc4f6f56a6240a9e152cccd69

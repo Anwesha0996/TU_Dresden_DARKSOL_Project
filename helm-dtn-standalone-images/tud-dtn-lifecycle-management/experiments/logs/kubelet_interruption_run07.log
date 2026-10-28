@@ -1,0 +1,194 @@
+experiment_id=interruption10-20260829
+run_id=kubelet_interruption_run07
+image_name=kubelet
+image_category=kubernetes
+source_image=ghcr.io/siderolabs/kubelet:v1.35.0
+destination_image=127.0.0.1:5001/library/talos/siderolabs/kubelet:v1.35.0
+network_condition=interruption
+start_time=2026-08-29T09:18:24.508Z
+finish_time=2026-08-29T09:18:47.374Z
+payload_size_bytes=67335567
+payload_size_mb=67.335567
+duration_seconds=22.867027913
+sender_peak_memory_mb=14.625
+receiver_peak_memory_mb=10.125
+sender_cpu_percent=37
+receiver_peak_cpu_percent=10.1
+network_latency_ms=0.068
+source_digest=sha256:1fd07c613ccc1f748c0bf8d00e25efb4ad6b5410e97c55b4fb82fe49f5084a79
+destination_digest=sha256:1fd07c613ccc1f748c0bf8d00e25efb4ad6b5410e97c55b4fb82fe49f5084a79
+digest_match=true
+success=true
+error_message=
+interruption_start_time=2026-08-29T09:18:26.652Z
+interruption_duration_seconds=10
+reconnection_time=2026-08-29T09:18:39.373Z
+completed_after_reconnection=true
+throughput_mb_s=2.9446575766726313
+throughput_mbit_s=23.55726061338105
+
+===== SENDER =====
+2026/08/29 11:18:24 INFO Successfully connected to: 127.0.0.1:14242
+config:{secret:"da3e8777-ea9b-4d1a-9d55-914c3d07015d" endpoint_id:"dtn://earth.dtn/go-image-sender"}
+2026/08/29 11:18:24 [1/1] pulling ghcr.io/siderolabs/kubelet:v1.35.0 directly from the registry
+2026/08/29 11:18:35 [1/1] sending 3eef4edd-4660-4801-8872-1025a2fac466 as one AAP2 ADU (67335567 bytes)
+adu:{dst_eid:"dtn://space.dtn/image-transfer" payload_length:67335567}
+source=ghcr.io/siderolabs/kubelet:v1.35.0
+target=siderolabs/kubelet:v1.35.0
+source_digest=sha256:1fd07c613ccc1f748c0bf8d00e25efb4ad6b5410e97c55b4fb82fe49f5084a79
+transfer_id=3eef4edd-4660-4801-8872-1025a2fac466
+archive_sha256=aff290c63c2f4c6afda95e663faf3fa8e3833c10c772662d3918721976c2ffbe
+
+===== RECEIVER =====
+2026/08/29 11:18:22 INFO Successfully connected to: 127.0.0.1:24242
+config:{is_subscriber:true  secret:"771d0e86-ed1d-44bb-8aec-4684eaaa59ee"  endpoint_id:"dtn://space.dtn/image-transfer"}
+2026/08/29 11:18:22 registered dtn image endpoint "image-transfer"
+response_status:RESPONSE_STATUS_SUCCESS
+2026/08/29 11:18:44 verified transfer 3eef4edd-4660-4801-8872-1025a2fac466 (aff290c63c2f4c6afda95e663faf3fa8e3833c10c772662d3918721976c2ffbe); pushing to 127.0.0.1:5001/library/talos/siderolabs/kubelet:v1.35.0
+2026/08/29 11:18:46 transfer complete: id=3eef4edd-4660-4801-8872-1025a2fac466 target=127.0.0.1:5001/library/talos/siderolabs/kubelet:v1.35.0 digest=sha256:1fd07c613ccc1f748c0bf8d00e25efb4ad6b5410e97c55b4fb82fe49f5084a79
+
+===== VERIFIER =====
+OK source=ghcr.io/siderolabs/kubelet:v1.35.0 target=127.0.0.1:5001/library/talos/siderolabs/kubelet:v1.35.0 digest=sha256:1fd07c613ccc1f748c0bf8d00e25efb4ad6b5410e97c55b4fb82fe49f5084a79
+
+===== SENDER RESOURCE USAGE =====
+	Command being timed: "/mnt/d/Distributed_Network_system_Hiwi_TUD/helm-dtn-standalone-images/helm-dtn-main/bin/image-transfer-send -tcp 127.0.0.1:14242 -destination-eid dtn://space.dtn/image-transfer -image ghcr.io/siderolabs/kubelet:v1.35.0 -registry-target siderolabs/kubelet:v1.35.0 -arch amd64 -work-dir /mnt/d/Distributed_Network_system_Hiwi_TUD/helm-dtn-standalone-images/helm-dtn-main/experiments/work/kubelet_interruption_run07/sender"
+	User time (seconds): 2.55
+	System time (seconds): 1.86
+	Percent of CPU this job got: 37%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:11.91
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 14976
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 235
+	Minor (reclaiming a frame) page faults: 2151
+	Voluntary context switches: 60445
+	Involuntary context switches: 14
+	Swaps: 0
+	File system inputs: 16632
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+
+===== RECEIVER RESOURCE SAMPLES =====
+timestamp_utc,rss_kib,cpu_percent
+2026-08-29T09:18:24.517Z,8704,1.0
+2026-08-29T09:18:24.737Z,8704,0.8
+2026-08-29T09:18:24.958Z,8704,0.8
+2026-08-29T09:18:25.178Z,8704,0.7
+2026-08-29T09:18:25.400Z,8704,0.6
+2026-08-29T09:18:25.625Z,8704,0.6
+2026-08-29T09:18:25.849Z,8704,0.5
+2026-08-29T09:18:26.072Z,8704,0.5
+2026-08-29T09:18:26.317Z,8704,0.5
+2026-08-29T09:18:26.542Z,8704,0.4
+2026-08-29T09:18:26.770Z,8704,0.4
+2026-08-29T09:18:26.997Z,8704,0.4
+2026-08-29T09:18:27.228Z,8704,0.4
+2026-08-29T09:18:27.468Z,8704,0.4
+2026-08-29T09:18:27.695Z,8704,0.3
+2026-08-29T09:18:27.930Z,8704,0.3
+2026-08-29T09:18:28.159Z,8704,0.3
+2026-08-29T09:18:28.381Z,8704,0.3
+2026-08-29T09:18:28.604Z,8704,0.3
+2026-08-29T09:18:28.831Z,8704,0.3
+2026-08-29T09:18:29.091Z,8704,0.3
+2026-08-29T09:18:29.311Z,8704,0.2
+2026-08-29T09:18:29.531Z,8704,0.2
+2026-08-29T09:18:29.753Z,8704,0.2
+2026-08-29T09:18:29.974Z,8704,0.2
+2026-08-29T09:18:30.196Z,8704,0.2
+2026-08-29T09:18:30.414Z,8704,0.2
+2026-08-29T09:18:30.635Z,8704,0.2
+2026-08-29T09:18:30.854Z,8704,0.2
+2026-08-29T09:18:31.076Z,8704,0.2
+2026-08-29T09:18:31.295Z,8704,0.2
+2026-08-29T09:18:31.515Z,8704,0.2
+2026-08-29T09:18:31.735Z,8704,0.2
+2026-08-29T09:18:31.957Z,8704,0.2
+2026-08-29T09:18:32.177Z,8704,0.2
+2026-08-29T09:18:32.396Z,8704,0.2
+2026-08-29T09:18:32.616Z,8704,0.1
+2026-08-29T09:18:32.836Z,8704,0.1
+2026-08-29T09:18:33.057Z,8704,0.1
+2026-08-29T09:18:33.277Z,8704,0.1
+2026-08-29T09:18:33.497Z,8704,0.1
+2026-08-29T09:18:33.717Z,8704,0.1
+2026-08-29T09:18:33.937Z,8704,0.1
+2026-08-29T09:18:34.157Z,8704,0.1
+2026-08-29T09:18:34.377Z,8704,0.1
+2026-08-29T09:18:34.601Z,8704,0.1
+2026-08-29T09:18:34.821Z,8704,0.1
+2026-08-29T09:18:35.042Z,8704,0.1
+2026-08-29T09:18:35.262Z,8704,0.1
+2026-08-29T09:18:35.483Z,8704,0.1
+2026-08-29T09:18:35.706Z,8704,0.1
+2026-08-29T09:18:35.927Z,8704,0.1
+2026-08-29T09:18:36.152Z,8704,0.1
+2026-08-29T09:18:36.373Z,8704,0.1
+2026-08-29T09:18:36.594Z,8704,0.1
+2026-08-29T09:18:36.818Z,8704,0.1
+2026-08-29T09:18:37.039Z,8704,0.1
+2026-08-29T09:18:37.259Z,8704,0.1
+2026-08-29T09:18:37.479Z,8704,0.1
+2026-08-29T09:18:37.700Z,8704,0.1
+2026-08-29T09:18:37.919Z,8704,0.1
+2026-08-29T09:18:38.139Z,8704,0.1
+2026-08-29T09:18:38.360Z,8704,0.1
+2026-08-29T09:18:38.585Z,8704,0.1
+2026-08-29T09:18:38.809Z,8704,0.1
+2026-08-29T09:18:39.030Z,8704,0.1
+2026-08-29T09:18:39.252Z,8704,0.1
+2026-08-29T09:18:39.471Z,8704,0.1
+2026-08-29T09:18:39.693Z,8704,0.1
+2026-08-29T09:18:39.918Z,8704,0.2
+2026-08-29T09:18:40.139Z,8704,0.3
+2026-08-29T09:18:40.360Z,8832,0.5
+2026-08-29T09:18:40.581Z,8832,0.6
+2026-08-29T09:18:40.806Z,8832,0.7
+2026-08-29T09:18:41.027Z,8832,0.8
+2026-08-29T09:18:41.252Z,8832,0.9
+2026-08-29T09:18:41.473Z,8832,1.0
+2026-08-29T09:18:41.694Z,8832,1.1
+2026-08-29T09:18:41.914Z,8832,1.2
+2026-08-29T09:18:42.134Z,8832,1.5
+2026-08-29T09:18:42.353Z,8832,2.2
+2026-08-29T09:18:42.574Z,8832,2.9
+2026-08-29T09:18:42.793Z,8832,3.5
+2026-08-29T09:18:43.014Z,8832,4.2
+2026-08-29T09:18:43.238Z,8832,5.0
+2026-08-29T09:18:43.459Z,8832,5.6
+2026-08-29T09:18:43.680Z,8832,6.2
+2026-08-29T09:18:43.899Z,8832,6.9
+2026-08-29T09:18:44.118Z,8832,7.5
+2026-08-29T09:18:44.337Z,8832,8.1
+2026-08-29T09:18:44.558Z,8832,8.7
+2026-08-29T09:18:44.781Z,9088,8.8
+2026-08-29T09:18:45.001Z,9088,9.0
+2026-08-29T09:18:45.223Z,9088,9.2
+2026-08-29T09:18:45.446Z,9088,9.3
+2026-08-29T09:18:45.666Z,9088,9.5
+2026-08-29T09:18:45.888Z,9088,9.7
+2026-08-29T09:18:46.107Z,9088,9.9
+2026-08-29T09:18:46.327Z,9088,10.0
+2026-08-29T09:18:46.549Z,10368,10.1
+2026-08-29T09:18:46.770Z,10368,10.0
+2026-08-29T09:18:46.989Z,10368,10.0
+2026-08-29T09:18:47.209Z,10368,9.9
+2026-08-29T09:18:47.430Z,10368,9.8
+2026-08-29T09:18:47.650Z,10368,9.7
+2026-08-29T09:18:47.870Z,10368,9.6
+2026-08-29T09:18:48.089Z,10368,9.5
+2026-08-29T09:18:48.310Z,10368,9.4
+2026-08-29T09:18:48.531Z,10368,9.4
+2026-08-29T09:18:48.751Z,10368,9.3
+2026-08-29T09:18:48.970Z,10368,9.2
+2026-08-29T09:18:49.190Z,10368,9.1
+2026-08-29T09:18:49.411Z,10368,9.1
+2026-08-29T09:18:49.631Z,10368,9.0
+2026-08-29T09:18:49.850Z,10368,8.9

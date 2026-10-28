@@ -1,0 +1,5 @@
+# Standalone Kubernetes provisioning image example.
+# Format: SOURCE or SOURCE=DESTINATION_REPOSITORY:TAG
+registry.k8s.io/pause:3.10=kubernetes/pause:3.10
+
+

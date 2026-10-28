@@ -1,0 +1,141 @@
+experiment_id=normal-cpu-20260829
+run_id=etcd_normal_run07
+image_name=etcd
+image_category=kubernetes
+source_image=registry.k8s.io/etcd:v3.6.7
+destination_image=127.0.0.1:5001/library/talos/etcd:v3.6.7
+network_condition=normal
+start_time=2026-08-29T08:05:02.372Z
+finish_time=2026-08-29T08:05:13.629Z
+payload_size_bytes=22896505
+payload_size_mb=22.896505
+duration_seconds=11.256448239
+sender_peak_memory_mb=17.5
+receiver_peak_memory_mb=10.0
+sender_cpu_percent=25
+receiver_peak_cpu_percent=7.1
+network_latency_ms=0.069
+source_digest=sha256:820f2b74e5cd8ac626d5cb38c973fbfff898a64b068c6e0ad1e0c7b2913c9654
+destination_digest=sha256:820f2b74e5cd8ac626d5cb38c973fbfff898a64b068c6e0ad1e0c7b2913c9654
+digest_match=true
+success=true
+error_message=
+interruption_start_time=
+interruption_duration_seconds=0
+reconnection_time=
+completed_after_reconnection=false
+throughput_mb_s=2.034079001995578
+throughput_mbit_s=16.272632015964625
+
+===== SENDER =====
+2026/08/29 10:05:02 INFO Successfully connected to: 127.0.0.1:14242
+config:{secret:"97df0cc1-dac5-4ee6-b107-e76a72d786dd" endpoint_id:"dtn://earth.dtn/go-image-sender"}
+2026/08/29 10:05:02 [1/1] pulling registry.k8s.io/etcd:v3.6.7 directly from the registry
+2026/08/29 10:05:09 [1/1] sending fdf9970e-1eb9-4544-b4ee-8fd0928b018f as one AAP2 ADU (22896505 bytes)
+adu:{dst_eid:"dtn://space.dtn/image-transfer" payload_length:22896505}
+source=registry.k8s.io/etcd:v3.6.7
+target=etcd:v3.6.7
+source_digest=sha256:820f2b74e5cd8ac626d5cb38c973fbfff898a64b068c6e0ad1e0c7b2913c9654
+transfer_id=fdf9970e-1eb9-4544-b4ee-8fd0928b018f
+archive_sha256=9277b37deb56a0a4dce66077580cdcaa32c18434cb9c8a311ef40546e0166c5f
+
+===== RECEIVER =====
+2026/08/29 10:05:00 INFO Successfully connected to: 127.0.0.1:24242
+config:{is_subscriber:true  secret:"f238a7ce-eb2a-4bde-9cbf-1a4ee55c039e"  endpoint_id:"dtn://space.dtn/image-transfer"}
+2026/08/29 10:05:00 registered dtn image endpoint "image-transfer"
+response_status:RESPONSE_STATUS_SUCCESS
+2026/08/29 10:05:11 verified transfer fdf9970e-1eb9-4544-b4ee-8fd0928b018f (9277b37deb56a0a4dce66077580cdcaa32c18434cb9c8a311ef40546e0166c5f); pushing to 127.0.0.1:5001/library/talos/etcd:v3.6.7
+2026/08/29 10:05:12 transfer complete: id=fdf9970e-1eb9-4544-b4ee-8fd0928b018f target=127.0.0.1:5001/library/talos/etcd:v3.6.7 digest=sha256:820f2b74e5cd8ac626d5cb38c973fbfff898a64b068c6e0ad1e0c7b2913c9654
+
+===== VERIFIER =====
+OK source=registry.k8s.io/etcd:v3.6.7 target=127.0.0.1:5001/library/talos/etcd:v3.6.7 digest=sha256:820f2b74e5cd8ac626d5cb38c973fbfff898a64b068c6e0ad1e0c7b2913c9654
+
+===== SENDER RESOURCE USAGE =====
+	Command being timed: "/mnt/d/Distributed_Network_system_Hiwi_TUD/helm-dtn-standalone-images/helm-dtn-main/bin/image-transfer-send -tcp 127.0.0.1:14242 -destination-eid dtn://space.dtn/image-transfer -image registry.k8s.io/etcd:v3.6.7 -registry-target etcd:v3.6.7 -arch amd64 -work-dir /mnt/d/Distributed_Network_system_Hiwi_TUD/helm-dtn-standalone-images/helm-dtn-main/experiments/work/etcd_normal_run07/sender"
+	User time (seconds): 1.07
+	System time (seconds): 0.85
+	Percent of CPU this job got: 25%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:07.52
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 17920
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 243
+	Minor (reclaiming a frame) page faults: 3074
+	Voluntary context switches: 27830
+	Involuntary context switches: 7
+	Swaps: 0
+	File system inputs: 17080
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+
+===== RECEIVER RESOURCE SAMPLES =====
+timestamp_utc,rss_kib,cpu_percent
+2026-08-29T08:05:02.382Z,8704,1.0
+2026-08-29T08:05:02.605Z,8704,0.9
+2026-08-29T08:05:02.824Z,8704,0.8
+2026-08-29T08:05:03.047Z,8704,0.7
+2026-08-29T08:05:03.272Z,8704,0.6
+2026-08-29T08:05:03.504Z,8704,0.6
+2026-08-29T08:05:03.731Z,8704,0.5
+2026-08-29T08:05:03.957Z,8704,0.5
+2026-08-29T08:05:04.179Z,8704,0.5
+2026-08-29T08:05:04.401Z,8704,0.4
+2026-08-29T08:05:04.625Z,8704,0.4
+2026-08-29T08:05:04.845Z,8704,0.4
+2026-08-29T08:05:05.067Z,8704,0.4
+2026-08-29T08:05:05.291Z,8704,0.4
+2026-08-29T08:05:05.517Z,8704,0.3
+2026-08-29T08:05:05.748Z,8704,0.3
+2026-08-29T08:05:06.004Z,8704,0.3
+2026-08-29T08:05:06.250Z,8704,0.3
+2026-08-29T08:05:06.475Z,8704,0.3
+2026-08-29T08:05:06.696Z,8704,0.3
+2026-08-29T08:05:06.921Z,8704,0.3
+2026-08-29T08:05:07.148Z,8704,0.2
+2026-08-29T08:05:07.368Z,8704,0.2
+2026-08-29T08:05:07.591Z,8704,0.2
+2026-08-29T08:05:07.816Z,8704,0.2
+2026-08-29T08:05:08.041Z,8704,0.2
+2026-08-29T08:05:08.260Z,8704,0.2
+2026-08-29T08:05:08.479Z,8704,0.2
+2026-08-29T08:05:08.700Z,8704,0.2
+2026-08-29T08:05:08.919Z,8704,0.2
+2026-08-29T08:05:09.145Z,8704,0.2
+2026-08-29T08:05:09.365Z,8704,0.2
+2026-08-29T08:05:09.585Z,8704,0.2
+2026-08-29T08:05:09.805Z,8704,0.2
+2026-08-29T08:05:10.030Z,8704,0.3
+2026-08-29T08:05:10.255Z,8704,0.5
+2026-08-29T08:05:10.474Z,8704,0.7
+2026-08-29T08:05:10.694Z,8704,0.9
+2026-08-29T08:05:10.914Z,8704,1.7
+2026-08-29T08:05:11.141Z,8704,2.9
+2026-08-29T08:05:11.363Z,8704,4.3
+2026-08-29T08:05:11.583Z,8704,5.5
+2026-08-29T08:05:11.806Z,8704,6.1
+2026-08-29T08:05:12.030Z,8960,6.4
+2026-08-29T08:05:12.250Z,8960,6.7
+2026-08-29T08:05:12.471Z,9088,7.1
+2026-08-29T08:05:12.690Z,10240,7.1
+2026-08-29T08:05:12.911Z,10240,7.0
+2026-08-29T08:05:13.137Z,10240,6.8
+2026-08-29T08:05:13.361Z,10240,6.7
+2026-08-29T08:05:13.581Z,10240,6.6
+2026-08-29T08:05:13.802Z,10240,6.5
+2026-08-29T08:05:14.022Z,10240,6.4
+2026-08-29T08:05:14.242Z,10240,6.3
+2026-08-29T08:05:14.463Z,10240,6.2
+2026-08-29T08:05:14.684Z,10240,6.1
+2026-08-29T08:05:14.905Z,10240,6.0
+2026-08-29T08:05:15.127Z,10240,5.9
+2026-08-29T08:05:15.350Z,10240,5.8
+2026-08-29T08:05:15.575Z,10240,5.7
+2026-08-29T08:05:15.796Z,10240,5.7
+2026-08-29T08:05:16.017Z,10240,5.6

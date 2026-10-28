@@ -1,0 +1,9 @@
+image_name,network_scenario,interruption_duration_seconds,run_count,success_count,failure_count,digest_match_count,effective_interruption_count,completed_after_reconnection_count,average_duration_seconds,duration_stddev_seconds,average_payload_size_mb,average_throughput_mbit_s,peak_sender_cpu_percent,peak_receiver_cpu_percent,peak_sender_memory_mb,peak_receiver_memory_mb,configured_rtt,configured_bandwidth,errors
+flannel,leo,10,10,10,0,10,10,10,499.85771511920007,1349.0094175160818,34.145679,3.3624862370849185,38.0,1.9,16.375,10.25,50ms,6mbit,
+flannel,leo,300,10,10,0,10,10,10,408.8203039068,36.13399561183008,34.145679,0.6723809942344385,38.0,1.0,16.5,10.25,50ms,6mbit,
+flannel,leo,3600,10,0,10,0,10,0,,,,,,,,,50ms,6mbit,receiver_completion_timeout
+flannel,lunar,10,10,10,0,10,10,10,117.4922286988,106.52599001999276,34.145679,2.99978862823907,38.0,2.4,17.953125,10.5,2.6s,20mbit,
+flannel,lunar,300,10,10,0,10,10,10,423.0968569006,88.0326379327066,34.145679,0.6625540072811702,49.0,1.5,16.75,10.5,2.6s,20mbit,
+flannel,lunar,3600,10,0,10,0,10,0,,,,,,,,,2.6s,20mbit,receiver_completion_timeout
+flannel,mars,10,10,0,10,0,10,0,,,,,,,,,1800s,5mbit,tcpcl_connection_timeout_under_mars_rtt
+flannel,mars,300,2,0,2,0,2,0,,,,,,,,,1800s,5mbit,tcpcl_connection_timeout_under_mars_rtt

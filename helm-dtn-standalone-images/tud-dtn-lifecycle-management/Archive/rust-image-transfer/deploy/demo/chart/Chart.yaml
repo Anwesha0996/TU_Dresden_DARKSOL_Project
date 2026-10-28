@@ -1,0 +1,5 @@
+apiVersion: v2
+name: demo-alpine
+description: Minimal chart used by the Rust-native AAP2 image-transfer demo.
+type: application
+version: 0.1.0

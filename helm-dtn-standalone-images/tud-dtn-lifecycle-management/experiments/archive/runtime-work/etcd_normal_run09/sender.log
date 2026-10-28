@@ -1,0 +1,10 @@
+2026/08/29 10:05:41 INFO Successfully connected to: 127.0.0.1:14242
+config:{secret:"aa687914-e06f-493c-a018-0bb47bbf4f3a" endpoint_id:"dtn://earth.dtn/go-image-sender"}
+2026/08/29 10:05:41 [1/1] pulling registry.k8s.io/etcd:v3.6.7 directly from the registry
+2026/08/29 10:05:46 [1/1] sending 207406c8-a025-4e54-9ab2-32d1145cbc51 as one AAP2 ADU (22896505 bytes)
+adu:{dst_eid:"dtn://space.dtn/image-transfer" payload_length:22896505}
+source=registry.k8s.io/etcd:v3.6.7
+target=etcd:v3.6.7
+source_digest=sha256:820f2b74e5cd8ac626d5cb38c973fbfff898a64b068c6e0ad1e0c7b2913c9654
+transfer_id=207406c8-a025-4e54-9ab2-32d1145cbc51
+archive_sha256=7761d8a9be803cb4afd85c74edee3f99176ce8bd80ca19a2b2ab5d39cb9803d5

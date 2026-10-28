@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: kubectl-dtn-nginx
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: kubectl-dtn-nginx
+  template:
+    metadata:
+      labels:
+        app: kubectl-dtn-nginx
+    spec:
+      containers:
+      - name: nginx
+        image: nginx:latest
+        ports:
+        - containerPort: 80

@@ -1,0 +1,11 @@
+FROM golang:1.24 AS builder
+WORKDIR /src
+COPY . .
+RUN go build -o /out/helm-dtn-receiver ./cmd/receiver
+
+FROM debian:bookworm-slim
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates && rm -rf /var/lib/apt/lists/*
+COPY --from=builder /out/helm-dtn-receiver /usr/local/bin/helm-dtn-receiver
+RUN chmod +x /usr/local/bin/helm-dtn-receiver
+RUN mkdir -p /etc/secret-volume && echo "phase-f-demo-secret" > /etc/secret-volume/token
+ENTRYPOINT ["/usr/local/bin/helm-dtn-receiver"]

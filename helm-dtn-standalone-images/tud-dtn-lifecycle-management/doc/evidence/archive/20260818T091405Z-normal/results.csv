@@ -1,0 +1,6 @@
+run_id,profile,label,repetition,source,target,payload_bytes,duration_seconds,throughput_mib_s,sender_max_rss_kib,sender_cpu_percent,receiver_max_rss_kib,receiver_max_cpu_percent,success,digest_verified,error
+20260818T091405Z-normal,normal,small-pause,1,registry.k8s.io/pause:3.10,benchmark/pause:3.10,324479,3.334036607,0.09281460433382206,15232,12,10368,2.4,true,true,
+20260818T091405Z-normal,normal,small-pause,2,registry.k8s.io/pause:3.10,benchmark/pause:3.10,324479,2.870514839,0.10780201666575798,14848,15,10624,1.9,true,true,
+20260818T091405Z-normal,normal,small-pause,3,registry.k8s.io/pause:3.10,benchmark/pause:3.10,324479,2.72846682,0.11341434913003032,15232,14,10624,2,true,true,
+20260818T091405Z-normal,normal,small-pause,4,registry.k8s.io/pause:3.10,benchmark/pause:3.10,324479,3.58895508,0.08622211245764146,15744,10,10880,1.9,true,true,
+20260818T091405Z-normal,normal,small-pause,5,registry.k8s.io/pause:3.10,benchmark/pause:3.10,324479,3.01945894,0.10248435056155578,15232,15,11008,1.8,true,true,

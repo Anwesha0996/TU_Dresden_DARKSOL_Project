@@ -1,0 +1,18 @@
+2026/08/18 11:14:08 INFO Successfully connected to: 127.0.0.1:24242
+config:{is_subscriber:true  secret:"e37d3843-b2bf-46fa-89d4-98b684587275"  endpoint_id:"dtn://space.dtn/image-transfer"}
+2026/08/18 11:14:08 registered dtn image endpoint "image-transfer"
+response_status:RESPONSE_STATUS_SUCCESS
+2026/08/18 11:14:12 verified transfer 00341fd5-944d-4949-b946-350d132338b1 (7771394a5d66f855ecbfe32da67e996ebcd5aaea8791fd6a8fb733f953c8a8d2); pushing to 127.0.0.1:5001/library/benchmark/pause:3.10
+2026/08/18 11:14:13 transfer complete: id=00341fd5-944d-4949-b946-350d132338b1 target=127.0.0.1:5001/library/benchmark/pause:3.10 digest=sha256:7c38f24774e3cbd906d2d33c38354ccf787635581c122965132c9bd309754d4a
+response_status:RESPONSE_STATUS_SUCCESS
+2026/08/18 11:14:17 verified transfer 2fcd1c39-0da7-4368-be81-80d8ffbd360d (b043bc8329a2d56d801e94fd5ade5e037d9d938763ddc968b5a71a788d7cd39c); pushing to 127.0.0.1:5001/library/benchmark/pause:3.10
+2026/08/18 11:14:17 transfer complete: id=2fcd1c39-0da7-4368-be81-80d8ffbd360d target=127.0.0.1:5001/library/benchmark/pause:3.10 digest=sha256:7c38f24774e3cbd906d2d33c38354ccf787635581c122965132c9bd309754d4a
+response_status:RESPONSE_STATUS_SUCCESS
+2026/08/18 11:14:21 verified transfer 36f2a785-19df-40f2-9801-2b59d73775bd (6cd6ed8b7108200468456242220e4aa45328bc2d0014b2fe44a1585c3f9581df); pushing to 127.0.0.1:5001/library/benchmark/pause:3.10
+2026/08/18 11:14:21 transfer complete: id=36f2a785-19df-40f2-9801-2b59d73775bd target=127.0.0.1:5001/library/benchmark/pause:3.10 digest=sha256:7c38f24774e3cbd906d2d33c38354ccf787635581c122965132c9bd309754d4a
+response_status:RESPONSE_STATUS_SUCCESS
+2026/08/18 11:14:25 verified transfer 16730ccd-a82c-4e90-848d-b42b90ab0d68 (e7f08886dfc5bb1b1d07f63e11db5020ca55325612fe6b6434ac7fd40e2d8581); pushing to 127.0.0.1:5001/library/benchmark/pause:3.10
+2026/08/18 11:14:26 transfer complete: id=16730ccd-a82c-4e90-848d-b42b90ab0d68 target=127.0.0.1:5001/library/benchmark/pause:3.10 digest=sha256:7c38f24774e3cbd906d2d33c38354ccf787635581c122965132c9bd309754d4a
+response_status:RESPONSE_STATUS_SUCCESS
+2026/08/18 11:14:31 verified transfer 9f711f75-53f5-41b9-86d9-0f977b75f746 (a80b66a49d9e7504f07fad291029cbc4279d881bb774d5b821105ee67af2b316); pushing to 127.0.0.1:5001/library/benchmark/pause:3.10
+2026/08/18 11:14:31 transfer complete: id=9f711f75-53f5-41b9-86d9-0f977b75f746 target=127.0.0.1:5001/library/benchmark/pause:3.10 digest=sha256:7c38f24774e3cbd906d2d33c38354ccf787635581c122965132c9bd309754d4a

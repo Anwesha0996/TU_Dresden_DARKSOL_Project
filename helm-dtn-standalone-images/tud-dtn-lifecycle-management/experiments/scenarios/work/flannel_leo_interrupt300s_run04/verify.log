@@ -1,0 +1,1 @@
+OK source=ghcr.io/siderolabs/flannel:v0.27.4 target=127.0.0.1:5001/library/talos/siderolabs/flannel:v0.27.4 digest=sha256:c37e749447d182344ed4db51171b63349776dc98372b3e280340ced172dc1e2f

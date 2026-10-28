@@ -1,0 +1,10 @@
+2026/08/29 10:59:43 INFO Successfully connected to: 127.0.0.1:14242
+config:{secret:"793e287b-c7bc-4397-b48f-b74dd18b0aff" endpoint_id:"dtn://earth.dtn/go-image-sender"}
+2026/08/29 10:59:43 [1/1] pulling registry.k8s.io/kube-controller-manager:v1.35.0 directly from the registry
+2026/08/29 10:59:50 [1/1] sending a19599fe-18c2-4307-9a91-7cb2c97cf89d as one AAP2 ADU (23151009 bytes)
+adu:{dst_eid:"dtn://space.dtn/image-transfer" payload_length:23151009}
+source=registry.k8s.io/kube-controller-manager:v1.35.0
+target=kube-controller-manager:v1.35.0
+source_digest=sha256:e0ce4c7d278a001734bbd8020ed1b7e535ae9d2412c700032eb3df190ea91a62
+transfer_id=a19599fe-18c2-4307-9a91-7cb2c97cf89d
+archive_sha256=4be2c318ad39e9a0368d7c55b6fca04b82dfb15f6978bca5d60aeb0debec35f0

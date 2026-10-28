@@ -1,0 +1,10 @@
+2026/08/18 11:25:48 INFO Successfully connected to: 127.0.0.1:14242
+config:{secret:"3d4f0a39-3502-4e5c-81b6-9ca232b31c24" endpoint_id:"dtn://earth.dtn/go-image-sender"}
+2026/08/18 11:25:48 [1/1] pulling ghcr.io/siderolabs/installer:v1.12.4 directly from the registry
+2026/08/18 11:26:11 [1/1] sending 7af9ff1b-6646-463a-a2cc-7cebc3004ea1 as one AAP2 ADU (124129689 bytes)
+adu:{dst_eid:"dtn://space.dtn/image-transfer" payload_length:124129689}
+source=ghcr.io/siderolabs/installer:v1.12.4
+target=benchmark/talos-installer:v1.12.4
+source_digest=sha256:28d8649e9cdb15e4a47394724ee84dd732d3f8e97d27cb2a3b0df0da23e59a11
+transfer_id=7af9ff1b-6646-463a-a2cc-7cebc3004ea1
+archive_sha256=14f0b494b0d45c218e759e8a5169b0bacdf83323abcd45de31bb4e48bbde4bc9

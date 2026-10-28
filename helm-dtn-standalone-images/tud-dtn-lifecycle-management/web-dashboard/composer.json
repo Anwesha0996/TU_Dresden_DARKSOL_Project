@@ -1,0 +1,11 @@
+{
+  "name": "darksol-cloud/dtn-experiment-dashboard",
+  "description": "Read-only dashboard for Helm-DTN OCI image-transfer experiment results",
+  "type": "project",
+  "license": "MIT",
+  "require": {"php": "^8.2"},
+  "scripts": {
+    "lint": "find src public tests -name '*.php' -print0 | xargs -0 -n1 php -l",
+    "test": "php -d zend.assertions=1 -d assert.exception=1 tests/run.php"
+  }
+}

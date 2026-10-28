@@ -1,0 +1,51 @@
+# Earth-to-space demo stack (TASKS.md Phase 9). Reuses the Phase 1 harness
+# (Harbor + earth-node + space-node) via `include:` and adds two new
+# services running the Rust path as real containers:
+#
+#   - aap2-image-sender: earth side, has normal internet access (needs it to
+#     `skopeo copy docker://...` a real image).
+#   - aap2-image-receiver: space side, gets the same egress lockdown as
+#     space-node (see run-earth-to-space-demo.sh) - by the time the demo
+#     runs, this container cannot reach the public internet either, same
+#     as space-node itself. It can still reach earth-node (for AAP2) and
+#     Harbor (to push the image) since those are on the same dtn-net.
+#
+# Usage: see run-earth-to-space-demo.sh - don't run this compose file
+# directly, the script also applies the airgap lockdown and drives the
+# actual demo sequence.
+include:
+  - path: ../local-test/docker-compose.yml
+
+services:
+  aap2-image-sender:
+    build:
+      context: ../../rust
+    container_name: aap2-image-sender
+    entrypoint: ["sleep", "infinity"] # driven interactively by the demo script via `docker exec`
+    networks:
+      dtn-net:
+        aliases:
+          - aap2-image-sender
+
+  aap2-image-receiver:
+    build:
+      context: ../../rust
+    container_name: aap2-image-receiver
+    entrypoint: ["sleep", "infinity"] # started properly by the demo script via `docker exec -d`
+    environment:
+      HARBOR_CREDS: ${HARBOR_CREDS:?set HARBOR_CREDS to user:password}
+    cap_add:
+      - NET_ADMIN # required for the egress-lockdown iptables rules
+    networks:
+      dtn-net:
+        aliases:
+          - aap2-image-receiver
+      # Harbor's own network (declared by harbor/docker-compose.yml,
+      # pulled in transitively via local-test's `include:`) - needed so
+      # this container can push into Harbor by its container name
+      # ("nginx", Harbor's proxy service) directly, without relying on
+      # the host-published port (which the airgapped space side must not
+      # need). See run-earth-to-space-demo.sh for the --registry value
+      # this implies (nginx:8080/library, the proxy's container-internal
+      # port, not the host-mapped 8081).
+      harbor: {}

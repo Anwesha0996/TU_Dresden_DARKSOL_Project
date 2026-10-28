@@ -1,0 +1,1 @@
+OK source=ghcr.io/siderolabs/talos:v1.12.4 target=127.0.0.1:5001/library/talos/siderolabs/talos:v1.12.4 digest=sha256:232062d283d96ae67055ce7b82f3d6dd0a05e7e90a68cab2aba9adf87445b177

@@ -1,0 +1,1 @@
+ghcr.io/siderolabs/imager:v1.12.4=siderolabs/imager:v1.12.4

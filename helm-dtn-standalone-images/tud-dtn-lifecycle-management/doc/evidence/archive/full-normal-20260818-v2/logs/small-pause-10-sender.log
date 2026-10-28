@@ -1,0 +1,10 @@
+2026/08/18 11:19:09 INFO Successfully connected to: 127.0.0.1:14242
+config:{secret:"070a0c68-7203-408a-9676-d1c9f2c6e82e" endpoint_id:"dtn://earth.dtn/go-image-sender"}
+2026/08/18 11:19:09 [1/1] pulling registry.k8s.io/pause:3.10 directly from the registry
+2026/08/18 11:19:11 [1/1] sending 24c8cdfd-2dfe-4d4c-92b4-f5d031af1be4 as one AAP2 ADU (324479 bytes)
+adu:{dst_eid:"dtn://space.dtn/image-transfer" payload_length:324479}
+source=registry.k8s.io/pause:3.10
+target=benchmark/pause:3.10
+source_digest=sha256:7c38f24774e3cbd906d2d33c38354ccf787635581c122965132c9bd309754d4a
+transfer_id=24c8cdfd-2dfe-4d4c-92b4-f5d031af1be4
+archive_sha256=cfb5a509b0b562254d3f6932ca1db439abbe716fd5a7dda43c9c2efb345cf0d2

@@ -1,0 +1,19 @@
+[package]
+name = "aap2-image-receiver"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+description = "Space-side receiver: receives a container image over AAP2 and pushes it into Harbor via skopeo"
+
+[dependencies]
+aap2-common.workspace = true
+tokio.workspace = true
+clap.workspace = true
+tracing.workspace = true
+anyhow.workspace = true
+uuid.workspace = true
+thiserror.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+tempfile = "3"

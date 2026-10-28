@@ -1,0 +1,10 @@
+2026/08/29 10:46:27 INFO Successfully connected to: 127.0.0.1:14242
+config:{secret:"083d6bcb-2226-4737-a88c-412e11a052c2" endpoint_id:"dtn://earth.dtn/go-image-sender"}
+2026/08/29 10:46:27 [1/1] pulling registry.k8s.io/coredns/coredns:v1.13.2 directly from the registry
+2026/08/29 10:46:31 [1/1] sending 74d9407a-720a-46ae-8931-4dd82db2b1d0 as one AAP2 ADU (23690129 bytes)
+adu:{dst_eid:"dtn://space.dtn/image-transfer" payload_length:23690129}
+source=registry.k8s.io/coredns/coredns:v1.13.2
+target=coredns/coredns:v1.13.2
+source_digest=sha256:4460b84141eb657cf0883fe8af12984d61145d49cab4db5dd179bbe238ff8fdf
+transfer_id=74d9407a-720a-46ae-8931-4dd82db2b1d0
+archive_sha256=9287b827f75e218b1108cbe109434dab9b8220e1e671cd2a49b7f62680cdcaf6

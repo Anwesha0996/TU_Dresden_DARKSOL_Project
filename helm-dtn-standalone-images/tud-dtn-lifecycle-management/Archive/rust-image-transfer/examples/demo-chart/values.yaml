@@ -1,0 +1,10 @@
+replicaCount: 1
+
+image:
+  repository: docker.io/library/nginx
+  tag: alpine
+  pullPolicy: IfNotPresent
+
+service:
+  type: ClusterIP
+  port: 80

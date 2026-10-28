@@ -1,0 +1,1 @@
+ghcr.io/siderolabs/flannel:v0.27.4=siderolabs/flannel:v0.27.4

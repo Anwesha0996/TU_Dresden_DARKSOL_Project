@@ -1,0 +1,1 @@
+ghcr.io/siderolabs/overlays:v1.12.4=siderolabs/overlays:v1.12.4

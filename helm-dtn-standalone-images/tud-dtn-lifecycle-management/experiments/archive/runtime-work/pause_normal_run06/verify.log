@@ -1,0 +1,1 @@
+OK source=registry.k8s.io/pause:3.10 target=127.0.0.1:5001/library/talos/pause:3.10 digest=sha256:7c38f24774e3cbd906d2d33c38354ccf787635581c122965132c9bd309754d4a

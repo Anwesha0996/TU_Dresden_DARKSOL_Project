@@ -1,0 +1,6 @@
+apiVersion: v2
+name: demo-chart
+description: Minimal chart for the Rust-native AAP2 image-transfer path.
+type: application
+version: 0.1.0
+appVersion: "1.27"

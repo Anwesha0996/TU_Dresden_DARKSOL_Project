@@ -1,0 +1,15 @@
+=== space-node -> 1.1.1.1 (expect failure) ===
+PING 1.1.1.1 (1.1.1.1) 56(84) bytes of data.
+
+--- 1.1.1.1 ping statistics ---
+2 packets transmitted, 0 received, 100% packet loss, time 1020ms
+
+space-node ping exit code: 1
+
+=== aap2-image-recv -> 1.1.1.1 (expect failure) ===
+PING 1.1.1.1 (1.1.1.1) 56(84) bytes of data.
+
+--- 1.1.1.1 ping statistics ---
+2 packets transmitted, 0 received, 100% packet loss, time 1051ms
+
+aap2-image-recv ping exit code: 1

@@ -1,0 +1,103 @@
+experiment_id=normal-cpu-20260829
+run_id=pause_normal_run06
+image_name=pause
+image_category=kubernetes
+source_image=registry.k8s.io/pause:3.10
+destination_image=127.0.0.1:5001/library/talos/pause:3.10
+network_condition=normal
+start_time=2026-08-29T08:26:22.761Z
+finish_time=2026-08-29T08:26:25.557Z
+payload_size_bytes=324469
+payload_size_mb=0.324469
+duration_seconds=2.796486299
+sender_peak_memory_mb=14.75
+receiver_peak_memory_mb=9.875
+sender_cpu_percent=14
+receiver_peak_cpu_percent=1.8
+network_latency_ms=0.076
+source_digest=sha256:7c38f24774e3cbd906d2d33c38354ccf787635581c122965132c9bd309754d4a
+destination_digest=sha256:7c38f24774e3cbd906d2d33c38354ccf787635581c122965132c9bd309754d4a
+digest_match=true
+success=true
+error_message=
+interruption_start_time=
+interruption_duration_seconds=0
+reconnection_time=
+completed_after_reconnection=false
+throughput_mb_s=0.11602738769577645
+throughput_mbit_s=0.9282191015662116
+
+===== SENDER =====
+2026/08/29 10:26:22 INFO Successfully connected to: 127.0.0.1:14242
+config:{secret:"d744ef82-3d9e-46bc-a24b-b602525632b3" endpoint_id:"dtn://earth.dtn/go-image-sender"}
+2026/08/29 10:26:22 [1/1] pulling registry.k8s.io/pause:3.10 directly from the registry
+2026/08/29 10:26:23 [1/1] sending dc18489c-745a-490e-9238-c192d3960afb as one AAP2 ADU (324469 bytes)
+adu:{dst_eid:"dtn://space.dtn/image-transfer" payload_length:324469}
+source=registry.k8s.io/pause:3.10
+target=pause:3.10
+source_digest=sha256:7c38f24774e3cbd906d2d33c38354ccf787635581c122965132c9bd309754d4a
+transfer_id=dc18489c-745a-490e-9238-c192d3960afb
+archive_sha256=036b7b3955c32ac8cc77cc2c409b6f47202bd80ce1afcc0792d9e8cb779dff4f
+
+===== RECEIVER =====
+2026/08/29 10:26:20 INFO Successfully connected to: 127.0.0.1:24242
+config:{is_subscriber:true  secret:"6a03076a-50d0-4f12-8e0a-7e195a3505b3"  endpoint_id:"dtn://space.dtn/image-transfer"}
+2026/08/29 10:26:20 registered dtn image endpoint "image-transfer"
+response_status:RESPONSE_STATUS_SUCCESS
+2026/08/29 10:26:23 verified transfer dc18489c-745a-490e-9238-c192d3960afb (036b7b3955c32ac8cc77cc2c409b6f47202bd80ce1afcc0792d9e8cb779dff4f); pushing to 127.0.0.1:5001/library/talos/pause:3.10
+2026/08/29 10:26:23 transfer complete: id=dc18489c-745a-490e-9238-c192d3960afb target=127.0.0.1:5001/library/talos/pause:3.10 digest=sha256:7c38f24774e3cbd906d2d33c38354ccf787635581c122965132c9bd309754d4a
+
+===== VERIFIER =====
+OK source=registry.k8s.io/pause:3.10 target=127.0.0.1:5001/library/talos/pause:3.10 digest=sha256:7c38f24774e3cbd906d2d33c38354ccf787635581c122965132c9bd309754d4a
+
+===== SENDER RESOURCE USAGE =====
+	Command being timed: "/mnt/d/Distributed_Network_system_Hiwi_TUD/helm-dtn-standalone-images/helm-dtn-main/bin/image-transfer-send -tcp 127.0.0.1:14242 -destination-eid dtn://space.dtn/image-transfer -image registry.k8s.io/pause:3.10 -registry-target pause:3.10 -arch amd64 -work-dir /mnt/d/Distributed_Network_system_Hiwi_TUD/helm-dtn-standalone-images/helm-dtn-main/experiments/work/pause_normal_run06/sender"
+	User time (seconds): 0.04
+	System time (seconds): 0.10
+	Percent of CPU this job got: 14%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.99
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 15104
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 233
+	Minor (reclaiming a frame) page faults: 2091
+	Voluntary context switches: 2285
+	Involuntary context switches: 0
+	Swaps: 0
+	File system inputs: 16824
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+
+===== RECEIVER RESOURCE SAMPLES =====
+timestamp_utc,rss_kib,cpu_percent
+2026-08-29T08:26:22.774Z,8832,1.0
+2026-08-29T08:26:22.996Z,8832,0.8
+2026-08-29T08:26:23.216Z,8832,0.8
+2026-08-29T08:26:23.437Z,8832,0.7
+2026-08-29T08:26:23.655Z,8832,0.6
+2026-08-29T08:26:23.876Z,8832,1.2
+2026-08-29T08:26:24.095Z,10112,1.8
+2026-08-29T08:26:24.319Z,10112,1.6
+2026-08-29T08:26:24.538Z,10112,1.5
+2026-08-29T08:26:24.758Z,10112,1.5
+2026-08-29T08:26:24.979Z,10112,1.4
+2026-08-29T08:26:25.197Z,10112,1.3
+2026-08-29T08:26:25.419Z,10112,1.2
+2026-08-29T08:26:25.639Z,10112,1.2
+2026-08-29T08:26:25.859Z,10112,1.1
+2026-08-29T08:26:26.081Z,10112,1.1
+2026-08-29T08:26:26.301Z,10112,1.0
+2026-08-29T08:26:26.521Z,10112,1.0
+2026-08-29T08:26:26.741Z,10112,1.0
+2026-08-29T08:26:26.960Z,10112,0.9
+2026-08-29T08:26:27.206Z,10112,0.9
+2026-08-29T08:26:27.426Z,10112,0.9
+2026-08-29T08:26:27.645Z,10112,0.8
+2026-08-29T08:26:27.867Z,10112,0.8

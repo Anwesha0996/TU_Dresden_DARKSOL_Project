@@ -1,0 +1,83 @@
+{
+    "Name": "127.0.0.1:8081/library/nginx",
+    "Digest": "sha256:1d40e3eb3bf4f138de1d67193f2aa5309fcaf343eb5ffadbf5e9439de1eb1ebb",
+    "RepoTags": [
+        "alpine"
+    ],
+    "Created": "2026-07-15T23:57:33.943663441Z",
+    "DockerVersion": "",
+    "Labels": {
+        "maintainer": "NGINX Docker Maintainers \u003cdocker-maint@nginx.com\u003e"
+    },
+    "Architecture": "amd64",
+    "Os": "linux",
+    "Layers": [
+        "sha256:55afa1ecc21d2bb5e5045f32dafee56272ffd89860bac26f6c32123439af26a4",
+        "sha256:3cd534fe98c64d68a1f4f1c83abb8d5cba7ecfd7be88e592389929d12e6253da",
+        "sha256:1223f016b4e4a2c21f7c49d4837fbfd47a9da6436b511690ca1e582fc2810d59",
+        "sha256:62bec68d7c31c4c8a19d812d84da5f7748e54690c037979945b6c5b6c924b142",
+        "sha256:46f977ee452f4399c208714afa034868d6056864f8a0cf3c643ab143dd802c80",
+        "sha256:d0008c891db48b5f526d914bce9e8d889fe1a9d1f08291ae03fe97f871726f38",
+        "sha256:390dc935348d8070e695fbaae2a4bb114fb9e69c59f628e7576036ee9d5244c9",
+        "sha256:46519e7231d2eb5604df229beb44d59719a489eaa7aca52982535a010b07a9ed"
+    ],
+    "LayersData": [
+        {
+            "MIMEType": "application/vnd.oci.image.layer.v1.tar+gzip",
+            "Digest": "sha256:55afa1ecc21d2bb5e5045f32dafee56272ffd89860bac26f6c32123439af26a4",
+            "Size": 3846391,
+            "Annotations": null
+        },
+        {
+            "MIMEType": "application/vnd.oci.image.layer.v1.tar+gzip",
+            "Digest": "sha256:3cd534fe98c64d68a1f4f1c83abb8d5cba7ecfd7be88e592389929d12e6253da",
+            "Size": 1890698,
+            "Annotations": null
+        },
+        {
+            "MIMEType": "application/vnd.oci.image.layer.v1.tar+gzip",
+            "Digest": "sha256:1223f016b4e4a2c21f7c49d4837fbfd47a9da6436b511690ca1e582fc2810d59",
+            "Size": 627,
+            "Annotations": null
+        },
+        {
+            "MIMEType": "application/vnd.oci.image.layer.v1.tar+gzip",
+            "Digest": "sha256:62bec68d7c31c4c8a19d812d84da5f7748e54690c037979945b6c5b6c924b142",
+            "Size": 957,
+            "Annotations": null
+        },
+        {
+            "MIMEType": "application/vnd.oci.image.layer.v1.tar+gzip",
+            "Digest": "sha256:46f977ee452f4399c208714afa034868d6056864f8a0cf3c643ab143dd802c80",
+            "Size": 404,
+            "Annotations": null
+        },
+        {
+            "MIMEType": "application/vnd.oci.image.layer.v1.tar+gzip",
+            "Digest": "sha256:d0008c891db48b5f526d914bce9e8d889fe1a9d1f08291ae03fe97f871726f38",
+            "Size": 1211,
+            "Annotations": null
+        },
+        {
+            "MIMEType": "application/vnd.oci.image.layer.v1.tar+gzip",
+            "Digest": "sha256:390dc935348d8070e695fbaae2a4bb114fb9e69c59f628e7576036ee9d5244c9",
+            "Size": 1398,
+            "Annotations": null
+        },
+        {
+            "MIMEType": "application/vnd.oci.image.layer.v1.tar+gzip",
+            "Digest": "sha256:46519e7231d2eb5604df229beb44d59719a489eaa7aca52982535a010b07a9ed",
+            "Size": 20313073,
+            "Annotations": null
+        }
+    ],
+    "Env": [
+        "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+        "NGINX_VERSION=1.31.3",
+        "PKG_RELEASE=1",
+        "DYNPKG_RELEASE=1",
+        "NJS_VERSION=1.0.0",
+        "NJS_RELEASE=1",
+        "ACME_VERSION=0.4.1"
+    ]
+}

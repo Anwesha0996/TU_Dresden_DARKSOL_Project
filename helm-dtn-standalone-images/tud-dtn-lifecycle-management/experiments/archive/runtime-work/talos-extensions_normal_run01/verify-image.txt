@@ -1,0 +1,1 @@
+ghcr.io/siderolabs/extensions:v1.12.4=siderolabs/extensions:v1.12.4

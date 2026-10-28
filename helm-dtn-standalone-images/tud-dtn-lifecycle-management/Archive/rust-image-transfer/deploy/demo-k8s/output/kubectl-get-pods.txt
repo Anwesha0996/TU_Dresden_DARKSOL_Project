@@ -1,0 +1,2 @@
+NAME                                  READY   STATUS    RESTARTS   AGE   IP           NODE                             NOMINATED NODE   READINESS GATES
+demo-chart-release-5948565d88-lxxf5   1/1     Running   0          81s   10.244.0.6   helm-dtn-phase-f-control-plane   <none>           <none>

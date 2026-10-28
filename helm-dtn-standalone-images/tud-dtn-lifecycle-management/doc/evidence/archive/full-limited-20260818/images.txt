@@ -1,0 +1,7 @@
+# Performance experiment set: one image per size/category.
+# Format: LABEL|SOURCE|TARGET
+# Pin these versions for one complete experiment; do not mix versions in a report.
+small-pause|registry.k8s.io/pause:3.10|benchmark/pause:3.10
+medium-coredns|registry.k8s.io/coredns/coredns:v1.12.1|benchmark/coredns:v1.12.1
+large-kube-apiserver|registry.k8s.io/kube-apiserver:v1.32.2|benchmark/kube-apiserver:v1.32.2
+talos-installer|ghcr.io/siderolabs/installer:v1.12.4|benchmark/talos-installer:v1.12.4

@@ -1,0 +1,1 @@
+ghcr.io/siderolabs/talosctl-all:v1.12.4=siderolabs/talosctl-all:v1.12.4

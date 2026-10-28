@@ -1,0 +1,1 @@
+OK source=ghcr.io/siderolabs/imager:v1.12.4 target=127.0.0.1:5001/library/talos/siderolabs/imager:v1.12.4 digest=sha256:00366bd971476afc6a35b30bc172d0c6bdb4f46aa0172ff87d450a1fbb7d6faf

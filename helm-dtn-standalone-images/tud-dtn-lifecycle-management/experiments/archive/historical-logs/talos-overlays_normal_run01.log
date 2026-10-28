@@ -1,0 +1,111 @@
+experiment_id=gate3-20260826
+run_id=talos-overlays_normal_run01
+image_name=talos-overlays
+image_category=talos
+source_image=ghcr.io/siderolabs/overlays:v1.12.4
+destination_image=127.0.0.1:5001/library/talos/siderolabs/overlays:v1.12.4
+network_condition=normal
+start_time=2026-08-26T16:46:05.548Z
+finish_time=2026-08-26T16:46:15.835Z
+payload_size_bytes=8077
+payload_size_mb=0.008077
+duration_seconds=10.144597857
+sender_peak_memory_mb=14.75
+receiver_peak_memory_mb=9.875
+source_digest=sha256:77cf2f3a3d2a6b70596de796507e7dd6b936b051fdbbbe801ac02f9efdb01e62
+destination_digest=sha256:77cf2f3a3d2a6b70596de796507e7dd6b936b051fdbbbe801ac02f9efdb01e62
+digest_match=true
+success=true
+error_message=
+interruption_start_time=
+interruption_duration_seconds=0
+reconnection_time=
+completed_after_reconnection=false
+throughput_mb_s=0.0007961873022326547
+throughput_mbit_s=0.006369498417861237
+
+===== SENDER =====
+2026/08/26 18:46:08 INFO Successfully connected to: 127.0.0.1:14242
+config:{secret:"b34614b2-57f7-4b62-bd0a-dc89c797d16f" endpoint_id:"dtn://earth.dtn/go-image-sender"}
+2026/08/26 18:46:08 [1/1] pulling ghcr.io/siderolabs/overlays:v1.12.4 directly from the registry
+2026/08/26 18:46:12 [1/1] sending 9d0862c0-8df2-4fa2-a299-4a2066a909a4 as one AAP2 ADU (8077 bytes)
+adu:{dst_eid:"dtn://space.dtn/image-transfer" payload_length:8077}
+source=ghcr.io/siderolabs/overlays:v1.12.4
+target=siderolabs/overlays:v1.12.4
+source_digest=sha256:77cf2f3a3d2a6b70596de796507e7dd6b936b051fdbbbe801ac02f9efdb01e62
+transfer_id=9d0862c0-8df2-4fa2-a299-4a2066a909a4
+archive_sha256=41416d478b018acedb739d29e0743af7ca19448db2b21e52512451f0fe7356e7
+
+===== RECEIVER =====
+2026/08/26 17:17:11 INFO Successfully connected to: 127.0.0.1:24242
+config:{is_subscriber:true  secret:"1c037315-11c2-465d-bfdc-2b2689753e56"  endpoint_id:"dtn://space.dtn/image-transfer"}
+2026/08/26 17:17:11 registered dtn image endpoint "image-transfer"
+response_status:RESPONSE_STATUS_SUCCESS
+2026/08/26 18:46:12 verified transfer 9d0862c0-8df2-4fa2-a299-4a2066a909a4 (41416d478b018acedb739d29e0743af7ca19448db2b21e52512451f0fe7356e7); pushing to 127.0.0.1:5001/library/talos/siderolabs/overlays:v1.12.4
+2026/08/26 18:46:13 transfer complete: id=9d0862c0-8df2-4fa2-a299-4a2066a909a4 target=127.0.0.1:5001/library/talos/siderolabs/overlays:v1.12.4 digest=sha256:77cf2f3a3d2a6b70596de796507e7dd6b936b051fdbbbe801ac02f9efdb01e62
+
+===== VERIFIER =====
+OK source=ghcr.io/siderolabs/overlays:v1.12.4 target=127.0.0.1:5001/library/talos/siderolabs/overlays:v1.12.4 digest=sha256:77cf2f3a3d2a6b70596de796507e7dd6b936b051fdbbbe801ac02f9efdb01e62
+
+===== SENDER RESOURCE USAGE =====
+	Command being timed: "/mnt/d/Distributed_Network_system_Hiwi_TUD/helm-dtn-standalone-images/helm-dtn-main/bin/image-transfer-send -tcp 127.0.0.1:14242 -destination-eid dtn://space.dtn/image-transfer -image ghcr.io/siderolabs/overlays:v1.12.4 -registry-target siderolabs/overlays:v1.12.4 -arch amd64 -work-dir /mnt/d/Distributed_Network_system_Hiwi_TUD/helm-dtn-standalone-images/helm-dtn-main/experiments/work/talos-overlays_normal_run01/sender"
+	User time (seconds): 0.17
+	System time (seconds): 1.42
+	Percent of CPU this job got: 24%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:06.57
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 15104
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 207
+	Minor (reclaiming a frame) page faults: 2140
+	Voluntary context switches: 3197
+	Involuntary context switches: 14
+	Swaps: 0
+	File system inputs: 17272
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+
+===== RECEIVER RESOURCE SAMPLES =====
+timestamp_utc,rss_kib
+2026-08-26T16:46:05.796Z,8704
+2026-08-26T16:46:06.531Z,8704
+2026-08-26T16:46:06.801Z,8704
+2026-08-26T16:46:07.329Z,8704
+2026-08-26T16:46:07.600Z,8704
+2026-08-26T16:46:07.993Z,8704
+2026-08-26T16:46:08.290Z,8704
+2026-08-26T16:46:09.103Z,8704
+2026-08-26T16:46:09.539Z,8704
+2026-08-26T16:46:09.810Z,8704
+2026-08-26T16:46:10.150Z,8704
+2026-08-26T16:46:10.416Z,8704
+2026-08-26T16:46:10.684Z,8704
+2026-08-26T16:46:10.946Z,8704
+2026-08-26T16:46:11.215Z,8704
+2026-08-26T16:46:11.473Z,8704
+2026-08-26T16:46:11.719Z,8704
+2026-08-26T16:46:11.978Z,8704
+2026-08-26T16:46:12.221Z,8704
+2026-08-26T16:46:12.540Z,8704
+2026-08-26T16:46:12.827Z,8960
+2026-08-26T16:46:13.083Z,9472
+2026-08-26T16:46:13.345Z,9984
+2026-08-26T16:46:13.629Z,10112
+2026-08-26T16:46:13.910Z,10112
+2026-08-26T16:46:14.190Z,10112
+2026-08-26T16:46:14.514Z,10112
+2026-08-26T16:46:14.785Z,10112
+2026-08-26T16:46:15.148Z,10112
+2026-08-26T16:46:15.406Z,10112
+2026-08-26T16:46:15.653Z,10112
+2026-08-26T16:46:15.899Z,10112
+2026-08-26T16:46:16.144Z,10112
+2026-08-26T16:46:16.386Z,10112
+2026-08-26T16:46:16.749Z,10112

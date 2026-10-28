@@ -1,0 +1,1 @@
+OK source=registry.k8s.io/coredns/coredns:v1.12.1 target=127.0.0.1:5001/library/benchmark/coredns:v1.12.1 digest=sha256:4f7a57135719628cf2070c5e3cbde64b013e90d4c560c5ecbf14004181f91998

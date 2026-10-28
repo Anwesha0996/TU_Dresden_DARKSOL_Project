@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: dtn-nginx
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: dtn-nginx
+  template:
+    metadata:
+      labels:
+        app: dtn-nginx
+    spec:
+      containers:
+      - name: nginx
+        image: nginx:latest
+        ports:
+        - containerPort: 80

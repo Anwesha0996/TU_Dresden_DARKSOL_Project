@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1120" viewBox="0 0 1600 1120">
+<style>text{font-family:Arial,sans-serif;fill:#17202a}.title{font-size:26px;font-weight:bold}.subtitle{font-size:16px;fill:#566573}.panel{font-size:19px;font-weight:bold}.label{font-size:13px}.tick{font-size:11px}.axis{stroke:#273746;stroke-width:1.5}.grid{stroke:#d5d8dc}</style>
+<rect width="1600" height="1120" fill="white"/>
+<text x="800" y="42" text-anchor="middle" class="title">Normal vs temporary-interruption image transfer</text>
+<text x="800" y="70" text-anchor="middle" class="subtitle">10 measured runs per image; averages and peaks calculated from the experiment CSV</text>
+<text x="110" y="112" class="panel">Average end-to-end duration</text>
+<line x1="110" y1="130" x2="110" y2="470" class="axis"/>
+<line x1="110" y1="470" x2="1490" y2="470" class="axis"/>
+<line x1="110" y1="470.0" x2="1490" y2="470.0" class="grid"/>
+<text x="102" y="474.0" text-anchor="end" class="tick">0.0</text>
+<line x1="110" y1="385.0" x2="1490" y2="385.0" class="grid"/>
+<text x="102" y="389.0" text-anchor="end" class="tick">10.5</text>
+<line x1="110" y1="300.0" x2="1490" y2="300.0" class="grid"/>
+<text x="102" y="304.0" text-anchor="end" class="tick">20.9</text>
+<line x1="110" y1="215.0" x2="1490" y2="215.0" class="grid"/>
+<text x="102" y="219.0" text-anchor="end" class="tick">31.4</text>
+<line x1="110" y1="130.0" x2="1490" y2="130.0" class="grid"/>
+<text x="102" y="134.0" text-anchor="end" class="tick">41.9</text>
+<rect x="151.0" y="388.2" width="26.0" height="81.8" fill="#3572A5"><title>coredns: 10.080 seconds</title></rect>
+<rect x="289.0" y="393.4" width="26.0" height="76.6" fill="#3572A5"><title>etcd: 9.439 seconds</title></rect>
+<rect x="427.0" y="371.2" width="26.0" height="98.8" fill="#3572A5"><title>flannel: 12.168 seconds</title></rect>
+<rect x="565.0" y="370.5" width="26.0" height="99.5" fill="#3572A5"><title>kube-apiserver: 12.260 seconds</title></rect>
+<rect x="703.0" y="378.6" width="26.0" height="91.4" fill="#3572A5"><title>kube-controller-manager: 11.253 seconds</title></rect>
+<rect x="841.0" y="396.3" width="26.0" height="73.7" fill="#3572A5"><title>kube-proxy: 9.077 seconds</title></rect>
+<rect x="979.0" y="378.2" width="26.0" height="91.8" fill="#3572A5"><title>kube-scheduler: 11.309 seconds</title></rect>
+<rect x="1117.0" y="287.6" width="26.0" height="182.4" fill="#3572A5"><title>kubelet: 22.462 seconds</title></rect>
+<rect x="1255.0" y="447.7" width="26.0" height="22.3" fill="#3572A5"><title>pause: 2.751 seconds</title></rect>
+<rect x="1393.0" y="173.0" width="26.0" height="297.0" fill="#3572A5"><title>talos-installer: 36.588 seconds</title></rect>
+<rect x="1200" y="96" width="14" height="14" fill="#3572A5"/><text x="1220" y="108" class="label">Normal</text>
+<rect x="179.0" y="297.6" width="26.0" height="172.4" fill="#E76F51"><title>coredns: 21.242 seconds</title></rect>
+<rect x="317.0" y="293.4" width="26.0" height="176.6" fill="#E76F51"><title>etcd: 21.752 seconds</title></rect>
+<rect x="455.0" y="261.1" width="26.0" height="208.9" fill="#E76F51"><title>flannel: 25.731 seconds</title></rect>
+<rect x="593.0" y="281.4" width="26.0" height="188.6" fill="#E76F51"><title>kube-apiserver: 23.227 seconds</title></rect>
+<rect x="731.0" y="294.0" width="26.0" height="176.0" fill="#E76F51"><title>kube-controller-manager: 21.675 seconds</title></rect>
+<rect x="869.0" y="253.7" width="26.0" height="216.3" fill="#E76F51"><title>kube-proxy: 26.638 seconds</title></rect>
+<rect x="1007.0" y="293.0" width="26.0" height="177.0" fill="#E76F51"><title>kube-scheduler: 21.806 seconds</title></rect>
+<rect x="1145.0" y="278.1" width="26.0" height="191.9" fill="#E76F51"><title>kubelet: 23.634 seconds</title></rect>
+<rect x="1283.0" y="353.3" width="26.0" height="116.7" fill="#E76F51"><title>pause: 14.380 seconds</title></rect>
+<rect x="1421.0" y="166.4" width="26.0" height="303.6" fill="#E76F51"><title>talos-installer: 37.394 seconds</title></rect>
+<rect x="1345" y="96" width="14" height="14" fill="#E76F51"/><text x="1365" y="108" class="label">Interrupted</text>
+<text x="179.0" y="488" text-anchor="end" transform="rotate(-35 179.0 488)" class="label">coredns</text>
+<text x="317.0" y="488" text-anchor="end" transform="rotate(-35 317.0 488)" class="label">etcd</text>
+<text x="455.0" y="488" text-anchor="end" transform="rotate(-35 455.0 488)" class="label">flannel</text>
+<text x="593.0" y="488" text-anchor="end" transform="rotate(-35 593.0 488)" class="label">k-apiserver</text>
+<text x="731.0" y="488" text-anchor="end" transform="rotate(-35 731.0 488)" class="label">k-controller-manager</text>
+<text x="869.0" y="488" text-anchor="end" transform="rotate(-35 869.0 488)" class="label">k-proxy</text>
+<text x="1007.0" y="488" text-anchor="end" transform="rotate(-35 1007.0 488)" class="label">k-scheduler</text>
+<text x="1145.0" y="488" text-anchor="end" transform="rotate(-35 1145.0 488)" class="label">kubelet</text>
+<text x="1283.0" y="488" text-anchor="end" transform="rotate(-35 1283.0 488)" class="label">pause</text>
+<text x="1421.0" y="488" text-anchor="end" transform="rotate(-35 1421.0 488)" class="label">t-installer</text>
+<text x="52" y="300.0" text-anchor="middle" transform="rotate(-90 52 300.0)" class="label">seconds</text>
+<text x="110" y="632" class="panel">Average effective throughput</text>
+<line x1="110" y1="650" x2="110" y2="990" class="axis"/>
+<line x1="110" y1="990" x2="1490" y2="990" class="axis"/>
+<line x1="110" y1="990.0" x2="1490" y2="990.0" class="grid"/>
+<text x="102" y="994.0" text-anchor="end" class="tick">0.0</text>
+<line x1="110" y1="905.0" x2="1490" y2="905.0" class="grid"/>
+<text x="102" y="909.0" text-anchor="end" class="tick">7.6</text>
+<line x1="110" y1="820.0" x2="1490" y2="820.0" class="grid"/>
+<text x="102" y="824.0" text-anchor="end" class="tick">15.2</text>
+<line x1="110" y1="735.0" x2="1490" y2="735.0" class="grid"/>
+<text x="102" y="739.0" text-anchor="end" class="tick">22.8</text>
+<line x1="110" y1="650.0" x2="1490" y2="650.0" class="grid"/>
+<text x="102" y="654.0" text-anchor="end" class="tick">30.4</text>
+<rect x="151.0" y="776.7" width="26.0" height="213.3" fill="#2A9D8F"><title>coredns: 19.081 Mbit/s</title></rect>
+<rect x="289.0" y="771.3" width="26.0" height="218.7" fill="#2A9D8F"><title>etcd: 19.564 Mbit/s</title></rect>
+<rect x="427.0" y="738.5" width="26.0" height="251.5" fill="#2A9D8F"><title>flannel: 22.502 Mbit/s</title></rect>
+<rect x="565.0" y="777.4" width="26.0" height="212.6" fill="#2A9D8F"><title>kube-apiserver: 19.020 Mbit/s</title></rect>
+<rect x="703.0" y="797.3" width="26.0" height="192.7" fill="#2A9D8F"><title>kube-controller-manager: 17.240 Mbit/s</title></rect>
+<rect x="841.0" y="735.6" width="26.0" height="254.4" fill="#2A9D8F"><title>kube-proxy: 22.765 Mbit/s</title></rect>
+<rect x="979.0" y="851.1" width="26.0" height="138.9" fill="#2A9D8F"><title>kube-scheduler: 12.427 Mbit/s</title></rect>
+<rect x="1117.0" y="714.6" width="26.0" height="275.4" fill="#2A9D8F"><title>kubelet: 24.641 Mbit/s</title></rect>
+<rect x="1255.0" y="979.4" width="26.0" height="10.6" fill="#2A9D8F"><title>pause: 0.946 Mbit/s</title></rect>
+<rect x="1393.0" y="686.4" width="26.0" height="303.6" fill="#2A9D8F"><title>talos-installer: 27.161 Mbit/s</title></rect>
+<rect x="1200" y="616" width="14" height="14" fill="#2A9D8F"/><text x="1220" y="628" class="label">Normal</text>
+<rect x="179.0" y="889.7" width="26.0" height="100.3" fill="#F4A261"><title>coredns: 8.971 Mbit/s</title></rect>
+<rect x="317.0" y="895.9" width="26.0" height="94.1" fill="#F4A261"><title>etcd: 8.421 Mbit/s</title></rect>
+<rect x="455.0" y="868.1" width="26.0" height="121.9" fill="#F4A261"><title>flannel: 10.906 Mbit/s</title></rect>
+<rect x="593.0" y="883.3" width="26.0" height="106.7" fill="#F4A261"><title>kube-apiserver: 9.551 Mbit/s</title></rect>
+<rect x="731.0" y="893.9" width="26.0" height="96.1" fill="#F4A261"><title>kube-controller-manager: 8.598 Mbit/s</title></rect>
+<rect x="869.0" y="893.7" width="26.0" height="96.3" fill="#F4A261"><title>kube-proxy: 8.613 Mbit/s</title></rect>
+<rect x="1007.0" y="917.7" width="26.0" height="72.3" fill="#F4A261"><title>kube-scheduler: 6.471 Mbit/s</title></rect>
+<rect x="1145.0" y="734.5" width="26.0" height="255.5" fill="#F4A261"><title>kubelet: 22.860 Mbit/s</title></rect>
+<rect x="1283.0" y="988.0" width="26.0" height="2.0" fill="#F4A261"><title>pause: 0.181 Mbit/s</title></rect>
+<rect x="1421.0" y="690.4" width="26.0" height="299.6" fill="#F4A261"><title>talos-installer: 26.805 Mbit/s</title></rect>
+<rect x="1345" y="616" width="14" height="14" fill="#F4A261"/><text x="1365" y="628" class="label">Interrupted</text>
+<text x="179.0" y="1008" text-anchor="end" transform="rotate(-35 179.0 1008)" class="label">coredns</text>
+<text x="317.0" y="1008" text-anchor="end" transform="rotate(-35 317.0 1008)" class="label">etcd</text>
+<text x="455.0" y="1008" text-anchor="end" transform="rotate(-35 455.0 1008)" class="label">flannel</text>
+<text x="593.0" y="1008" text-anchor="end" transform="rotate(-35 593.0 1008)" class="label">k-apiserver</text>
+<text x="731.0" y="1008" text-anchor="end" transform="rotate(-35 731.0 1008)" class="label">k-controller-manager</text>
+<text x="869.0" y="1008" text-anchor="end" transform="rotate(-35 869.0 1008)" class="label">k-proxy</text>
+<text x="1007.0" y="1008" text-anchor="end" transform="rotate(-35 1007.0 1008)" class="label">k-scheduler</text>
+<text x="1145.0" y="1008" text-anchor="end" transform="rotate(-35 1145.0 1008)" class="label">kubelet</text>
+<text x="1283.0" y="1008" text-anchor="end" transform="rotate(-35 1283.0 1008)" class="label">pause</text>
+<text x="1421.0" y="1008" text-anchor="end" transform="rotate(-35 1421.0 1008)" class="label">t-installer</text>
+<text x="52" y="820.0" text-anchor="middle" transform="rotate(-90 52 820.0)" class="label">Mbit/s</text>
+</svg>

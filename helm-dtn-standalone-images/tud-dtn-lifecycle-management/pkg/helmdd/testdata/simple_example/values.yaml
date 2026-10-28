@@ -1,0 +1,10 @@
+# Main Application Image Dependency
+image:
+  repository: ubuntu
+  tag: 26.04
+  pullPolicy: IfNotPresent
+
+# Configuration for the external fetch hook
+assetFetch:
+  repositoryUrl: "https://gitlab.com/d3tn/ud3tn.git"
+  targetPath: "/var/www/html/assets"

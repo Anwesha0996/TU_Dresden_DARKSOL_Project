@@ -1,0 +1,1246 @@
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=flannel_leo_persistent_sf_3600s_run01 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/flannel_leo_persistent_sf_3600s_run01.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=flannel_leo_persistent_sf_3600s_run02 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/flannel_leo_persistent_sf_3600s_run02.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=flannel_leo_persistent_sf_3600s_run03 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/flannel_leo_persistent_sf_3600s_run03.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=flannel_leo_persistent_sf_3600s_run04 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/flannel_leo_persistent_sf_3600s_run04.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=flannel_leo_persistent_sf_3600s_run05 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/flannel_leo_persistent_sf_3600s_run05.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=flannel_leo_persistent_sf_3600s_run06 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/flannel_leo_persistent_sf_3600s_run06.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=flannel_leo_persistent_sf_3600s_run07 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/flannel_leo_persistent_sf_3600s_run07.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=flannel_leo_persistent_sf_3600s_run08 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/flannel_leo_persistent_sf_3600s_run08.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=flannel_leo_persistent_sf_3600s_run09 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/flannel_leo_persistent_sf_3600s_run09.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=flannel_leo_persistent_sf_3600s_run10 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/flannel_leo_persistent_sf_3600s_run10.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=flannel_lunar_persistent_sf_10s_run02 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/flannel_lunar_persistent_sf_10s_run02.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=flannel_lunar_persistent_sf_10s_run03 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/flannel_lunar_persistent_sf_10s_run03.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=flannel_lunar_persistent_sf_10s_run04 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/flannel_lunar_persistent_sf_10s_run04.log
+NAMES           STATUS                  PORTS
+sf-space-node   Up Less than a second   0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 1 second             0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=flannel_lunar_persistent_sf_10s_run05 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/flannel_lunar_persistent_sf_10s_run05.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=flannel_lunar_persistent_sf_10s_run06 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/flannel_lunar_persistent_sf_10s_run06.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=flannel_lunar_persistent_sf_10s_run07 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/flannel_lunar_persistent_sf_10s_run07.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=flannel_lunar_persistent_sf_10s_run08 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/flannel_lunar_persistent_sf_10s_run08.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=flannel_lunar_persistent_sf_10s_run09 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/flannel_lunar_persistent_sf_10s_run09.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=flannel_lunar_persistent_sf_10s_run10 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/flannel_lunar_persistent_sf_10s_run10.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=flannel_lunar_persistent_sf_300s_run02 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/flannel_lunar_persistent_sf_300s_run02.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=flannel_lunar_persistent_sf_300s_run03 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/flannel_lunar_persistent_sf_300s_run03.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=flannel_lunar_persistent_sf_300s_run04 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/flannel_lunar_persistent_sf_300s_run04.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=flannel_lunar_persistent_sf_300s_run05 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/flannel_lunar_persistent_sf_300s_run05.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=flannel_lunar_persistent_sf_300s_run06 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/flannel_lunar_persistent_sf_300s_run06.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=flannel_lunar_persistent_sf_300s_run07 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/flannel_lunar_persistent_sf_300s_run07.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=flannel_lunar_persistent_sf_300s_run08 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/flannel_lunar_persistent_sf_300s_run08.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=flannel_lunar_persistent_sf_300s_run09 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/flannel_lunar_persistent_sf_300s_run09.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=flannel_lunar_persistent_sf_300s_run10 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/flannel_lunar_persistent_sf_300s_run10.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=flannel_lunar_persistent_sf_3600s_run02 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/flannel_lunar_persistent_sf_3600s_run02.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=flannel_lunar_persistent_sf_3600s_run03 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/flannel_lunar_persistent_sf_3600s_run03.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=flannel_lunar_persistent_sf_3600s_run04 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/flannel_lunar_persistent_sf_3600s_run04.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=flannel_lunar_persistent_sf_3600s_run05 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/flannel_lunar_persistent_sf_3600s_run05.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=flannel_lunar_persistent_sf_3600s_run06 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/flannel_lunar_persistent_sf_3600s_run06.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=flannel_lunar_persistent_sf_3600s_run08 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/flannel_lunar_persistent_sf_3600s_run08.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=flannel_lunar_persistent_sf_3600s_run09 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/flannel_lunar_persistent_sf_3600s_run09.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=flannel_lunar_persistent_sf_3600s_run10 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/flannel_lunar_persistent_sf_3600s_run10.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=flannel_mars_persistent_sf_10s_run02 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/flannel_mars_persistent_sf_10s_run02.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=flannel_mars_persistent_sf_10s_run03 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/flannel_mars_persistent_sf_10s_run03.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=flannel_mars_persistent_sf_10s_run04 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/flannel_mars_persistent_sf_10s_run04.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=flannel_mars_persistent_sf_10s_run05 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/flannel_mars_persistent_sf_10s_run05.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=flannel_mars_persistent_sf_10s_run06 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/flannel_mars_persistent_sf_10s_run06.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=flannel_mars_persistent_sf_10s_run07 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/flannel_mars_persistent_sf_10s_run07.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=flannel_mars_persistent_sf_10s_run08 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/flannel_mars_persistent_sf_10s_run08.log
+NAMES           STATUS                  PORTS
+sf-space-node   Up Less than a second   0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 1 second             0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=flannel_mars_persistent_sf_10s_run09 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/flannel_mars_persistent_sf_10s_run09.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=flannel_mars_persistent_sf_10s_run10 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/flannel_mars_persistent_sf_10s_run10.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=flannel_mars_persistent_sf_300s_run02 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/flannel_mars_persistent_sf_300s_run02.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=flannel_mars_persistent_sf_300s_run03 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/flannel_mars_persistent_sf_300s_run03.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=flannel_mars_persistent_sf_300s_run04 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/flannel_mars_persistent_sf_300s_run04.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=flannel_mars_persistent_sf_300s_run05 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/flannel_mars_persistent_sf_300s_run05.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=flannel_mars_persistent_sf_300s_run06 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/flannel_mars_persistent_sf_300s_run06.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=flannel_mars_persistent_sf_300s_run07 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/flannel_mars_persistent_sf_300s_run07.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=flannel_mars_persistent_sf_300s_run08 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/flannel_mars_persistent_sf_300s_run08.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=flannel_mars_persistent_sf_300s_run09 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/flannel_mars_persistent_sf_300s_run09.log
+NAMES           STATUS         PORTS
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+run_id=flannel_mars_persistent_sf_300s_run10 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/flannel_mars_persistent_sf_300s_run10.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=flannel_mars_persistent_sf_3600s_run02 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/flannel_mars_persistent_sf_3600s_run02.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=flannel_mars_persistent_sf_3600s_run03 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/flannel_mars_persistent_sf_3600s_run03.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=flannel_mars_persistent_sf_3600s_run04 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/flannel_mars_persistent_sf_3600s_run04.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=flannel_mars_persistent_sf_3600s_run05 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/flannel_mars_persistent_sf_3600s_run05.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=flannel_mars_persistent_sf_3600s_run06 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/flannel_mars_persistent_sf_3600s_run06.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=flannel_mars_persistent_sf_3600s_run07 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/flannel_mars_persistent_sf_3600s_run07.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=flannel_mars_persistent_sf_3600s_run08 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/flannel_mars_persistent_sf_3600s_run08.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=flannel_mars_persistent_sf_3600s_run09 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/flannel_mars_persistent_sf_3600s_run09.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=flannel_mars_persistent_sf_3600s_run10 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/flannel_mars_persistent_sf_3600s_run10.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_leo_persistent_sf_10s_run01 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/coredns_leo_persistent_sf_10s_run01.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_leo_persistent_sf_10s_run02 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/coredns_leo_persistent_sf_10s_run02.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_leo_persistent_sf_10s_run03 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/coredns_leo_persistent_sf_10s_run03.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_leo_persistent_sf_10s_run04 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/coredns_leo_persistent_sf_10s_run04.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_leo_persistent_sf_10s_run05 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/coredns_leo_persistent_sf_10s_run05.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_leo_persistent_sf_10s_run06 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/coredns_leo_persistent_sf_10s_run06.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_leo_persistent_sf_10s_run07 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/coredns_leo_persistent_sf_10s_run07.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_leo_persistent_sf_10s_run08 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/coredns_leo_persistent_sf_10s_run08.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_leo_persistent_sf_10s_run09 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/coredns_leo_persistent_sf_10s_run09.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_leo_persistent_sf_10s_run10 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/coredns_leo_persistent_sf_10s_run10.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_leo_persistent_sf_300s_run01 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/coredns_leo_persistent_sf_300s_run01.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_leo_persistent_sf_300s_run02 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/coredns_leo_persistent_sf_300s_run02.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_leo_persistent_sf_300s_run03 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/coredns_leo_persistent_sf_300s_run03.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_leo_persistent_sf_300s_run04 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/coredns_leo_persistent_sf_300s_run04.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_leo_persistent_sf_300s_run05 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/coredns_leo_persistent_sf_300s_run05.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_leo_persistent_sf_300s_run06 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/coredns_leo_persistent_sf_300s_run06.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_leo_persistent_sf_300s_run07 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/coredns_leo_persistent_sf_300s_run07.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_leo_persistent_sf_300s_run08 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/coredns_leo_persistent_sf_300s_run08.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 2 seconds   0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 3 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_leo_persistent_sf_300s_run09 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/coredns_leo_persistent_sf_300s_run09.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 2 seconds   0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 3 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_leo_persistent_sf_300s_run10 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/coredns_leo_persistent_sf_300s_run10.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 2 seconds   0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 3 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_leo_persistent_sf_3600s_run01 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/coredns_leo_persistent_sf_3600s_run01.log
+NAMES           STATUS                  PORTS
+sf-earth-node   Up Less than a second   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+sf-space-node   Up 1 second             0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+run_id=coredns_leo_persistent_sf_3600s_run02 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/coredns_leo_persistent_sf_3600s_run02.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_leo_persistent_sf_3600s_run03 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/coredns_leo_persistent_sf_3600s_run03.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_leo_persistent_sf_3600s_run04 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/coredns_leo_persistent_sf_3600s_run04.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_leo_persistent_sf_3600s_run05 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/coredns_leo_persistent_sf_3600s_run05.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_leo_persistent_sf_3600s_run06 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/coredns_leo_persistent_sf_3600s_run06.log
+NAMES           STATUS                  PORTS
+sf-space-node   Up Less than a second   0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 1 second             0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_leo_persistent_sf_3600s_run07 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/coredns_leo_persistent_sf_3600s_run07.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_leo_persistent_sf_3600s_run08 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/coredns_leo_persistent_sf_3600s_run08.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_leo_persistent_sf_3600s_run09 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/coredns_leo_persistent_sf_3600s_run09.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_leo_persistent_sf_3600s_run10 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/coredns_leo_persistent_sf_3600s_run10.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_lunar_persistent_sf_10s_run01 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/coredns_lunar_persistent_sf_10s_run01.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_lunar_persistent_sf_10s_run02 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/coredns_lunar_persistent_sf_10s_run02.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_lunar_persistent_sf_10s_run03 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/coredns_lunar_persistent_sf_10s_run03.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_lunar_persistent_sf_10s_run04 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/coredns_lunar_persistent_sf_10s_run04.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_lunar_persistent_sf_10s_run05 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/coredns_lunar_persistent_sf_10s_run05.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_lunar_persistent_sf_10s_run06 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/coredns_lunar_persistent_sf_10s_run06.log
+NAMES           STATUS                  PORTS
+sf-space-node   Up Less than a second   0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up Less than a second   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_lunar_persistent_sf_10s_run07 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/coredns_lunar_persistent_sf_10s_run07.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_lunar_persistent_sf_10s_run08 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/coredns_lunar_persistent_sf_10s_run08.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_lunar_persistent_sf_10s_run09 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/coredns_lunar_persistent_sf_10s_run09.log
+NAMES           STATUS                  PORTS
+sf-space-node   Up Less than a second   0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up Less than a second   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_lunar_persistent_sf_10s_run10 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/coredns_lunar_persistent_sf_10s_run10.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_lunar_persistent_sf_300s_run01 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/coredns_lunar_persistent_sf_300s_run01.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_lunar_persistent_sf_300s_run02 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/coredns_lunar_persistent_sf_300s_run02.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_lunar_persistent_sf_300s_run03 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/coredns_lunar_persistent_sf_300s_run03.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_lunar_persistent_sf_300s_run04 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/coredns_lunar_persistent_sf_300s_run04.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_lunar_persistent_sf_300s_run05 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/coredns_lunar_persistent_sf_300s_run05.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_lunar_persistent_sf_300s_run06 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/coredns_lunar_persistent_sf_300s_run06.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_lunar_persistent_sf_300s_run07 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/coredns_lunar_persistent_sf_300s_run07.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_lunar_persistent_sf_300s_run08 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/coredns_lunar_persistent_sf_300s_run08.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_lunar_persistent_sf_300s_run09 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/coredns_lunar_persistent_sf_300s_run09.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_lunar_persistent_sf_300s_run10 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/coredns_lunar_persistent_sf_300s_run10.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_lunar_persistent_sf_3600s_run01 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/coredns_lunar_persistent_sf_3600s_run01.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_lunar_persistent_sf_3600s_run02 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/coredns_lunar_persistent_sf_3600s_run02.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_lunar_persistent_sf_3600s_run03 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/coredns_lunar_persistent_sf_3600s_run03.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_lunar_persistent_sf_3600s_run04 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/coredns_lunar_persistent_sf_3600s_run04.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_lunar_persistent_sf_3600s_run05 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/coredns_lunar_persistent_sf_3600s_run05.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_lunar_persistent_sf_3600s_run06 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/coredns_lunar_persistent_sf_3600s_run06.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_lunar_persistent_sf_3600s_run07 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/coredns_lunar_persistent_sf_3600s_run07.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_lunar_persistent_sf_3600s_run08 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/coredns_lunar_persistent_sf_3600s_run08.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_lunar_persistent_sf_3600s_run09 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/coredns_lunar_persistent_sf_3600s_run09.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_lunar_persistent_sf_3600s_run10 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/coredns_lunar_persistent_sf_3600s_run10.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_mars_persistent_sf_10s_run01 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/coredns_mars_persistent_sf_10s_run01.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_mars_persistent_sf_10s_run02 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/coredns_mars_persistent_sf_10s_run02.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_mars_persistent_sf_10s_run03 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/coredns_mars_persistent_sf_10s_run03.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_mars_persistent_sf_10s_run04 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/coredns_mars_persistent_sf_10s_run04.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_mars_persistent_sf_10s_run05 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/coredns_mars_persistent_sf_10s_run05.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_mars_persistent_sf_10s_run06 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/coredns_mars_persistent_sf_10s_run06.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 2 seconds   0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 3 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_mars_persistent_sf_10s_run07 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/coredns_mars_persistent_sf_10s_run07.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_mars_persistent_sf_10s_run08 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/coredns_mars_persistent_sf_10s_run08.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_mars_persistent_sf_10s_run09 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/coredns_mars_persistent_sf_10s_run09.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_mars_persistent_sf_10s_run10 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/coredns_mars_persistent_sf_10s_run10.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_mars_persistent_sf_300s_run01 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/coredns_mars_persistent_sf_300s_run01.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_mars_persistent_sf_300s_run02 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/coredns_mars_persistent_sf_300s_run02.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_mars_persistent_sf_300s_run03 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/coredns_mars_persistent_sf_300s_run03.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_mars_persistent_sf_300s_run04 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/coredns_mars_persistent_sf_300s_run04.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_mars_persistent_sf_300s_run05 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/coredns_mars_persistent_sf_300s_run05.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_mars_persistent_sf_300s_run06 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/coredns_mars_persistent_sf_300s_run06.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_mars_persistent_sf_300s_run07 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/coredns_mars_persistent_sf_300s_run07.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_mars_persistent_sf_300s_run08 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/coredns_mars_persistent_sf_300s_run08.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_mars_persistent_sf_300s_run09 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/coredns_mars_persistent_sf_300s_run09.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_mars_persistent_sf_300s_run10 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/coredns_mars_persistent_sf_300s_run10.log
+NAMES           STATUS                  PORTS
+sf-space-node   Up 1 second             0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up Less than a second   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_mars_persistent_sf_3600s_run01 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/coredns_mars_persistent_sf_3600s_run01.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_mars_persistent_sf_3600s_run02 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/coredns_mars_persistent_sf_3600s_run02.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_mars_persistent_sf_3600s_run03 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/coredns_mars_persistent_sf_3600s_run03.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_mars_persistent_sf_3600s_run04 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/coredns_mars_persistent_sf_3600s_run04.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_mars_persistent_sf_3600s_run05 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/coredns_mars_persistent_sf_3600s_run05.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_mars_persistent_sf_3600s_run06 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/coredns_mars_persistent_sf_3600s_run06.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_mars_persistent_sf_3600s_run07 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/coredns_mars_persistent_sf_3600s_run07.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 2 seconds   0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_mars_persistent_sf_3600s_run08 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/coredns_mars_persistent_sf_3600s_run08.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_mars_persistent_sf_3600s_run09 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/coredns_mars_persistent_sf_3600s_run09.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=coredns_mars_persistent_sf_3600s_run10 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/coredns_mars_persistent_sf_3600s_run10.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_leo_persistent_sf_10s_run01 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/etcd_leo_persistent_sf_10s_run01.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_leo_persistent_sf_10s_run02 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/etcd_leo_persistent_sf_10s_run02.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_leo_persistent_sf_10s_run03 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/etcd_leo_persistent_sf_10s_run03.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_leo_persistent_sf_10s_run04 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/etcd_leo_persistent_sf_10s_run04.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_leo_persistent_sf_10s_run05 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/etcd_leo_persistent_sf_10s_run05.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_leo_persistent_sf_10s_run06 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/etcd_leo_persistent_sf_10s_run06.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_leo_persistent_sf_10s_run07 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/etcd_leo_persistent_sf_10s_run07.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_leo_persistent_sf_10s_run08 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/etcd_leo_persistent_sf_10s_run08.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_leo_persistent_sf_10s_run09 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/etcd_leo_persistent_sf_10s_run09.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_leo_persistent_sf_10s_run10 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/etcd_leo_persistent_sf_10s_run10.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_leo_persistent_sf_300s_run01 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/etcd_leo_persistent_sf_300s_run01.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_leo_persistent_sf_300s_run02 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/etcd_leo_persistent_sf_300s_run02.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_leo_persistent_sf_300s_run03 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/etcd_leo_persistent_sf_300s_run03.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_leo_persistent_sf_300s_run04 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/etcd_leo_persistent_sf_300s_run04.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_leo_persistent_sf_300s_run05 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/etcd_leo_persistent_sf_300s_run05.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_leo_persistent_sf_300s_run06 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/etcd_leo_persistent_sf_300s_run06.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_leo_persistent_sf_300s_run07 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/etcd_leo_persistent_sf_300s_run07.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_leo_persistent_sf_300s_run08 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/etcd_leo_persistent_sf_300s_run08.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_leo_persistent_sf_300s_run09 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/etcd_leo_persistent_sf_300s_run09.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_leo_persistent_sf_300s_run10 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/etcd_leo_persistent_sf_300s_run10.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_leo_persistent_sf_3600s_run01 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/etcd_leo_persistent_sf_3600s_run01.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_leo_persistent_sf_3600s_run02 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/etcd_leo_persistent_sf_3600s_run02.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_leo_persistent_sf_3600s_run03 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/etcd_leo_persistent_sf_3600s_run03.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_leo_persistent_sf_3600s_run04 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/etcd_leo_persistent_sf_3600s_run04.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_leo_persistent_sf_3600s_run05 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/etcd_leo_persistent_sf_3600s_run05.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_leo_persistent_sf_3600s_run06 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/etcd_leo_persistent_sf_3600s_run06.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_leo_persistent_sf_3600s_run07 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/etcd_leo_persistent_sf_3600s_run07.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_leo_persistent_sf_3600s_run08 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/etcd_leo_persistent_sf_3600s_run08.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_leo_persistent_sf_3600s_run09 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/etcd_leo_persistent_sf_3600s_run09.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_leo_persistent_sf_3600s_run10 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/etcd_leo_persistent_sf_3600s_run10.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_lunar_persistent_sf_10s_run01 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/etcd_lunar_persistent_sf_10s_run01.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_lunar_persistent_sf_10s_run02 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/etcd_lunar_persistent_sf_10s_run02.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_lunar_persistent_sf_10s_run03 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/etcd_lunar_persistent_sf_10s_run03.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_lunar_persistent_sf_10s_run04 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/etcd_lunar_persistent_sf_10s_run04.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_lunar_persistent_sf_10s_run05 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/etcd_lunar_persistent_sf_10s_run05.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_lunar_persistent_sf_10s_run06 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/etcd_lunar_persistent_sf_10s_run06.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_lunar_persistent_sf_10s_run07 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/etcd_lunar_persistent_sf_10s_run07.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_lunar_persistent_sf_10s_run08 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/etcd_lunar_persistent_sf_10s_run08.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_lunar_persistent_sf_10s_run09 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/etcd_lunar_persistent_sf_10s_run09.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_lunar_persistent_sf_10s_run10 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/etcd_lunar_persistent_sf_10s_run10.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_lunar_persistent_sf_300s_run01 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/etcd_lunar_persistent_sf_300s_run01.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_lunar_persistent_sf_300s_run02 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/etcd_lunar_persistent_sf_300s_run02.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_lunar_persistent_sf_300s_run03 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/etcd_lunar_persistent_sf_300s_run03.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_lunar_persistent_sf_300s_run04 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/etcd_lunar_persistent_sf_300s_run04.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_lunar_persistent_sf_300s_run05 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/etcd_lunar_persistent_sf_300s_run05.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_lunar_persistent_sf_300s_run06 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/etcd_lunar_persistent_sf_300s_run06.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_lunar_persistent_sf_300s_run07 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/etcd_lunar_persistent_sf_300s_run07.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_lunar_persistent_sf_300s_run08 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/etcd_lunar_persistent_sf_300s_run08.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_lunar_persistent_sf_300s_run09 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/etcd_lunar_persistent_sf_300s_run09.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_lunar_persistent_sf_300s_run10 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/etcd_lunar_persistent_sf_300s_run10.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_lunar_persistent_sf_3600s_run01 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/etcd_lunar_persistent_sf_3600s_run01.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_lunar_persistent_sf_3600s_run02 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/etcd_lunar_persistent_sf_3600s_run02.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_lunar_persistent_sf_3600s_run03 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/etcd_lunar_persistent_sf_3600s_run03.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_lunar_persistent_sf_3600s_run04 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/etcd_lunar_persistent_sf_3600s_run04.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_lunar_persistent_sf_3600s_run05 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/etcd_lunar_persistent_sf_3600s_run05.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_lunar_persistent_sf_3600s_run06 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/etcd_lunar_persistent_sf_3600s_run06.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_lunar_persistent_sf_3600s_run07 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/etcd_lunar_persistent_sf_3600s_run07.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_lunar_persistent_sf_3600s_run08 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/etcd_lunar_persistent_sf_3600s_run08.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_lunar_persistent_sf_3600s_run09 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/etcd_lunar_persistent_sf_3600s_run09.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_lunar_persistent_sf_3600s_run10 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/etcd_lunar_persistent_sf_3600s_run10.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_mars_persistent_sf_10s_run01 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/etcd_mars_persistent_sf_10s_run01.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_mars_persistent_sf_10s_run02 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/etcd_mars_persistent_sf_10s_run02.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_mars_persistent_sf_10s_run03 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/etcd_mars_persistent_sf_10s_run03.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_mars_persistent_sf_10s_run04 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/etcd_mars_persistent_sf_10s_run04.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_mars_persistent_sf_10s_run05 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/etcd_mars_persistent_sf_10s_run05.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_mars_persistent_sf_10s_run06 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/etcd_mars_persistent_sf_10s_run06.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_mars_persistent_sf_10s_run07 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/etcd_mars_persistent_sf_10s_run07.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_mars_persistent_sf_10s_run08 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/etcd_mars_persistent_sf_10s_run08.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_mars_persistent_sf_10s_run09 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/etcd_mars_persistent_sf_10s_run09.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_mars_persistent_sf_10s_run10 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/etcd_mars_persistent_sf_10s_run10.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_mars_persistent_sf_300s_run01 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/etcd_mars_persistent_sf_300s_run01.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_mars_persistent_sf_300s_run02 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/etcd_mars_persistent_sf_300s_run02.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_mars_persistent_sf_300s_run03 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/etcd_mars_persistent_sf_300s_run03.log
+NAMES           STATUS        PORTS
+sf-earth-node   Up 1 second   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+sf-space-node   Up 1 second   0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+run_id=etcd_mars_persistent_sf_300s_run04 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/etcd_mars_persistent_sf_300s_run04.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_mars_persistent_sf_300s_run05 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/etcd_mars_persistent_sf_300s_run05.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_mars_persistent_sf_300s_run06 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/etcd_mars_persistent_sf_300s_run06.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_mars_persistent_sf_300s_run07 success=false log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/etcd_mars_persistent_sf_300s_run07.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_mars_persistent_sf_300s_run08 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/etcd_mars_persistent_sf_300s_run08.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_mars_persistent_sf_300s_run09 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/etcd_mars_persistent_sf_300s_run09.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_mars_persistent_sf_300s_run10 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/etcd_mars_persistent_sf_300s_run10.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_mars_persistent_sf_3600s_run01 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/etcd_mars_persistent_sf_3600s_run01.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_mars_persistent_sf_3600s_run02 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/etcd_mars_persistent_sf_3600s_run02.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_mars_persistent_sf_3600s_run03 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/etcd_mars_persistent_sf_3600s_run03.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_mars_persistent_sf_3600s_run04 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/etcd_mars_persistent_sf_3600s_run04.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_mars_persistent_sf_3600s_run05 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/etcd_mars_persistent_sf_3600s_run05.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 2 seconds   0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 3 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_mars_persistent_sf_3600s_run06 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/etcd_mars_persistent_sf_3600s_run06.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_mars_persistent_sf_3600s_run07 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/etcd_mars_persistent_sf_3600s_run07.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_mars_persistent_sf_3600s_run08 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/etcd_mars_persistent_sf_3600s_run08.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_mars_persistent_sf_3600s_run09 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/etcd_mars_persistent_sf_3600s_run09.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=etcd_mars_persistent_sf_3600s_run10 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/etcd_mars_persistent_sf_3600s_run10.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=kube-apiserver_leo_persistent_sf_10s_run01 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/kube-apiserver_leo_persistent_sf_10s_run01.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=kube-apiserver_leo_persistent_sf_10s_run02 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/kube-apiserver_leo_persistent_sf_10s_run02.log
+NAMES           STATUS        PORTS
+sf-space-node   Up 1 second   0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 1 second   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=kube-apiserver_leo_persistent_sf_10s_run03 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/kube-apiserver_leo_persistent_sf_10s_run03.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=kube-apiserver_leo_persistent_sf_10s_run04 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/kube-apiserver_leo_persistent_sf_10s_run04.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=kube-apiserver_leo_persistent_sf_10s_run05 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/kube-apiserver_leo_persistent_sf_10s_run05.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=kube-apiserver_leo_persistent_sf_10s_run06 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/kube-apiserver_leo_persistent_sf_10s_run06.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=kube-apiserver_leo_persistent_sf_10s_run07 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/kube-apiserver_leo_persistent_sf_10s_run07.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=kube-apiserver_leo_persistent_sf_10s_run08 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/kube-apiserver_leo_persistent_sf_10s_run08.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=kube-apiserver_leo_persistent_sf_10s_run09 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/kube-apiserver_leo_persistent_sf_10s_run09.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=kube-apiserver_leo_persistent_sf_10s_run10 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/kube-apiserver_leo_persistent_sf_10s_run10.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=kube-apiserver_leo_persistent_sf_300s_run01 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/kube-apiserver_leo_persistent_sf_300s_run01.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=kube-apiserver_leo_persistent_sf_300s_run02 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/kube-apiserver_leo_persistent_sf_300s_run02.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 2 seconds   0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 3 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=kube-apiserver_leo_persistent_sf_300s_run03 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/kube-apiserver_leo_persistent_sf_300s_run03.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 2 seconds   0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 3 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=kube-apiserver_leo_persistent_sf_300s_run04 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/kube-apiserver_leo_persistent_sf_300s_run04.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 2 seconds   0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 3 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=kube-apiserver_leo_persistent_sf_300s_run05 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/kube-apiserver_leo_persistent_sf_300s_run05.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 2 seconds   0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 3 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=kube-apiserver_leo_persistent_sf_300s_run06 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/kube-apiserver_leo_persistent_sf_300s_run06.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 2 seconds   0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 3 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=kube-apiserver_leo_persistent_sf_300s_run07 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/kube-apiserver_leo_persistent_sf_300s_run07.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 2 seconds   0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 3 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=kube-apiserver_leo_persistent_sf_300s_run08 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/kube-apiserver_leo_persistent_sf_300s_run08.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 2 seconds   0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 3 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=kube-apiserver_leo_persistent_sf_300s_run09 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/kube-apiserver_leo_persistent_sf_300s_run09.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 2 seconds   0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 3 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=kube-apiserver_leo_persistent_sf_300s_run10 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/kube-apiserver_leo_persistent_sf_300s_run10.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 2 seconds   0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 3 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=kube-apiserver_leo_persistent_sf_3600s_run01 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/kube-apiserver_leo_persistent_sf_3600s_run01.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=kube-apiserver_leo_persistent_sf_3600s_run02 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/kube-apiserver_leo_persistent_sf_3600s_run02.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=kube-apiserver_leo_persistent_sf_3600s_run03 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/kube-apiserver_leo_persistent_sf_3600s_run03.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=kube-apiserver_leo_persistent_sf_3600s_run04 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/kube-apiserver_leo_persistent_sf_3600s_run04.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=kube-apiserver_leo_persistent_sf_3600s_run05 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/kube-apiserver_leo_persistent_sf_3600s_run05.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=kube-apiserver_leo_persistent_sf_3600s_run06 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/kube-apiserver_leo_persistent_sf_3600s_run06.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=kube-apiserver_leo_persistent_sf_3600s_run07 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/kube-apiserver_leo_persistent_sf_3600s_run07.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 2 seconds   0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 3 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=kube-apiserver_leo_persistent_sf_3600s_run08 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/kube-apiserver_leo_persistent_sf_3600s_run08.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=kube-apiserver_leo_persistent_sf_3600s_run09 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/kube-apiserver_leo_persistent_sf_3600s_run09.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=kube-apiserver_leo_persistent_sf_3600s_run10 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/leo/kube-apiserver_leo_persistent_sf_3600s_run10.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=kube-apiserver_lunar_persistent_sf_10s_run01 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/kube-apiserver_lunar_persistent_sf_10s_run01.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=kube-apiserver_lunar_persistent_sf_10s_run02 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/kube-apiserver_lunar_persistent_sf_10s_run02.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=kube-apiserver_lunar_persistent_sf_10s_run03 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/kube-apiserver_lunar_persistent_sf_10s_run03.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=kube-apiserver_lunar_persistent_sf_10s_run04 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/kube-apiserver_lunar_persistent_sf_10s_run04.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=kube-apiserver_lunar_persistent_sf_10s_run05 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/kube-apiserver_lunar_persistent_sf_10s_run05.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=kube-apiserver_lunar_persistent_sf_10s_run06 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/kube-apiserver_lunar_persistent_sf_10s_run06.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=kube-apiserver_lunar_persistent_sf_10s_run07 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/kube-apiserver_lunar_persistent_sf_10s_run07.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=kube-apiserver_lunar_persistent_sf_10s_run08 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/kube-apiserver_lunar_persistent_sf_10s_run08.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=kube-apiserver_lunar_persistent_sf_10s_run09 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/kube-apiserver_lunar_persistent_sf_10s_run09.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=kube-apiserver_lunar_persistent_sf_10s_run10 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/kube-apiserver_lunar_persistent_sf_10s_run10.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=kube-apiserver_lunar_persistent_sf_300s_run01 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/kube-apiserver_lunar_persistent_sf_300s_run01.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=kube-apiserver_lunar_persistent_sf_300s_run02 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/kube-apiserver_lunar_persistent_sf_300s_run02.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=kube-apiserver_lunar_persistent_sf_300s_run03 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/kube-apiserver_lunar_persistent_sf_300s_run03.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=kube-apiserver_lunar_persistent_sf_300s_run04 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/kube-apiserver_lunar_persistent_sf_300s_run04.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=kube-apiserver_lunar_persistent_sf_300s_run05 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/kube-apiserver_lunar_persistent_sf_300s_run05.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=kube-apiserver_lunar_persistent_sf_300s_run06 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/kube-apiserver_lunar_persistent_sf_300s_run06.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=kube-apiserver_lunar_persistent_sf_300s_run07 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/kube-apiserver_lunar_persistent_sf_300s_run07.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=kube-apiserver_lunar_persistent_sf_300s_run08 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/kube-apiserver_lunar_persistent_sf_300s_run08.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=kube-apiserver_lunar_persistent_sf_300s_run09 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/kube-apiserver_lunar_persistent_sf_300s_run09.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=kube-apiserver_lunar_persistent_sf_300s_run10 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/kube-apiserver_lunar_persistent_sf_300s_run10.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=kube-apiserver_lunar_persistent_sf_3600s_run01 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/kube-apiserver_lunar_persistent_sf_3600s_run01.log
+NAMES           STATUS                  PORTS
+sf-space-node   Up Less than a second   0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up Less than a second   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=kube-apiserver_lunar_persistent_sf_3600s_run02 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/kube-apiserver_lunar_persistent_sf_3600s_run02.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=kube-apiserver_lunar_persistent_sf_3600s_run03 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/kube-apiserver_lunar_persistent_sf_3600s_run03.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=kube-apiserver_lunar_persistent_sf_3600s_run04 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/kube-apiserver_lunar_persistent_sf_3600s_run04.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=kube-apiserver_lunar_persistent_sf_3600s_run05 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/kube-apiserver_lunar_persistent_sf_3600s_run05.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=kube-apiserver_lunar_persistent_sf_3600s_run06 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/kube-apiserver_lunar_persistent_sf_3600s_run06.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=kube-apiserver_lunar_persistent_sf_3600s_run07 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/kube-apiserver_lunar_persistent_sf_3600s_run07.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 2 seconds   0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 3 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=kube-apiserver_lunar_persistent_sf_3600s_run08 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/kube-apiserver_lunar_persistent_sf_3600s_run08.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=kube-apiserver_lunar_persistent_sf_3600s_run09 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/kube-apiserver_lunar_persistent_sf_3600s_run09.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 2 seconds   0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 3 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=kube-apiserver_lunar_persistent_sf_3600s_run10 success=true log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/lunar/kube-apiserver_lunar_persistent_sf_3600s_run10.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 2 seconds   0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 3 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=kube-apiserver_mars_persistent_sf_10s_run01 success=false log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/kube-apiserver_mars_persistent_sf_10s_run01.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 3 seconds   0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 5 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=kube-apiserver_mars_persistent_sf_10s_run02 success=false log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/kube-apiserver_mars_persistent_sf_10s_run02.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 2 seconds   0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 3 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=kube-apiserver_mars_persistent_sf_10s_run03 success=false log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/kube-apiserver_mars_persistent_sf_10s_run03.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 2 seconds   0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 3 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=kube-apiserver_mars_persistent_sf_10s_run04 success=false log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/kube-apiserver_mars_persistent_sf_10s_run04.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 2 seconds   0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 3 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=kube-apiserver_mars_persistent_sf_10s_run05 success=false log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/kube-apiserver_mars_persistent_sf_10s_run05.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 1 second    0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 2 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=kube-apiserver_mars_persistent_sf_10s_run06 success=false log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/kube-apiserver_mars_persistent_sf_10s_run06.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 2 seconds   0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 4 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp
+run_id=kube-apiserver_mars_persistent_sf_10s_run07 success=false log=/mnt/d/Distributed_Network_system_Hiwi_TUD/tud-dtn-lifecycle-management/experiments/store-forward/logs/mars/kube-apiserver_mars_persistent_sf_10s_run07.log
+NAMES           STATUS         PORTS
+sf-space-node   Up 4 seconds   0.0.0.0:44242->4242/tcp, [::]:44242->4242/tcp
+sf-earth-node   Up 6 seconds   0.0.0.0:34242->4242/tcp, [::]:34242->4242/tcp

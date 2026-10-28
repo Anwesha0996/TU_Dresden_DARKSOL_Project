@@ -1,0 +1,90 @@
+2026/08/05 23:24:48 INFO Successfully connected to: 127.0.0.1:14242
+config:{secret:"91429247-1406-4a3b-b5bd-e070924e7c99" endpoint_id:"dtn://earth.dtn/go-image-sender"}
+2026/08/05 23:24:48 [1/17] pulling ghcr.io/siderolabs/flannel:v0.28.5 directly from the registry
+2026/08/05 23:25:02 [1/17] sending 10b0389c-3ebf-4a8c-95bc-11bf263046de as one AAP2 ADU (34509194 bytes)
+adu:{dst_eid:"dtn://space.dtn/image-transfer" payload_length:34509194}
+source=ghcr.io/siderolabs/flannel:v0.28.5
+target=talos/flannel:v0.28.5
+source_digest=sha256:7214df35e211bd47c3b44fe7dba874db255cf9bd2e63cea8b7d15eef6cd64492
+transfer_id=10b0389c-3ebf-4a8c-95bc-11bf263046de
+archive_sha256=2c79cc4b27b74848da0a39a02a874496235adb5bf3c194b910bf4603c6020d9e
+2026/08/05 23:25:02 [2/17] pulling registry.k8s.io/coredns/coredns:v1.14.2 directly from the registry
+2026/08/05 23:25:11 [2/17] sending c92f4be4-d430-4874-a5fd-b4134ac40806 as one AAP2 ADU (23271828 bytes)
+adu:{dst_eid:"dtn://space.dtn/image-transfer" payload_length:23271828}
+source=registry.k8s.io/coredns/coredns:v1.14.2
+target=kubernetes/coredns:v1.14.2
+source_digest=sha256:fd5079792b93909db3adefa91e41c3995455013394f0197c7346786ae19079fc
+transfer_id=c92f4be4-d430-4874-a5fd-b4134ac40806
+archive_sha256=a4d5b3523e7996a6cb0efcc98b42d32957074cfa23ff06e987887ce0c559baef
+2026/08/05 23:25:11 [3/17] pulling registry.k8s.io/etcd:v3.6.12 directly from the registry
+2026/08/05 23:25:18 [3/17] sending b45fed7a-af3a-4113-83b3-08b582ff6c5e as one AAP2 ADU (23323526 bytes)
+adu:{dst_eid:"dtn://space.dtn/image-transfer" payload_length:23323526}
+source=registry.k8s.io/etcd:v3.6.12
+target=kubernetes/etcd:v3.6.12
+source_digest=sha256:b833f66f372eb2d490e97f1600d2260a61f3435b499687e8de6f5655ec4eb9df
+transfer_id=b45fed7a-af3a-4113-83b3-08b582ff6c5e
+archive_sha256=36f288402dcb261e9cb27e9eda7f3c878398d58a69304869a30245c7d4bd2e21
+2026/08/05 23:25:18 [4/17] pulling registry.k8s.io/pause:3.10.1 directly from the registry
+2026/08/05 23:25:19 [4/17] sending 0c509b16-1ad8-43c3-a7ca-af0bf0cad5c6 as one AAP2 ADU (324484 bytes)
+adu:{dst_eid:"dtn://space.dtn/image-transfer" payload_length:324484}
+source=registry.k8s.io/pause:3.10.1
+target=kubernetes/pause:3.10.1
+source_digest=sha256:e5b941ef8f71de54dc3a13398226c269ba217d06650a21bd3afcf9d890cf1f41
+transfer_id=0c509b16-1ad8-43c3-a7ca-af0bf0cad5c6
+archive_sha256=f0e444664e0fed3569dffd981a1f21f3e37ab6abbfd98205962a4efd1db09d49
+2026/08/05 23:25:19 [5/17] pulling registry.k8s.io/kube-apiserver:v1.36.2 directly from the registry
+2026/08/05 23:25:28 [5/17] sending b789fa64-936a-4e81-acd2-c6e0f520d74e as one AAP2 ADU (29796762 bytes)
+adu:{dst_eid:"dtn://space.dtn/image-transfer" payload_length:29796762}
+source=registry.k8s.io/kube-apiserver:v1.36.2
+target=kubernetes/kube-apiserver:v1.36.2
+source_digest=sha256:8822e615af23007c2ab4813c09dbf8aef4d209da49832250832aaeadcd4601d3
+transfer_id=b789fa64-936a-4e81-acd2-c6e0f520d74e
+archive_sha256=142222f89b9c36313541201343040841a6744f719a25573aa1ca78d1f3c72779
+2026/08/05 23:25:28 [6/17] pulling registry.k8s.io/kube-controller-manager:v1.36.2 directly from the registry
+2026/08/05 23:25:37 [6/17] sending 760764ff-7039-43f2-ac9b-809936d265cb as one AAP2 ADU (26463148 bytes)
+adu:{dst_eid:"dtn://space.dtn/image-transfer" payload_length:26463148}
+source=registry.k8s.io/kube-controller-manager:v1.36.2
+target=kubernetes/kube-controller-manager:v1.36.2
+source_digest=sha256:7e996a8b8e9d6e8a59a6576c5f226772a85eeb1350fabf6d2b6e99caf43b39c8
+transfer_id=760764ff-7039-43f2-ac9b-809936d265cb
+archive_sha256=51efc1c1eae2359f93b6fae5838a80bbb4761b5408b9da0366f290be30a363a9
+2026/08/05 23:25:37 [7/17] pulling registry.k8s.io/kube-scheduler:v1.36.2 directly from the registry
+2026/08/05 23:25:47 [7/17] sending 3b4e3bad-1a56-477f-8136-a1e6f13adff9 as one AAP2 ADU (20485018 bytes)
+adu:{dst_eid:"dtn://space.dtn/image-transfer" payload_length:20485018}
+source=registry.k8s.io/kube-scheduler:v1.36.2
+target=kubernetes/kube-scheduler:v1.36.2
+source_digest=sha256:89e1725ed530009c525f6b7a7aff39a651fc76be170f33efe6460fcda3bc1240
+transfer_id=3b4e3bad-1a56-477f-8136-a1e6f13adff9
+archive_sha256=1118a49e874d8c435783ccfd3be77654f901f3bbb88d7141edb85568a864bc46
+2026/08/05 23:25:47 [8/17] pulling registry.k8s.io/kube-proxy:v1.36.2 directly from the registry
+2026/08/05 23:25:54 [8/17] sending ee8e3f91-3ef6-4049-9d23-13ad96d1090c as one AAP2 ADU (28888466 bytes)
+adu:{dst_eid:"dtn://space.dtn/image-transfer" payload_length:28888466}
+source=registry.k8s.io/kube-proxy:v1.36.2
+target=kubernetes/kube-proxy:v1.36.2
+source_digest=sha256:99046c6ae6bc4f1eb62b7187d5265f69383090f3e503102d6caa86e756951e98
+transfer_id=ee8e3f91-3ef6-4049-9d23-13ad96d1090c
+archive_sha256=88bebd7604934f3e6a6ae7f5eb06ffc4826cabc7939a25e0dbd032718f10065c
+2026/08/05 23:25:54 [9/17] pulling ghcr.io/siderolabs/kubelet:v1.36.2 directly from the registry
+2026/08/05 23:26:16 [9/17] sending e6803e89-f792-4e93-a906-297252d02c83 as one AAP2 ADU (64259978 bytes)
+adu:{dst_eid:"dtn://space.dtn/image-transfer" payload_length:64259978}
+source=ghcr.io/siderolabs/kubelet:v1.36.2
+target=talos/kubelet:v1.36.2
+source_digest=sha256:ff3ff99f312c64ad49f642080a966a2dd42efe01a0332e50b303354c85c87bc8
+transfer_id=e6803e89-f792-4e93-a906-297252d02c83
+archive_sha256=c3db517761b4569b6c7d95c07f0900fb1b8d64625bcd01161bb973190b8fe808
+2026/08/05 23:26:16 [10/17] pulling registry.k8s.io/networking/kube-network-policies:v1.0.0 directly from the registry
+2026/08/05 23:26:23 [10/17] sending 3029ebd5-9ac8-47a7-8beb-725a9a688040 as one AAP2 ADU (22818737 bytes)
+adu:{dst_eid:"dtn://space.dtn/image-transfer" payload_length:22818737}
+source=registry.k8s.io/networking/kube-network-policies:v1.0.0
+target=kubernetes/kube-network-policies:v1.0.0
+source_digest=sha256:56a6da79d226e9e07691014e99de8c2782679d55949124c2c67ec1809d034ab4
+transfer_id=3029ebd5-9ac8-47a7-8beb-725a9a688040
+archive_sha256=355fa22f383c6ae8b4e8f6721fb0899e889ceae0615c0c4cb1a8d35e81933b90
+2026/08/05 23:26:23 [11/17] pulling ghcr.io/siderolabs/installer:v1.13.6 directly from the registry
+2026/08/05 23:27:08 [11/17] sending e1b7415e-e2f2-40c9-8611-04f6e5cd2655 as one AAP2 ADU (134756239 bytes)
+adu:{dst_eid:"dtn://space.dtn/image-transfer" payload_length:134756239}
+source=ghcr.io/siderolabs/installer:v1.13.6
+target=talos/installer:v1.13.6
+source_digest=sha256:63cc3426a91a796c5886060f6088246b425bd941d3c84b802d0a1afcfa92ff89
+transfer_id=e1b7415e-e2f2-40c9-8611-04f6e5cd2655
+archive_sha256=76c98b2f1b1f17a80b8173b9ddf3015e1934b7da41a0641b184d5f4e8a151af6

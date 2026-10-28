@@ -1,0 +1,10 @@
+2026/08/29 10:23:52 INFO Successfully connected to: 127.0.0.1:14242
+config:{secret:"320b8e39-3224-4370-aabc-a5637566be01" endpoint_id:"dtn://earth.dtn/go-image-sender"}
+2026/08/29 10:23:52 [1/1] pulling ghcr.io/siderolabs/kubelet:v1.35.0 directly from the registry
+2026/08/29 10:24:02 [1/1] sending ec523198-76c5-47d2-ab93-f9ad0b1c8729 as one AAP2 ADU (67335567 bytes)
+adu:{dst_eid:"dtn://space.dtn/image-transfer" payload_length:67335567}
+source=ghcr.io/siderolabs/kubelet:v1.35.0
+target=siderolabs/kubelet:v1.35.0
+source_digest=sha256:1fd07c613ccc1f748c0bf8d00e25efb4ad6b5410e97c55b4fb82fe49f5084a79
+transfer_id=ec523198-76c5-47d2-ab93-f9ad0b1c8729
+archive_sha256=67b30393efbb58fc9ff349c119a4b03ada34d0ee0d9aa9964200c40091bdbde7

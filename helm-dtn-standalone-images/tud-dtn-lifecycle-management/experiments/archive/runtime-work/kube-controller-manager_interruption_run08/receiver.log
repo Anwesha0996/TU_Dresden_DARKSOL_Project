@@ -1,0 +1,6 @@
+2026/08/29 11:02:49 INFO Successfully connected to: 127.0.0.1:24242
+config:{is_subscriber:true  secret:"dbc718d3-467a-4894-a583-aad8a8af2311"  endpoint_id:"dtn://space.dtn/image-transfer"}
+2026/08/29 11:02:49 registered dtn image endpoint "image-transfer"
+response_status:RESPONSE_STATUS_SUCCESS
+2026/08/29 11:03:11 verified transfer b152d6d6-bda5-4c11-a051-b1d2a9bdb3c9 (f03fbc7969d748299679d11576ba8eb88b00ce4719af4003fb096876149eacc0); pushing to 127.0.0.1:5001/library/talos/kube-controller-manager:v1.35.0
+2026/08/29 11:03:12 transfer complete: id=b152d6d6-bda5-4c11-a051-b1d2a9bdb3c9 target=127.0.0.1:5001/library/talos/kube-controller-manager:v1.35.0 digest=sha256:e0ce4c7d278a001734bbd8020ed1b7e535ae9d2412c700032eb3df190ea91a62

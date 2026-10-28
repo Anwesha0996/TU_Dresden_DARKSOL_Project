@@ -1,0 +1,10 @@
+2026/08/29 10:32:42 INFO Successfully connected to: 127.0.0.1:14242
+config:{secret:"e469a02b-4c8d-439f-b015-f46d01c396a2" endpoint_id:"dtn://earth.dtn/go-image-sender"}
+2026/08/29 10:32:42 [1/1] pulling ghcr.io/siderolabs/installer:v1.12.4 directly from the registry
+2026/08/29 10:33:02 [1/1] sending cd4d8614-e0bc-4c6e-8d68-02f8ebf8a99c as one AAP2 ADU (124129684 bytes)
+adu:{dst_eid:"dtn://space.dtn/image-transfer" payload_length:124129684}
+source=ghcr.io/siderolabs/installer:v1.12.4
+target=siderolabs/installer:v1.12.4
+source_digest=sha256:28d8649e9cdb15e4a47394724ee84dd732d3f8e97d27cb2a3b0df0da23e59a11
+transfer_id=cd4d8614-e0bc-4c6e-8d68-02f8ebf8a99c
+archive_sha256=a7ddfe638cc7cc78d798332954605286c913cdb2bf867bd98d5853db5ffb1150

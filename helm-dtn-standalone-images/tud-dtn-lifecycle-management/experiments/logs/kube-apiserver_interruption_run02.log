@@ -1,0 +1,196 @@
+experiment_id=interruption10-20260829
+run_id=kube-apiserver_interruption_run02
+image_name=kube-apiserver
+image_category=kubernetes
+source_image=registry.k8s.io/kube-apiserver:v1.35.0
+destination_image=127.0.0.1:5001/library/talos/kube-apiserver:v1.35.0
+network_condition=interruption
+start_time=2026-08-29T08:54:11.230Z
+finish_time=2026-08-29T08:54:34.581Z
+payload_size_bytes=27702671
+payload_size_mb=27.702671
+duration_seconds=23.352073822
+sender_peak_memory_mb=17.0
+receiver_peak_memory_mb=10.0
+sender_cpu_percent=32
+receiver_peak_cpu_percent=4.3
+network_latency_ms=0.080
+source_digest=sha256:50e01ce089b6b6508e2f68ba0da943a3bc4134596e7e2afaac27dd26f71aca7a
+destination_digest=sha256:50e01ce089b6b6508e2f68ba0da943a3bc4134596e7e2afaac27dd26f71aca7a
+digest_match=true
+success=true
+error_message=
+interruption_start_time=2026-08-29T08:54:13.368Z
+interruption_duration_seconds=10
+reconnection_time=2026-08-29T08:54:25.668Z
+completed_after_reconnection=true
+throughput_mb_s=1.1863045317157783
+throughput_mbit_s=9.490436253726227
+
+===== SENDER =====
+2026/08/29 10:54:11 INFO Successfully connected to: 127.0.0.1:14242
+config:{secret:"55fd85ab-6ab8-4d8e-886d-f668e1e22a15" endpoint_id:"dtn://earth.dtn/go-image-sender"}
+2026/08/29 10:54:11 [1/1] pulling registry.k8s.io/kube-apiserver:v1.35.0 directly from the registry
+2026/08/29 10:54:16 [1/1] sending 9b7979b5-5275-4e3b-b7bc-e7e19b386064 as one AAP2 ADU (27702671 bytes)
+adu:{dst_eid:"dtn://space.dtn/image-transfer" payload_length:27702671}
+source=registry.k8s.io/kube-apiserver:v1.35.0
+target=kube-apiserver:v1.35.0
+source_digest=sha256:50e01ce089b6b6508e2f68ba0da943a3bc4134596e7e2afaac27dd26f71aca7a
+transfer_id=9b7979b5-5275-4e3b-b7bc-e7e19b386064
+archive_sha256=0247e2dccaa293ea84b1c763f450dcdb914e6a3e73d1d7834bb14ed1552b7a9f
+
+===== RECEIVER =====
+2026/08/29 10:54:09 INFO Successfully connected to: 127.0.0.1:24242
+config:{is_subscriber:true  secret:"a3759851-5b36-46b3-accf-1fe92673f1ca"  endpoint_id:"dtn://space.dtn/image-transfer"}
+2026/08/29 10:54:09 registered dtn image endpoint "image-transfer"
+response_status:RESPONSE_STATUS_SUCCESS
+2026/08/29 10:54:31 verified transfer 9b7979b5-5275-4e3b-b7bc-e7e19b386064 (0247e2dccaa293ea84b1c763f450dcdb914e6a3e73d1d7834bb14ed1552b7a9f); pushing to 127.0.0.1:5001/library/talos/kube-apiserver:v1.35.0
+2026/08/29 10:54:32 transfer complete: id=9b7979b5-5275-4e3b-b7bc-e7e19b386064 target=127.0.0.1:5001/library/talos/kube-apiserver:v1.35.0 digest=sha256:50e01ce089b6b6508e2f68ba0da943a3bc4134596e7e2afaac27dd26f71aca7a
+
+===== VERIFIER =====
+OK source=registry.k8s.io/kube-apiserver:v1.35.0 target=127.0.0.1:5001/library/talos/kube-apiserver:v1.35.0 digest=sha256:50e01ce089b6b6508e2f68ba0da943a3bc4134596e7e2afaac27dd26f71aca7a
+
+===== SENDER RESOURCE USAGE =====
+	Command being timed: "/mnt/d/Distributed_Network_system_Hiwi_TUD/helm-dtn-standalone-images/helm-dtn-main/bin/image-transfer-send -tcp 127.0.0.1:14242 -destination-eid dtn://space.dtn/image-transfer -image registry.k8s.io/kube-apiserver:v1.35.0 -registry-target kube-apiserver:v1.35.0 -arch amd64 -work-dir /mnt/d/Distributed_Network_system_Hiwi_TUD/helm-dtn-standalone-images/helm-dtn-main/experiments/work/kube-apiserver_interruption_run02/sender"
+	User time (seconds): 0.92
+	System time (seconds): 0.85
+	Percent of CPU this job got: 32%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.43
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 17408
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 238
+	Minor (reclaiming a frame) page faults: 2843
+	Voluntary context switches: 21013
+	Involuntary context switches: 17
+	Swaps: 0
+	File system inputs: 17072
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+
+===== RECEIVER RESOURCE SAMPLES =====
+timestamp_utc,rss_kib,cpu_percent
+2026-08-29T08:54:11.240Z,8448,1.0
+2026-08-29T08:54:11.460Z,8448,0.8
+2026-08-29T08:54:11.681Z,8448,0.8
+2026-08-29T08:54:11.904Z,8448,0.7
+2026-08-29T08:54:12.135Z,8448,0.6
+2026-08-29T08:54:12.364Z,8448,0.6
+2026-08-29T08:54:12.588Z,8448,0.5
+2026-08-29T08:54:12.813Z,8448,0.5
+2026-08-29T08:54:13.036Z,8448,0.5
+2026-08-29T08:54:13.261Z,8448,0.4
+2026-08-29T08:54:13.486Z,8448,0.4
+2026-08-29T08:54:13.709Z,8448,0.4
+2026-08-29T08:54:13.930Z,8448,0.4
+2026-08-29T08:54:14.155Z,8448,0.4
+2026-08-29T08:54:14.376Z,8448,0.3
+2026-08-29T08:54:14.596Z,8448,0.3
+2026-08-29T08:54:14.817Z,8448,0.3
+2026-08-29T08:54:15.039Z,8448,0.3
+2026-08-29T08:54:15.258Z,8448,0.3
+2026-08-29T08:54:15.478Z,8448,0.3
+2026-08-29T08:54:15.697Z,8448,0.3
+2026-08-29T08:54:15.917Z,8448,0.2
+2026-08-29T08:54:16.139Z,8448,0.2
+2026-08-29T08:54:16.361Z,8448,0.2
+2026-08-29T08:54:16.584Z,8448,0.2
+2026-08-29T08:54:16.804Z,8448,0.2
+2026-08-29T08:54:17.024Z,8448,0.2
+2026-08-29T08:54:17.244Z,8448,0.2
+2026-08-29T08:54:17.464Z,8448,0.2
+2026-08-29T08:54:17.685Z,8448,0.2
+2026-08-29T08:54:17.906Z,8448,0.2
+2026-08-29T08:54:18.128Z,8448,0.2
+2026-08-29T08:54:18.349Z,8448,0.2
+2026-08-29T08:54:18.569Z,8448,0.2
+2026-08-29T08:54:18.790Z,8448,0.2
+2026-08-29T08:54:19.010Z,8448,0.2
+2026-08-29T08:54:19.231Z,8448,0.2
+2026-08-29T08:54:19.451Z,8448,0.1
+2026-08-29T08:54:19.672Z,8448,0.1
+2026-08-29T08:54:19.891Z,8448,0.1
+2026-08-29T08:54:20.112Z,8448,0.1
+2026-08-29T08:54:20.331Z,8448,0.1
+2026-08-29T08:54:20.551Z,8448,0.1
+2026-08-29T08:54:20.772Z,8448,0.1
+2026-08-29T08:54:20.993Z,8448,0.1
+2026-08-29T08:54:21.213Z,8448,0.1
+2026-08-29T08:54:21.434Z,8448,0.1
+2026-08-29T08:54:21.655Z,8448,0.1
+2026-08-29T08:54:21.875Z,8448,0.1
+2026-08-29T08:54:22.095Z,8448,0.1
+2026-08-29T08:54:22.315Z,8448,0.1
+2026-08-29T08:54:22.537Z,8448,0.1
+2026-08-29T08:54:22.757Z,8448,0.1
+2026-08-29T08:54:22.976Z,8448,0.1
+2026-08-29T08:54:23.196Z,8448,0.1
+2026-08-29T08:54:23.418Z,8448,0.1
+2026-08-29T08:54:23.640Z,8448,0.1
+2026-08-29T08:54:23.861Z,8448,0.1
+2026-08-29T08:54:24.080Z,8448,0.1
+2026-08-29T08:54:24.302Z,8448,0.1
+2026-08-29T08:54:24.521Z,8448,0.1
+2026-08-29T08:54:24.741Z,8448,0.1
+2026-08-29T08:54:24.962Z,8448,0.1
+2026-08-29T08:54:25.181Z,8448,0.1
+2026-08-29T08:54:25.401Z,8448,0.1
+2026-08-29T08:54:25.623Z,8448,0.1
+2026-08-29T08:54:25.845Z,8448,0.1
+2026-08-29T08:54:26.070Z,8448,0.1
+2026-08-29T08:54:26.288Z,8448,0.1
+2026-08-29T08:54:26.507Z,8448,0.1
+2026-08-29T08:54:26.726Z,8448,0.1
+2026-08-29T08:54:26.945Z,8448,0.1
+2026-08-29T08:54:27.167Z,8448,0.1
+2026-08-29T08:54:27.387Z,8448,0.1
+2026-08-29T08:54:27.608Z,8448,0.1
+2026-08-29T08:54:27.827Z,8448,0.1
+2026-08-29T08:54:28.048Z,8448,0.1
+2026-08-29T08:54:28.274Z,8448,0.1
+2026-08-29T08:54:28.498Z,8448,0.1
+2026-08-29T08:54:28.720Z,8448,0.1
+2026-08-29T08:54:28.940Z,8448,0.1
+2026-08-29T08:54:29.160Z,8448,0.1
+2026-08-29T08:54:29.379Z,8448,0.0
+2026-08-29T08:54:29.598Z,8448,0.0
+2026-08-29T08:54:29.817Z,8448,0.0
+2026-08-29T08:54:30.036Z,8448,0.1
+2026-08-29T08:54:30.256Z,8448,0.2
+2026-08-29T08:54:30.476Z,8448,0.3
+2026-08-29T08:54:30.696Z,8448,0.4
+2026-08-29T08:54:30.915Z,8448,0.5
+2026-08-29T08:54:31.135Z,8448,1.0
+2026-08-29T08:54:31.357Z,8448,1.7
+2026-08-29T08:54:31.576Z,8448,2.3
+2026-08-29T08:54:31.796Z,8448,3.0
+2026-08-29T08:54:32.019Z,8576,3.5
+2026-08-29T08:54:32.239Z,8704,3.7
+2026-08-29T08:54:32.457Z,8704,3.9
+2026-08-29T08:54:32.678Z,8704,4.1
+2026-08-29T08:54:32.898Z,8832,4.2
+2026-08-29T08:54:33.119Z,10240,4.3
+2026-08-29T08:54:33.338Z,10240,4.3
+2026-08-29T08:54:33.562Z,10240,4.2
+2026-08-29T08:54:33.783Z,10240,4.2
+2026-08-29T08:54:34.002Z,10240,4.1
+2026-08-29T08:54:34.222Z,10240,4.1
+2026-08-29T08:54:34.442Z,10240,4.1
+2026-08-29T08:54:34.662Z,10240,4.0
+2026-08-29T08:54:34.883Z,10240,4.0
+2026-08-29T08:54:35.103Z,10240,4.0
+2026-08-29T08:54:35.325Z,10240,3.9
+2026-08-29T08:54:35.548Z,10240,3.9
+2026-08-29T08:54:35.768Z,10240,3.9
+2026-08-29T08:54:35.988Z,10240,3.8
+2026-08-29T08:54:36.207Z,10240,3.8
+2026-08-29T08:54:36.426Z,10240,3.8
+2026-08-29T08:54:36.647Z,10240,3.7
+2026-08-29T08:54:36.867Z,10240,3.7

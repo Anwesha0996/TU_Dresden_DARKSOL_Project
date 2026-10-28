@@ -1,0 +1,1 @@
+ghcr.io/siderolabs/installer:v1.12.4=siderolabs/installer:v1.12.4

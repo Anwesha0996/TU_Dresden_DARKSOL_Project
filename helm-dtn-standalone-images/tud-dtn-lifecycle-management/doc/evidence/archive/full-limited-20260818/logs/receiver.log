@@ -1,0 +1,96 @@
+2026/08/18 11:33:05 INFO Successfully connected to: 127.0.0.1:24242
+config:{is_subscriber:true  secret:"e1bd02e0-e251-4c1f-a970-557438ccffad"  endpoint_id:"dtn://space.dtn/image-transfer"}
+2026/08/18 11:33:05 registered dtn image endpoint "image-transfer"
+response_status:RESPONSE_STATUS_SUCCESS
+2026/08/18 11:33:08 verified transfer bbfa14fa-8b4a-4f21-bc6a-155bf3a94ffe (2fbec177b5d019694c68a9b14fe6df11b8a99c6143f8eb0bd0338d8672ddae03); pushing to 127.0.0.1:5001/library/benchmark/pause:3.10
+2026/08/18 11:33:09 transfer complete: id=bbfa14fa-8b4a-4f21-bc6a-155bf3a94ffe target=127.0.0.1:5001/library/benchmark/pause:3.10 digest=sha256:7c38f24774e3cbd906d2d33c38354ccf787635581c122965132c9bd309754d4a
+response_status:RESPONSE_STATUS_SUCCESS
+2026/08/18 11:33:12 verified transfer 9418f9bd-e164-4951-a0c5-b16f1c0f933b (080efdc63fa1543efc0f5c54cfb6d814fe83e92b11cc0a4b45fb6685c3c63f7e); pushing to 127.0.0.1:5001/library/benchmark/pause:3.10
+2026/08/18 11:33:13 transfer complete: id=9418f9bd-e164-4951-a0c5-b16f1c0f933b target=127.0.0.1:5001/library/benchmark/pause:3.10 digest=sha256:7c38f24774e3cbd906d2d33c38354ccf787635581c122965132c9bd309754d4a
+response_status:RESPONSE_STATUS_SUCCESS
+2026/08/18 11:33:17 verified transfer a37e16d3-0b52-4ffd-845f-ae16c9d0774a (e0602a62830daec3b7e811a8ba0c55f09cb4792dea4e57b1f2ef5a904b3a3e85); pushing to 127.0.0.1:5001/library/benchmark/pause:3.10
+2026/08/18 11:33:17 transfer complete: id=a37e16d3-0b52-4ffd-845f-ae16c9d0774a target=127.0.0.1:5001/library/benchmark/pause:3.10 digest=sha256:7c38f24774e3cbd906d2d33c38354ccf787635581c122965132c9bd309754d4a
+response_status:RESPONSE_STATUS_SUCCESS
+2026/08/18 11:33:20 verified transfer 4d2340d7-d8af-4b56-9bf1-a3abc2f361d8 (a48f80eb4c4a289dbb8afb6022b0c7acb5f74c7dcb106574bd4028709a9b675c); pushing to 127.0.0.1:5001/library/benchmark/pause:3.10
+2026/08/18 11:33:21 transfer complete: id=4d2340d7-d8af-4b56-9bf1-a3abc2f361d8 target=127.0.0.1:5001/library/benchmark/pause:3.10 digest=sha256:7c38f24774e3cbd906d2d33c38354ccf787635581c122965132c9bd309754d4a
+response_status:RESPONSE_STATUS_SUCCESS
+2026/08/18 11:33:22 verified transfer fce59d63-2c14-420b-b31d-9792a3de719f (c2f8d48c9d65762ea19ce84e12a774cb796a8fae405949a0c812960da0558985); pushing to 127.0.0.1:5001/library/benchmark/pause:3.10
+2026/08/18 11:33:22 transfer complete: id=fce59d63-2c14-420b-b31d-9792a3de719f target=127.0.0.1:5001/library/benchmark/pause:3.10 digest=sha256:7c38f24774e3cbd906d2d33c38354ccf787635581c122965132c9bd309754d4a
+response_status:RESPONSE_STATUS_SUCCESS
+2026/08/18 11:33:27 verified transfer 32c87871-3f52-4239-970c-abf61645dcf1 (eafd1ced14a7e34c64c0b8fcb717d6e2d097408d77542cbbd359207c67ecc259); pushing to 127.0.0.1:5001/library/benchmark/pause:3.10
+2026/08/18 11:33:28 transfer complete: id=32c87871-3f52-4239-970c-abf61645dcf1 target=127.0.0.1:5001/library/benchmark/pause:3.10 digest=sha256:7c38f24774e3cbd906d2d33c38354ccf787635581c122965132c9bd309754d4a
+response_status:RESPONSE_STATUS_SUCCESS
+2026/08/18 11:33:31 verified transfer 09767466-f4d1-4368-9031-af5165742d78 (1be2d09c6344822536a092a2ba958ae9ac880d6404da031614792e3267a79f8f); pushing to 127.0.0.1:5001/library/benchmark/pause:3.10
+2026/08/18 11:33:31 transfer complete: id=09767466-f4d1-4368-9031-af5165742d78 target=127.0.0.1:5001/library/benchmark/pause:3.10 digest=sha256:7c38f24774e3cbd906d2d33c38354ccf787635581c122965132c9bd309754d4a
+response_status:RESPONSE_STATUS_SUCCESS
+2026/08/18 11:33:37 verified transfer 764f6ef1-7e73-41b2-84fb-8805b43b451a (1a5190d594aa22acc00d52336c9d67a7f8394486b45de3faf0f6997e31374895); pushing to 127.0.0.1:5001/library/benchmark/pause:3.10
+2026/08/18 11:33:37 transfer complete: id=764f6ef1-7e73-41b2-84fb-8805b43b451a target=127.0.0.1:5001/library/benchmark/pause:3.10 digest=sha256:7c38f24774e3cbd906d2d33c38354ccf787635581c122965132c9bd309754d4a
+response_status:RESPONSE_STATUS_SUCCESS
+2026/08/18 11:33:40 verified transfer e5f035e7-c519-4ef4-8278-72fec6f9bad5 (5e2fcfb65dd9796d7eb7def742dff063a5e88b32cebfd15d4fc4f5f6f80d2b44); pushing to 127.0.0.1:5001/library/benchmark/pause:3.10
+2026/08/18 11:33:41 transfer complete: id=e5f035e7-c519-4ef4-8278-72fec6f9bad5 target=127.0.0.1:5001/library/benchmark/pause:3.10 digest=sha256:7c38f24774e3cbd906d2d33c38354ccf787635581c122965132c9bd309754d4a
+response_status:RESPONSE_STATUS_SUCCESS
+2026/08/18 11:33:44 verified transfer 77676a57-f81c-4440-a470-4c5e95a15b37 (b3c1d8bd79c56245d8e7f25d1996913525b980ab46801a311d0bf58119ca7076); pushing to 127.0.0.1:5001/library/benchmark/pause:3.10
+2026/08/18 11:33:44 transfer complete: id=77676a57-f81c-4440-a470-4c5e95a15b37 target=127.0.0.1:5001/library/benchmark/pause:3.10 digest=sha256:7c38f24774e3cbd906d2d33c38354ccf787635581c122965132c9bd309754d4a
+response_status:RESPONSE_STATUS_SUCCESS
+2026/08/18 11:33:55 verified transfer 0420aa01-8043-47b8-adac-05ca77a2fe68 (40bc8c830aa9342b05c9e1155fa07339963e4af4489dbc3f4161518d9847e346); pushing to 127.0.0.1:5001/library/benchmark/coredns:v1.12.1
+2026/08/18 11:33:57 transfer complete: id=0420aa01-8043-47b8-adac-05ca77a2fe68 target=127.0.0.1:5001/library/benchmark/coredns:v1.12.1 digest=sha256:4f7a57135719628cf2070c5e3cbde64b013e90d4c560c5ecbf14004181f91998
+response_status:RESPONSE_STATUS_SUCCESS
+2026/08/18 11:34:09 verified transfer eea4f374-ebca-4162-bd60-edfa1418092a (0b2d8ac4d616d90dc9c15c4fdc2bb545e264d70891e83c96bd3320591988ea36); pushing to 127.0.0.1:5001/library/benchmark/coredns:v1.12.1
+2026/08/18 11:34:11 transfer complete: id=eea4f374-ebca-4162-bd60-edfa1418092a target=127.0.0.1:5001/library/benchmark/coredns:v1.12.1 digest=sha256:4f7a57135719628cf2070c5e3cbde64b013e90d4c560c5ecbf14004181f91998
+response_status:RESPONSE_STATUS_SUCCESS
+2026/08/18 11:34:22 verified transfer 02953dcc-8309-4ce5-bbcd-67b1d66797d7 (a520a174c968fda8f6817a3083f606fb779c3c8c793d38f3823f466a8ab360b6); pushing to 127.0.0.1:5001/library/benchmark/coredns:v1.12.1
+2026/08/18 11:34:24 transfer complete: id=02953dcc-8309-4ce5-bbcd-67b1d66797d7 target=127.0.0.1:5001/library/benchmark/coredns:v1.12.1 digest=sha256:4f7a57135719628cf2070c5e3cbde64b013e90d4c560c5ecbf14004181f91998
+response_status:RESPONSE_STATUS_SUCCESS
+2026/08/18 11:34:37 verified transfer 1002996f-f6fb-423a-967c-74ea56b456ae (66a85cc388efc95f6d80356ad8469e3400a717b6f8fb7c540eaa65a71e11e534); pushing to 127.0.0.1:5001/library/benchmark/coredns:v1.12.1
+2026/08/18 11:34:39 transfer complete: id=1002996f-f6fb-423a-967c-74ea56b456ae target=127.0.0.1:5001/library/benchmark/coredns:v1.12.1 digest=sha256:4f7a57135719628cf2070c5e3cbde64b013e90d4c560c5ecbf14004181f91998
+response_status:RESPONSE_STATUS_SUCCESS
+2026/08/18 11:34:52 verified transfer 316355ef-b934-49c0-ba9b-0a240ea44108 (bb8b11068c59efbb10708a61ec85f294cfd0d5d00a0a064a8d3fa0c226731bc1); pushing to 127.0.0.1:5001/library/benchmark/coredns:v1.12.1
+2026/08/18 11:34:52 transfer complete: id=316355ef-b934-49c0-ba9b-0a240ea44108 target=127.0.0.1:5001/library/benchmark/coredns:v1.12.1 digest=sha256:4f7a57135719628cf2070c5e3cbde64b013e90d4c560c5ecbf14004181f91998
+response_status:RESPONSE_STATUS_SUCCESS
+2026/08/18 11:35:06 verified transfer 22bdc678-ceca-4208-bead-8e3a2f3da217 (96b066a9e473873e9a86a00bc4043e3bf0bc35047d6bcb56697ec8236cbfe7ab); pushing to 127.0.0.1:5001/library/benchmark/coredns:v1.12.1
+2026/08/18 11:35:07 transfer complete: id=22bdc678-ceca-4208-bead-8e3a2f3da217 target=127.0.0.1:5001/library/benchmark/coredns:v1.12.1 digest=sha256:4f7a57135719628cf2070c5e3cbde64b013e90d4c560c5ecbf14004181f91998
+response_status:RESPONSE_STATUS_SUCCESS
+2026/08/18 11:35:20 verified transfer 0c0e558a-3985-417a-a5c6-611deefbd025 (c4cb86b98721990e48e4734a3c9f7886305498bfb784a68fa7f98e20a15dc97d); pushing to 127.0.0.1:5001/library/benchmark/coredns:v1.12.1
+2026/08/18 11:35:22 transfer complete: id=0c0e558a-3985-417a-a5c6-611deefbd025 target=127.0.0.1:5001/library/benchmark/coredns:v1.12.1 digest=sha256:4f7a57135719628cf2070c5e3cbde64b013e90d4c560c5ecbf14004181f91998
+response_status:RESPONSE_STATUS_SUCCESS
+2026/08/18 11:35:32 verified transfer 5533de66-fa26-49b6-aaa7-5c7140b22194 (39e20b87d277a20de5f3919d11673a435aa5ba637d991ad267446119d372795e); pushing to 127.0.0.1:5001/library/benchmark/coredns:v1.12.1
+2026/08/18 11:35:33 transfer complete: id=5533de66-fa26-49b6-aaa7-5c7140b22194 target=127.0.0.1:5001/library/benchmark/coredns:v1.12.1 digest=sha256:4f7a57135719628cf2070c5e3cbde64b013e90d4c560c5ecbf14004181f91998
+response_status:RESPONSE_STATUS_SUCCESS
+2026/08/18 11:35:50 verified transfer cd81d887-833f-42df-8233-e5a0b07e4af3 (881a8406e1548cc225c3d8898cc3d88d6cca81972f991206b51c559095d1064f); pushing to 127.0.0.1:5001/library/benchmark/coredns:v1.12.1
+2026/08/18 11:35:51 transfer complete: id=cd81d887-833f-42df-8233-e5a0b07e4af3 target=127.0.0.1:5001/library/benchmark/coredns:v1.12.1 digest=sha256:4f7a57135719628cf2070c5e3cbde64b013e90d4c560c5ecbf14004181f91998
+response_status:RESPONSE_STATUS_SUCCESS
+2026/08/18 11:36:01 verified transfer 186cb32b-ba78-47af-80d9-879ca3566bd4 (c3fac7be1f97d205e1d92dd79d69a0fd570f7b36da132c3b421af91a46fb5f30); pushing to 127.0.0.1:5001/library/benchmark/coredns:v1.12.1
+2026/08/18 11:36:03 transfer complete: id=186cb32b-ba78-47af-80d9-879ca3566bd4 target=127.0.0.1:5001/library/benchmark/coredns:v1.12.1 digest=sha256:4f7a57135719628cf2070c5e3cbde64b013e90d4c560c5ecbf14004181f91998
+response_status:RESPONSE_STATUS_SUCCESS
+2026/08/18 11:36:18 verified transfer a945a97c-a914-4fd8-9124-0c0fc39ddb34 (1daf60ecaa46b48de734afda691b6c485b97d6f783f83cf9450922d3f9616813); pushing to 127.0.0.1:5001/library/benchmark/kube-apiserver:v1.32.2
+2026/08/18 11:36:20 transfer complete: id=a945a97c-a914-4fd8-9124-0c0fc39ddb34 target=127.0.0.1:5001/library/benchmark/kube-apiserver:v1.32.2 digest=sha256:48e677803a23233a10a796f3d7edc73223e3fbaceb6113665c1015464a743e9d
+response_status:RESPONSE_STATUS_SUCCESS
+2026/08/18 11:36:33 verified transfer 4d010102-bf0b-4254-91e3-3805eb914c92 (468f89fe8999450498d1345eb14c06d9d60363800d6757665911458752681988); pushing to 127.0.0.1:5001/library/benchmark/kube-apiserver:v1.32.2
+2026/08/18 11:36:35 transfer complete: id=4d010102-bf0b-4254-91e3-3805eb914c92 target=127.0.0.1:5001/library/benchmark/kube-apiserver:v1.32.2 digest=sha256:48e677803a23233a10a796f3d7edc73223e3fbaceb6113665c1015464a743e9d
+response_status:RESPONSE_STATUS_SUCCESS
+2026/08/18 11:36:50 verified transfer 4a31f040-d352-41d9-af8e-61a8b4497a05 (b89fcf818c3c8805793a0aca07ee3b40c90497216d453903f88218baba65c603); pushing to 127.0.0.1:5001/library/benchmark/kube-apiserver:v1.32.2
+2026/08/18 11:36:52 transfer complete: id=4a31f040-d352-41d9-af8e-61a8b4497a05 target=127.0.0.1:5001/library/benchmark/kube-apiserver:v1.32.2 digest=sha256:48e677803a23233a10a796f3d7edc73223e3fbaceb6113665c1015464a743e9d
+response_status:RESPONSE_STATUS_SUCCESS
+2026/08/18 11:37:06 verified transfer d6758a42-d76f-444d-a663-170453ff38f3 (0ac9444a53af86695e56ce0d000d1b1e4da39d04f8b68957889e1f923a9ec33e); pushing to 127.0.0.1:5001/library/benchmark/kube-apiserver:v1.32.2
+2026/08/18 11:37:08 transfer complete: id=d6758a42-d76f-444d-a663-170453ff38f3 target=127.0.0.1:5001/library/benchmark/kube-apiserver:v1.32.2 digest=sha256:48e677803a23233a10a796f3d7edc73223e3fbaceb6113665c1015464a743e9d
+response_status:RESPONSE_STATUS_SUCCESS
+2026/08/18 11:37:23 verified transfer e8fee2ac-985b-409b-814f-fb0e747597ea (03ded1f622605b994c5e41be4b32f988ac7c3b2433ddd6fc8f5f928f06a7fc10); pushing to 127.0.0.1:5001/library/benchmark/kube-apiserver:v1.32.2
+2026/08/18 11:37:25 transfer complete: id=e8fee2ac-985b-409b-814f-fb0e747597ea target=127.0.0.1:5001/library/benchmark/kube-apiserver:v1.32.2 digest=sha256:48e677803a23233a10a796f3d7edc73223e3fbaceb6113665c1015464a743e9d
+response_status:RESPONSE_STATUS_SUCCESS
+2026/08/18 11:37:41 verified transfer 02bbc27e-bbcf-4600-b8e8-a95d581a2b00 (09c561f535f9f49dbb2d1ad66b1da5c84b4e0ec23057857331351ee38f9ddb35); pushing to 127.0.0.1:5001/library/benchmark/kube-apiserver:v1.32.2
+2026/08/18 11:37:43 transfer complete: id=02bbc27e-bbcf-4600-b8e8-a95d581a2b00 target=127.0.0.1:5001/library/benchmark/kube-apiserver:v1.32.2 digest=sha256:48e677803a23233a10a796f3d7edc73223e3fbaceb6113665c1015464a743e9d
+response_status:RESPONSE_STATUS_SUCCESS
+2026/08/18 11:37:55 verified transfer c2fe7371-eb7e-4f0a-9f24-d70a08c316b0 (c0ff4883c84a763df476e243e3d4fe352b46c84ec35e35212d97975b623bb93a); pushing to 127.0.0.1:5001/library/benchmark/kube-apiserver:v1.32.2
+2026/08/18 11:37:57 transfer complete: id=c2fe7371-eb7e-4f0a-9f24-d70a08c316b0 target=127.0.0.1:5001/library/benchmark/kube-apiserver:v1.32.2 digest=sha256:48e677803a23233a10a796f3d7edc73223e3fbaceb6113665c1015464a743e9d
+response_status:RESPONSE_STATUS_SUCCESS
+2026/08/18 11:38:12 verified transfer 522e872a-ceb6-423c-97a7-42e6acd20ca3 (1878c6f403da77360ccd21a51c36916e08edfc8be26320ade847540fd9b0ecdf); pushing to 127.0.0.1:5001/library/benchmark/kube-apiserver:v1.32.2
+2026/08/18 11:38:14 transfer complete: id=522e872a-ceb6-423c-97a7-42e6acd20ca3 target=127.0.0.1:5001/library/benchmark/kube-apiserver:v1.32.2 digest=sha256:48e677803a23233a10a796f3d7edc73223e3fbaceb6113665c1015464a743e9d
+response_status:RESPONSE_STATUS_SUCCESS
+2026/08/18 11:38:27 verified transfer c9764502-ff93-4654-a64c-9256665f713f (e7acb54d3fec33d8c6338f6fbcd3aa3ddf3eb593e320cbc6b74727d3b404c6cc); pushing to 127.0.0.1:5001/library/benchmark/kube-apiserver:v1.32.2
+2026/08/18 11:38:29 transfer complete: id=c9764502-ff93-4654-a64c-9256665f713f target=127.0.0.1:5001/library/benchmark/kube-apiserver:v1.32.2 digest=sha256:48e677803a23233a10a796f3d7edc73223e3fbaceb6113665c1015464a743e9d
+response_status:RESPONSE_STATUS_SUCCESS
+2026/08/18 11:38:52 verified transfer 33cc8234-6f10-402f-90ce-6bc50ccb98ec (7af8c540b29b00c25435fd3eb1b6e3777345caa80f2594fdc69a8e27e31e71fc); pushing to 127.0.0.1:5001/library/benchmark/kube-apiserver:v1.32.2
+2026/08/18 11:38:54 transfer complete: id=33cc8234-6f10-402f-90ce-6bc50ccb98ec target=127.0.0.1:5001/library/benchmark/kube-apiserver:v1.32.2 digest=sha256:48e677803a23233a10a796f3d7edc73223e3fbaceb6113665c1015464a743e9d
+response_status:RESPONSE_STATUS_SUCCESS
+2026/08/18 11:39:46 verified transfer 5e0d4b81-6e75-4320-a4cf-9c469d7fb424 (7e8b5b1ea3df361c95e5d8c214cf5bf8f12cb932accb75b79fa5ddc84bfe6870); pushing to 127.0.0.1:5001/library/benchmark/talos-installer:v1.12.4
+2026/08/18 11:39:53 transfer complete: id=5e0d4b81-6e75-4320-a4cf-9c469d7fb424 target=127.0.0.1:5001/library/benchmark/talos-installer:v1.12.4 digest=sha256:28d8649e9cdb15e4a47394724ee84dd732d3f8e97d27cb2a3b0df0da23e59a11

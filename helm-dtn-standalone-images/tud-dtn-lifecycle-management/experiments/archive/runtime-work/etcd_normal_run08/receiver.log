@@ -1,0 +1,6 @@
+2026/08/29 10:05:20 INFO Successfully connected to: 127.0.0.1:24242
+config:{is_subscriber:true  secret:"d096611e-2457-4273-b3d9-cf285808516f"  endpoint_id:"dtn://space.dtn/image-transfer"}
+2026/08/29 10:05:20 registered dtn image endpoint "image-transfer"
+response_status:RESPONSE_STATUS_SUCCESS
+2026/08/29 10:05:29 verified transfer b5690a00-9177-4238-966d-a7288c3e7938 (7188499a1d087e845a1dcc1695af08740d86aa0ca3df0259d5dc0d327a4d5e46); pushing to 127.0.0.1:5001/library/talos/etcd:v3.6.7
+2026/08/29 10:05:30 transfer complete: id=b5690a00-9177-4238-966d-a7288c3e7938 target=127.0.0.1:5001/library/talos/etcd:v3.6.7 digest=sha256:820f2b74e5cd8ac626d5cb38c973fbfff898a64b068c6e0ad1e0c7b2913c9654

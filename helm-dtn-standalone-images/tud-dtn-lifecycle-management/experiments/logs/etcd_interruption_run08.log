@@ -1,0 +1,189 @@
+experiment_id=interruption10-20260829
+run_id=etcd_interruption_run08
+image_name=etcd
+image_category=kubernetes
+source_image=registry.k8s.io/etcd:v3.6.7
+destination_image=127.0.0.1:5001/library/talos/etcd:v3.6.7
+network_condition=interruption
+start_time=2026-08-29T08:52:07.335Z
+finish_time=2026-08-29T08:52:29.043Z
+payload_size_bytes=22896505
+payload_size_mb=22.896505
+duration_seconds=21.708256319
+sender_peak_memory_mb=17.24609375
+receiver_peak_memory_mb=9.625
+sender_cpu_percent=33
+receiver_peak_cpu_percent=3.9
+network_latency_ms=0.096
+source_digest=sha256:820f2b74e5cd8ac626d5cb38c973fbfff898a64b068c6e0ad1e0c7b2913c9654
+destination_digest=sha256:820f2b74e5cd8ac626d5cb38c973fbfff898a64b068c6e0ad1e0c7b2913c9654
+digest_match=true
+success=true
+error_message=
+interruption_start_time=2026-08-29T08:52:09.474Z
+interruption_duration_seconds=10
+reconnection_time=2026-08-29T08:52:21.616Z
+completed_after_reconnection=true
+throughput_mb_s=1.0547371775760725
+throughput_mbit_s=8.43789742060858
+
+===== SENDER =====
+2026/08/29 10:52:07 INFO Successfully connected to: 127.0.0.1:14242
+config:{secret:"da0e7d9f-243f-47ea-8b4e-534f7470c9c7" endpoint_id:"dtn://earth.dtn/go-image-sender"}
+2026/08/29 10:52:07 [1/1] pulling registry.k8s.io/etcd:v3.6.7 directly from the registry
+2026/08/29 10:52:11 [1/1] sending a1110b37-36ff-4d67-81fb-452dfc31fb2d as one AAP2 ADU (22896505 bytes)
+adu:{dst_eid:"dtn://space.dtn/image-transfer" payload_length:22896505}
+source=registry.k8s.io/etcd:v3.6.7
+target=etcd:v3.6.7
+source_digest=sha256:820f2b74e5cd8ac626d5cb38c973fbfff898a64b068c6e0ad1e0c7b2913c9654
+transfer_id=a1110b37-36ff-4d67-81fb-452dfc31fb2d
+archive_sha256=8c450ea6b6ec6cc59965009d1241aa6135d7cc3af29a6414e6c44fbe2288b3e0
+
+===== RECEIVER =====
+2026/08/29 10:52:05 INFO Successfully connected to: 127.0.0.1:24242
+config:{is_subscriber:true  secret:"164e94d8-2b5c-4c3c-a07a-9dc55b49e767"  endpoint_id:"dtn://space.dtn/image-transfer"}
+2026/08/29 10:52:05 registered dtn image endpoint "image-transfer"
+response_status:RESPONSE_STATUS_SUCCESS
+2026/08/29 10:52:27 verified transfer a1110b37-36ff-4d67-81fb-452dfc31fb2d (8c450ea6b6ec6cc59965009d1241aa6135d7cc3af29a6414e6c44fbe2288b3e0); pushing to 127.0.0.1:5001/library/talos/etcd:v3.6.7
+2026/08/29 10:52:28 transfer complete: id=a1110b37-36ff-4d67-81fb-452dfc31fb2d target=127.0.0.1:5001/library/talos/etcd:v3.6.7 digest=sha256:820f2b74e5cd8ac626d5cb38c973fbfff898a64b068c6e0ad1e0c7b2913c9654
+
+===== VERIFIER =====
+OK source=registry.k8s.io/etcd:v3.6.7 target=127.0.0.1:5001/library/talos/etcd:v3.6.7 digest=sha256:820f2b74e5cd8ac626d5cb38c973fbfff898a64b068c6e0ad1e0c7b2913c9654
+
+===== SENDER RESOURCE USAGE =====
+	Command being timed: "/mnt/d/Distributed_Network_system_Hiwi_TUD/helm-dtn-standalone-images/helm-dtn-main/bin/image-transfer-send -tcp 127.0.0.1:14242 -destination-eid dtn://space.dtn/image-transfer -image registry.k8s.io/etcd:v3.6.7 -registry-target etcd:v3.6.7 -arch amd64 -work-dir /mnt/d/Distributed_Network_system_Hiwi_TUD/helm-dtn-standalone-images/helm-dtn-main/experiments/work/etcd_interruption_run08/sender"
+	User time (seconds): 0.94
+	System time (seconds): 0.66
+	Percent of CPU this job got: 33%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:04.85
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 17660
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 235
+	Minor (reclaiming a frame) page faults: 3046
+	Voluntary context switches: 21966
+	Involuntary context switches: 10
+	Swaps: 0
+	File system inputs: 17024
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+
+===== RECEIVER RESOURCE SAMPLES =====
+timestamp_utc,rss_kib,cpu_percent
+2026-08-29T08:52:07.344Z,8192,1.0
+2026-08-29T08:52:07.567Z,8192,0.8
+2026-08-29T08:52:07.787Z,8192,0.8
+2026-08-29T08:52:08.008Z,8192,0.7
+2026-08-29T08:52:08.238Z,8192,0.6
+2026-08-29T08:52:08.461Z,8192,0.6
+2026-08-29T08:52:08.690Z,8192,0.5
+2026-08-29T08:52:08.913Z,8192,0.5
+2026-08-29T08:52:09.143Z,8192,0.5
+2026-08-29T08:52:09.364Z,8192,0.4
+2026-08-29T08:52:09.591Z,8192,0.4
+2026-08-29T08:52:09.815Z,8192,0.4
+2026-08-29T08:52:10.040Z,8192,0.4
+2026-08-29T08:52:10.263Z,8192,0.4
+2026-08-29T08:52:10.484Z,8192,0.3
+2026-08-29T08:52:10.704Z,8192,0.3
+2026-08-29T08:52:10.924Z,8192,0.3
+2026-08-29T08:52:11.149Z,8192,0.3
+2026-08-29T08:52:11.368Z,8192,0.3
+2026-08-29T08:52:11.589Z,8192,0.3
+2026-08-29T08:52:11.809Z,8192,0.3
+2026-08-29T08:52:12.029Z,8192,0.2
+2026-08-29T08:52:12.250Z,8192,0.2
+2026-08-29T08:52:12.470Z,8192,0.2
+2026-08-29T08:52:12.691Z,8192,0.2
+2026-08-29T08:52:12.910Z,8192,0.2
+2026-08-29T08:52:13.133Z,8192,0.2
+2026-08-29T08:52:13.354Z,8192,0.2
+2026-08-29T08:52:13.575Z,8192,0.2
+2026-08-29T08:52:13.795Z,8192,0.2
+2026-08-29T08:52:14.016Z,8192,0.2
+2026-08-29T08:52:14.236Z,8192,0.2
+2026-08-29T08:52:14.456Z,8192,0.2
+2026-08-29T08:52:14.677Z,8192,0.2
+2026-08-29T08:52:14.897Z,8192,0.2
+2026-08-29T08:52:15.116Z,8192,0.2
+2026-08-29T08:52:15.336Z,8192,0.1
+2026-08-29T08:52:15.557Z,8192,0.1
+2026-08-29T08:52:15.777Z,8192,0.1
+2026-08-29T08:52:15.997Z,8192,0.1
+2026-08-29T08:52:16.218Z,8192,0.1
+2026-08-29T08:52:16.438Z,8192,0.1
+2026-08-29T08:52:16.658Z,8192,0.1
+2026-08-29T08:52:16.878Z,8192,0.1
+2026-08-29T08:52:17.097Z,8192,0.1
+2026-08-29T08:52:17.317Z,8192,0.1
+2026-08-29T08:52:17.537Z,8192,0.1
+2026-08-29T08:52:17.757Z,8192,0.1
+2026-08-29T08:52:17.977Z,8192,0.1
+2026-08-29T08:52:18.196Z,8192,0.1
+2026-08-29T08:52:18.418Z,8192,0.1
+2026-08-29T08:52:18.638Z,8192,0.1
+2026-08-29T08:52:18.859Z,8192,0.1
+2026-08-29T08:52:19.078Z,8192,0.1
+2026-08-29T08:52:19.300Z,8192,0.1
+2026-08-29T08:52:19.522Z,8192,0.1
+2026-08-29T08:52:19.742Z,8192,0.1
+2026-08-29T08:52:19.963Z,8192,0.1
+2026-08-29T08:52:20.183Z,8192,0.1
+2026-08-29T08:52:20.403Z,8192,0.1
+2026-08-29T08:52:20.625Z,8192,0.1
+2026-08-29T08:52:20.845Z,8192,0.1
+2026-08-29T08:52:21.070Z,8192,0.1
+2026-08-29T08:52:21.289Z,8192,0.1
+2026-08-29T08:52:21.510Z,8192,0.1
+2026-08-29T08:52:21.730Z,8192,0.1
+2026-08-29T08:52:21.951Z,8192,0.1
+2026-08-29T08:52:22.170Z,8192,0.1
+2026-08-29T08:52:22.390Z,8192,0.1
+2026-08-29T08:52:22.609Z,8192,0.1
+2026-08-29T08:52:22.829Z,8192,0.1
+2026-08-29T08:52:23.050Z,8192,0.1
+2026-08-29T08:52:23.273Z,8192,0.1
+2026-08-29T08:52:23.492Z,8192,0.1
+2026-08-29T08:52:23.712Z,8192,0.1
+2026-08-29T08:52:23.933Z,8192,0.1
+2026-08-29T08:52:24.152Z,8192,0.1
+2026-08-29T08:52:24.372Z,8192,0.1
+2026-08-29T08:52:24.591Z,8192,0.1
+2026-08-29T08:52:24.812Z,8192,0.1
+2026-08-29T08:52:25.033Z,8192,0.1
+2026-08-29T08:52:25.253Z,8192,0.1
+2026-08-29T08:52:25.474Z,8192,0.0
+2026-08-29T08:52:25.694Z,8192,0.1
+2026-08-29T08:52:25.918Z,8320,0.2
+2026-08-29T08:52:26.139Z,8320,0.3
+2026-08-29T08:52:26.358Z,8320,0.4
+2026-08-29T08:52:26.580Z,8320,1.1
+2026-08-29T08:52:26.799Z,8320,1.8
+2026-08-29T08:52:27.019Z,8320,2.4
+2026-08-29T08:52:27.237Z,8320,3.1
+2026-08-29T08:52:27.466Z,8448,3.3
+2026-08-29T08:52:27.690Z,8448,3.5
+2026-08-29T08:52:27.912Z,8576,3.7
+2026-08-29T08:52:28.132Z,9856,3.9
+2026-08-29T08:52:28.352Z,9856,3.9
+2026-08-29T08:52:28.575Z,9856,3.9
+2026-08-29T08:52:28.794Z,9856,3.8
+2026-08-29T08:52:29.016Z,9856,3.8
+2026-08-29T08:52:29.237Z,9856,3.8
+2026-08-29T08:52:29.457Z,9856,3.7
+2026-08-29T08:52:29.679Z,9856,3.7
+2026-08-29T08:52:29.899Z,9856,3.7
+2026-08-29T08:52:30.119Z,9856,3.6
+2026-08-29T08:52:30.340Z,9856,3.6
+2026-08-29T08:52:30.558Z,9856,3.6
+2026-08-29T08:52:30.779Z,9856,3.5
+2026-08-29T08:52:31.000Z,9856,3.5
+2026-08-29T08:52:31.220Z,9856,3.5
+2026-08-29T08:52:31.439Z,9856,3.4

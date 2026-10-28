@@ -1,0 +1,1 @@
+OK source=ghcr.io/siderolabs/installer:v1.12.4 target=127.0.0.1:5001/library/talos/siderolabs/installer:v1.12.4 digest=sha256:28d8649e9cdb15e4a47394724ee84dd732d3f8e97d27cb2a3b0df0da23e59a11

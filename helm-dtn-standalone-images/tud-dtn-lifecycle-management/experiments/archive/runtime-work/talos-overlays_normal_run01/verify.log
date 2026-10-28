@@ -1,0 +1,1 @@
+OK source=ghcr.io/siderolabs/overlays:v1.12.4 target=127.0.0.1:5001/library/talos/siderolabs/overlays:v1.12.4 digest=sha256:77cf2f3a3d2a6b70596de796507e7dd6b936b051fdbbbe801ac02f9efdb01e62

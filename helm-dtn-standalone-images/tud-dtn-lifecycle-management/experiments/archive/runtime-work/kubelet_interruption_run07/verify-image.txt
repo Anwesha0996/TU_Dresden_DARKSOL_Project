@@ -1,0 +1,1 @@
+ghcr.io/siderolabs/kubelet:v1.35.0=siderolabs/kubelet:v1.35.0
